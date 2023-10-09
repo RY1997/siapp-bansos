@@ -1,0 +1,547 @@
+﻿id;kd_pwk;nm_pwk;nm_prov;nm_pemda;kd_map
+1;PW01;Perwakilan BPKP Provinsi Aceh;Provinsi Aceh;Prov. Aceh;path01
+2;PW01;Perwakilan BPKP Provinsi Aceh;Provinsi Aceh;Kab. Aceh Barat Daya;path01
+3;PW01;Perwakilan BPKP Provinsi Aceh;Provinsi Aceh;Kab. Aceh Barat;path01
+4;PW01;Perwakilan BPKP Provinsi Aceh;Provinsi Aceh;Kab. Aceh Besar;path01
+5;PW01;Perwakilan BPKP Provinsi Aceh;Provinsi Aceh;Kab. Aceh Jaya;path01
+6;PW01;Perwakilan BPKP Provinsi Aceh;Provinsi Aceh;Kab. Aceh Selatan;path01
+7;PW01;Perwakilan BPKP Provinsi Aceh;Provinsi Aceh;Kab. Aceh Singkil;path01
+8;PW01;Perwakilan BPKP Provinsi Aceh;Provinsi Aceh;Kab. Aceh Tamiang;path01
+9;PW01;Perwakilan BPKP Provinsi Aceh;Provinsi Aceh;Kab. Aceh Tengah;path01
+10;PW01;Perwakilan BPKP Provinsi Aceh;Provinsi Aceh;Kab. Aceh Tenggara;path01
+11;PW01;Perwakilan BPKP Provinsi Aceh;Provinsi Aceh;Kab. Aceh Timur;path01
+12;PW01;Perwakilan BPKP Provinsi Aceh;Provinsi Aceh;Kab. Aceh Utara;path01
+13;PW01;Perwakilan BPKP Provinsi Aceh;Provinsi Aceh;Kab. Bener Meriah;path01
+14;PW01;Perwakilan BPKP Provinsi Aceh;Provinsi Aceh;Kab. Bireun;path01
+15;PW01;Perwakilan BPKP Provinsi Aceh;Provinsi Aceh;Kab. Gayo Lues;path01
+16;PW01;Perwakilan BPKP Provinsi Aceh;Provinsi Aceh;Kab. Nagan Raya;path01
+17;PW01;Perwakilan BPKP Provinsi Aceh;Provinsi Aceh;Kab. Pidie Jaya;path01
+18;PW01;Perwakilan BPKP Provinsi Aceh;Provinsi Aceh;Kab. Pidie;path01
+19;PW01;Perwakilan BPKP Provinsi Aceh;Provinsi Aceh;Kab. Simeulue;path01
+20;PW01;Perwakilan BPKP Provinsi Aceh;Provinsi Aceh;Kota Langsa;path01
+21;PW01;Perwakilan BPKP Provinsi Aceh;Provinsi Aceh;Kota Banda Aceh;path01
+22;PW01;Perwakilan BPKP Provinsi Aceh;Provinsi Aceh;Kota Lhokseumawe;path01
+23;PW01;Perwakilan BPKP Provinsi Aceh;Provinsi Aceh;Kota Sabang;path01
+24;PW01;Perwakilan BPKP Provinsi Aceh;Provinsi Aceh;Kota Subulussalam;path01
+25;PW02;Perwakilan BPKP Provinsi Sumatera Utara;Provinsi Sumatera Utara;Prov. Sumatera Utara;path02
+26;PW02;Perwakilan BPKP Provinsi Sumatera Utara;Provinsi Sumatera Utara;Kab. Asahan;path02
+27;PW02;Perwakilan BPKP Provinsi Sumatera Utara;Provinsi Sumatera Utara;Kab. Batubara;path02
+28;PW02;Perwakilan BPKP Provinsi Sumatera Utara;Provinsi Sumatera Utara;Kab. Dairi;path02
+29;PW02;Perwakilan BPKP Provinsi Sumatera Utara;Provinsi Sumatera Utara;Kab. Deli Serdang;path02
+30;PW02;Perwakilan BPKP Provinsi Sumatera Utara;Provinsi Sumatera Utara;Kab. Humbang Hasundutan;path02
+31;PW02;Perwakilan BPKP Provinsi Sumatera Utara;Provinsi Sumatera Utara;Kab. Karo;path02
+32;PW02;Perwakilan BPKP Provinsi Sumatera Utara;Provinsi Sumatera Utara;Kab. Labuhanbatu;path02
+33;PW02;Perwakilan BPKP Provinsi Sumatera Utara;Provinsi Sumatera Utara;Kab. Labuhanbatu Selatan;path02
+34;PW02;Perwakilan BPKP Provinsi Sumatera Utara;Provinsi Sumatera Utara;Kab. Labuhanbatu Utara;path02
+35;PW02;Perwakilan BPKP Provinsi Sumatera Utara;Provinsi Sumatera Utara;Kab. Langkat;path02
+36;PW02;Perwakilan BPKP Provinsi Sumatera Utara;Provinsi Sumatera Utara;Kab. Mandailing Natal;path02
+37;PW02;Perwakilan BPKP Provinsi Sumatera Utara;Provinsi Sumatera Utara;Kab. Nias;path02
+38;PW02;Perwakilan BPKP Provinsi Sumatera Utara;Provinsi Sumatera Utara;Kab. Nias Barat;path02
+39;PW02;Perwakilan BPKP Provinsi Sumatera Utara;Provinsi Sumatera Utara;Kab. Nias Selatan;path02
+40;PW02;Perwakilan BPKP Provinsi Sumatera Utara;Provinsi Sumatera Utara;Kab. Nias Utara;path02
+41;PW02;Perwakilan BPKP Provinsi Sumatera Utara;Provinsi Sumatera Utara;Kab. Padang Lawas;path02
+42;PW02;Perwakilan BPKP Provinsi Sumatera Utara;Provinsi Sumatera Utara;Kab. Padang Lawas Utara;path02
+43;PW02;Perwakilan BPKP Provinsi Sumatera Utara;Provinsi Sumatera Utara;Kab. Pakpak Bharat;path02
+44;PW02;Perwakilan BPKP Provinsi Sumatera Utara;Provinsi Sumatera Utara;Kab. Samosir;path02
+45;PW02;Perwakilan BPKP Provinsi Sumatera Utara;Provinsi Sumatera Utara;Kab. Simalungun;path02
+46;PW02;Perwakilan BPKP Provinsi Sumatera Utara;Provinsi Sumatera Utara;Kab. Tapanuli Selatan;path02
+47;PW02;Perwakilan BPKP Provinsi Sumatera Utara;Provinsi Sumatera Utara;Kab. Tapanuli Tengah;path02
+48;PW02;Perwakilan BPKP Provinsi Sumatera Utara;Provinsi Sumatera Utara;Kab. Tapanuli Utara;path02
+49;PW02;Perwakilan BPKP Provinsi Sumatera Utara;Provinsi Sumatera Utara;Kab. Toba Samosir;path02
+50;PW02;Perwakilan BPKP Provinsi Sumatera Utara;Provinsi Sumatera Utara;Kab. Serdang Bedagai;path02
+51;PW02;Perwakilan BPKP Provinsi Sumatera Utara;Provinsi Sumatera Utara;Kota Binjai;path02
+52;PW02;Perwakilan BPKP Provinsi Sumatera Utara;Provinsi Sumatera Utara;Kota Gunung Sitoli;path02
+53;PW02;Perwakilan BPKP Provinsi Sumatera Utara;Provinsi Sumatera Utara;Kota Medan;path02
+54;PW02;Perwakilan BPKP Provinsi Sumatera Utara;Provinsi Sumatera Utara;Kota Padang Sidempuan;path02
+55;PW02;Perwakilan BPKP Provinsi Sumatera Utara;Provinsi Sumatera Utara;Kota Pematang Siantar;path02
+56;PW02;Perwakilan BPKP Provinsi Sumatera Utara;Provinsi Sumatera Utara;Kota Sibolga;path02
+57;PW02;Perwakilan BPKP Provinsi Sumatera Utara;Provinsi Sumatera Utara;Kota Tanjung Balai;path02
+58;PW02;Perwakilan BPKP Provinsi Sumatera Utara;Provinsi Sumatera Utara;Kota Tebing Tinggi;path02
+59;PW03;Perwakilan BPKP Provinsi Sumatera Barat;Provinsi Sumatera Barat;Prov. Sumatera Barat;path03
+60;PW03;Perwakilan BPKP Provinsi Sumatera Barat;Provinsi Sumatera Barat;Kab. Agam;path03
+61;PW03;Perwakilan BPKP Provinsi Sumatera Barat;Provinsi Sumatera Barat;Kab. Dharmasraya;path03
+62;PW03;Perwakilan BPKP Provinsi Sumatera Barat;Provinsi Sumatera Barat;Kab. Kep. Mentawai;path03
+63;PW03;Perwakilan BPKP Provinsi Sumatera Barat;Provinsi Sumatera Barat;Kab. Lima Puluh Kota;path03
+64;PW03;Perwakilan BPKP Provinsi Sumatera Barat;Provinsi Sumatera Barat;Kab. Padang Pariaman;path03
+65;PW03;Perwakilan BPKP Provinsi Sumatera Barat;Provinsi Sumatera Barat;Kab. Pasaman;path03
+66;PW03;Perwakilan BPKP Provinsi Sumatera Barat;Provinsi Sumatera Barat;Kab. Pasaman Barat;path03
+67;PW03;Perwakilan BPKP Provinsi Sumatera Barat;Provinsi Sumatera Barat;Kab. Pesisir Selatan;path03
+68;PW03;Perwakilan BPKP Provinsi Sumatera Barat;Provinsi Sumatera Barat;Kab. Sijunjung;path03
+69;PW03;Perwakilan BPKP Provinsi Sumatera Barat;Provinsi Sumatera Barat;Kab. Solok;path03
+70;PW03;Perwakilan BPKP Provinsi Sumatera Barat;Provinsi Sumatera Barat;Kab. Solok Selatan;path03
+71;PW03;Perwakilan BPKP Provinsi Sumatera Barat;Provinsi Sumatera Barat;Kab. Tanah Datar;path03
+72;PW03;Perwakilan BPKP Provinsi Sumatera Barat;Provinsi Sumatera Barat;Kota Bukit Tinggi;path03
+73;PW03;Perwakilan BPKP Provinsi Sumatera Barat;Provinsi Sumatera Barat;Kota Padang;path03
+74;PW03;Perwakilan BPKP Provinsi Sumatera Barat;Provinsi Sumatera Barat;Kota Padang Panjang;path03
+75;PW03;Perwakilan BPKP Provinsi Sumatera Barat;Provinsi Sumatera Barat;Kota Pariaman;path03
+76;PW03;Perwakilan BPKP Provinsi Sumatera Barat;Provinsi Sumatera Barat;Kota Payakumbuh;path03
+77;PW03;Perwakilan BPKP Provinsi Sumatera Barat;Provinsi Sumatera Barat;Kota Sawahlunto;path03
+78;PW03;Perwakilan BPKP Provinsi Sumatera Barat;Provinsi Sumatera Barat;Kota Solok;path03
+79;PW04;Perwakilan BPKP Provinsi Riau;Provinsi Riau;Prov. Riau;path04
+80;PW04;Perwakilan BPKP Provinsi Riau;Provinsi Riau;Kab. Bengkalis;path04
+81;PW04;Perwakilan BPKP Provinsi Riau;Provinsi Riau;Kab. Indragiri Hilir;path04
+82;PW04;Perwakilan BPKP Provinsi Riau;Provinsi Riau;Kab. Indragiri Hulu;path04
+83;PW04;Perwakilan BPKP Provinsi Riau;Provinsi Riau;Kab. Kampar;path04
+84;PW04;Perwakilan BPKP Provinsi Riau;Provinsi Riau;Kab. Kep. Meranti;path04
+85;PW04;Perwakilan BPKP Provinsi Riau;Provinsi Riau;Kab. Kuantan Singingi;path04
+86;PW04;Perwakilan BPKP Provinsi Riau;Provinsi Riau;Kab. Pelalawan;path04
+87;PW04;Perwakilan BPKP Provinsi Riau;Provinsi Riau;Kab. Rokan Hilir;path04
+88;PW04;Perwakilan BPKP Provinsi Riau;Provinsi Riau;Kab. Rokan Hulu;path04
+89;PW04;Perwakilan BPKP Provinsi Riau;Provinsi Riau;Kab. Siak;path04
+90;PW04;Perwakilan BPKP Provinsi Riau;Provinsi Riau;Kota Dumai;path04
+91;PW04;Perwakilan BPKP Provinsi Riau;Provinsi Riau;Kota Pekanbaru;path04
+92;PW28;Perwakilan BPKP Provinsi Kepulauan Riau;Provinsi Kepulauan Riau;Prov. Kepulauan Riau;path10
+93;PW28;Perwakilan BPKP Provinsi Kepulauan Riau;Provinsi Kepulauan Riau;Kab. Bintan;path10
+94;PW28;Perwakilan BPKP Provinsi Kepulauan Riau;Provinsi Kepulauan Riau;Kab. Karimun;path10
+95;PW28;Perwakilan BPKP Provinsi Kepulauan Riau;Provinsi Kepulauan Riau;Kab. Kep. Anambas;path10
+96;PW28;Perwakilan BPKP Provinsi Kepulauan Riau;Provinsi Kepulauan Riau;Kab. Lingga;path10
+97;PW28;Perwakilan BPKP Provinsi Kepulauan Riau;Provinsi Kepulauan Riau;Kab. Natuna;path10
+98;PW28;Perwakilan BPKP Provinsi Kepulauan Riau;Provinsi Kepulauan Riau;Kota Batam;path10
+99;PW28;Perwakilan BPKP Provinsi Kepulauan Riau;Provinsi Kepulauan Riau;Kota Tanjung Pinang;path10
+100;PW05;Perwakilan BPKP Provinsi Jambi;Provinsi Jambi;Prov. Jambi;path05
+101;PW05;Perwakilan BPKP Provinsi Jambi;Provinsi Jambi;Kab. Batanghari;path05
+102;PW05;Perwakilan BPKP Provinsi Jambi;Provinsi Jambi;Kab. Bungo;path05
+103;PW05;Perwakilan BPKP Provinsi Jambi;Provinsi Jambi;Kab. Kerinci;path05
+104;PW05;Perwakilan BPKP Provinsi Jambi;Provinsi Jambi;Kab. Merangin;path05
+105;PW05;Perwakilan BPKP Provinsi Jambi;Provinsi Jambi;Kab. Muaro Jambi;path05
+106;PW05;Perwakilan BPKP Provinsi Jambi;Provinsi Jambi;Kab. Sarolangun;path05
+107;PW05;Perwakilan BPKP Provinsi Jambi;Provinsi Jambi;Kab. Tanjung Jabung Barat;path05
+108;PW05;Perwakilan BPKP Provinsi Jambi;Provinsi Jambi;Kab. Tanjung Jabung Timur;path05
+109;PW05;Perwakilan BPKP Provinsi Jambi;Provinsi Jambi;Kab. Tebo;path05
+110;PW05;Perwakilan BPKP Provinsi Jambi;Provinsi Jambi;Kota Jambi;path05
+111;PW05;Perwakilan BPKP Provinsi Jambi;Provinsi Jambi;Kota Sungai Penuh;path05
+112;PW06;Perwakilan BPKP Provinsi Bengkulu;Provinsi Bengkulu;Prov. Bengkulu;path07
+113;PW06;Perwakilan BPKP Provinsi Bengkulu;Provinsi Bengkulu;Kab. Bengkulu Selatan;path07
+114;PW06;Perwakilan BPKP Provinsi Bengkulu;Provinsi Bengkulu;Kab. Bengkulu Tengah;path07
+115;PW06;Perwakilan BPKP Provinsi Bengkulu;Provinsi Bengkulu;Kab. Bengkulu Utara;path07
+116;PW06;Perwakilan BPKP Provinsi Bengkulu;Provinsi Bengkulu;Kab. Kaur;path07
+117;PW06;Perwakilan BPKP Provinsi Bengkulu;Provinsi Bengkulu;Kab. Kepahiang;path07
+118;PW06;Perwakilan BPKP Provinsi Bengkulu;Provinsi Bengkulu;Kab. Lebong;path07
+119;PW06;Perwakilan BPKP Provinsi Bengkulu;Provinsi Bengkulu;Kab. Muko-Muko;path07
+120;PW06;Perwakilan BPKP Provinsi Bengkulu;Provinsi Bengkulu;Kab. Rejang Lebong;path07
+121;PW06;Perwakilan BPKP Provinsi Bengkulu;Provinsi Bengkulu;Kab. Seluma;path07
+122;PW06;Perwakilan BPKP Provinsi Bengkulu;Provinsi Bengkulu;Kota Bengkulu;path07
+123;PW07;Perwakilan BPKP Provinsi Sumatera Selatan;Provinsi Sumatera Selatan;Prov. Sumatera Selatan;path06
+124;PW07;Perwakilan BPKP Provinsi Sumatera Selatan;Provinsi Sumatera Selatan;Kab. Banyuasin;path06
+125;PW07;Perwakilan BPKP Provinsi Sumatera Selatan;Provinsi Sumatera Selatan;Kab. Empat Lawang;path06
+126;PW07;Perwakilan BPKP Provinsi Sumatera Selatan;Provinsi Sumatera Selatan;Kab. Lahat;path06
+127;PW07;Perwakilan BPKP Provinsi Sumatera Selatan;Provinsi Sumatera Selatan;Kab. Muara Enim;path06
+128;PW07;Perwakilan BPKP Provinsi Sumatera Selatan;Provinsi Sumatera Selatan;Kab. Musi Banyu Asin;path06
+129;PW07;Perwakilan BPKP Provinsi Sumatera Selatan;Provinsi Sumatera Selatan;Kab. Musi Rawas;path06
+130;PW07;Perwakilan BPKP Provinsi Sumatera Selatan;Provinsi Sumatera Selatan;Kab. Musi Rawas Utara;path06
+131;PW07;Perwakilan BPKP Provinsi Sumatera Selatan;Provinsi Sumatera Selatan;Kab. Ogan Ilir;path06
+132;PW07;Perwakilan BPKP Provinsi Sumatera Selatan;Provinsi Sumatera Selatan;Kab. OKI;path06
+133;PW07;Perwakilan BPKP Provinsi Sumatera Selatan;Provinsi Sumatera Selatan;Kab. OKU;path06
+134;PW07;Perwakilan BPKP Provinsi Sumatera Selatan;Provinsi Sumatera Selatan;Kab. OKU Selatan;path06
+135;PW07;Perwakilan BPKP Provinsi Sumatera Selatan;Provinsi Sumatera Selatan;Kab. OKU Timur;path06
+136;PW07;Perwakilan BPKP Provinsi Sumatera Selatan;Provinsi Sumatera Selatan;Kab. Penukal Abab Lematang Ilir;path06
+137;PW07;Perwakilan BPKP Provinsi Sumatera Selatan;Provinsi Sumatera Selatan;Kota Lubuk Linggau;path06
+138;PW07;Perwakilan BPKP Provinsi Sumatera Selatan;Provinsi Sumatera Selatan;Kota Pagar Alam;path06
+139;PW07;Perwakilan BPKP Provinsi Sumatera Selatan;Provinsi Sumatera Selatan;Kota Palembang;path06
+140;PW07;Perwakilan BPKP Provinsi Sumatera Selatan;Provinsi Sumatera Selatan;Kota Prabumulih;path06
+141;PW29;Perwakilan BPKP Provinsi Bangka Belitung;Provinsi Bangka Belitung;Prov. Bangka Belitung;path09
+142;PW29;Perwakilan BPKP Provinsi Bangka Belitung;Provinsi Bangka Belitung;Kab. Bangka;path09
+143;PW29;Perwakilan BPKP Provinsi Bangka Belitung;Provinsi Bangka Belitung;Kab. Bangka Barat;path09
+144;PW29;Perwakilan BPKP Provinsi Bangka Belitung;Provinsi Bangka Belitung;Kab. Bangka Selatan;path09
+145;PW29;Perwakilan BPKP Provinsi Bangka Belitung;Provinsi Bangka Belitung;Kab. Bangka Tengah;path09
+146;PW29;Perwakilan BPKP Provinsi Bangka Belitung;Provinsi Bangka Belitung;Kab. Belitung;path09
+147;PW29;Perwakilan BPKP Provinsi Bangka Belitung;Provinsi Bangka Belitung;Kab. Belitung Timur;path09
+148;PW29;Perwakilan BPKP Provinsi Bangka Belitung;Provinsi Bangka Belitung;Kota Pangkalpinang;path09
+149;PW08;Perwakilan BPKP Provinsi Lampung;Provinsi Lampung;Prov. Lampung;path08
+150;PW08;Perwakilan BPKP Provinsi Lampung;Provinsi Lampung;Kab. Lampung Barat;path08
+151;PW08;Perwakilan BPKP Provinsi Lampung;Provinsi Lampung;Kab. Lampung Selatan;path08
+152;PW08;Perwakilan BPKP Provinsi Lampung;Provinsi Lampung;Kab. Lampung Tengah;path08
+153;PW08;Perwakilan BPKP Provinsi Lampung;Provinsi Lampung;Kab. Lampung Timur;path08
+154;PW08;Perwakilan BPKP Provinsi Lampung;Provinsi Lampung;Kab. Lampung Utara;path08
+155;PW08;Perwakilan BPKP Provinsi Lampung;Provinsi Lampung;Kab. Mesuji;path08
+156;PW08;Perwakilan BPKP Provinsi Lampung;Provinsi Lampung;Kab. Pesawaran;path08
+157;PW08;Perwakilan BPKP Provinsi Lampung;Provinsi Lampung;Kab. Pesisir Barat;path08
+158;PW08;Perwakilan BPKP Provinsi Lampung;Provinsi Lampung;Kab. Pringsewu;path08
+159;PW08;Perwakilan BPKP Provinsi Lampung;Provinsi Lampung;Kab. Tanggamus;path08
+160;PW08;Perwakilan BPKP Provinsi Lampung;Provinsi Lampung;Kab. Tulang Bawang;path08
+161;PW08;Perwakilan BPKP Provinsi Lampung;Provinsi Lampung;Kab. Tulang Bawang Barat;path08
+162;PW08;Perwakilan BPKP Provinsi Lampung;Provinsi Lampung;Kab. Way Kanan;path08
+163;PW08;Perwakilan BPKP Provinsi Lampung;Provinsi Lampung;Kota Bandar Lampung;path08
+164;PW08;Perwakilan BPKP Provinsi Lampung;Provinsi Lampung;Kota Metro;path08
+165;PW09;Perwakilan BPKP Provinsi DKI Jakarta;Provinsi DKI Jakarta;Prov. DKI Jakarta;path11
+166;PW10;Perwakilan BPKP Provinsi Jawa Barat;Provinsi Jawa Barat;Prov. Jawa Barat;path12
+167;PW10;Perwakilan BPKP Provinsi Jawa Barat;Provinsi Jawa Barat;Kab. Bandung;path12
+168;PW10;Perwakilan BPKP Provinsi Jawa Barat;Provinsi Jawa Barat;Kab. Bandung Barat;path12
+169;PW10;Perwakilan BPKP Provinsi Jawa Barat;Provinsi Jawa Barat;Kab. Bekasi;path12
+170;PW10;Perwakilan BPKP Provinsi Jawa Barat;Provinsi Jawa Barat;Kab. Bogor;path12
+171;PW10;Perwakilan BPKP Provinsi Jawa Barat;Provinsi Jawa Barat;Kab. Ciamis;path12
+172;PW10;Perwakilan BPKP Provinsi Jawa Barat;Provinsi Jawa Barat;Kab. Cianjur;path12
+173;PW10;Perwakilan BPKP Provinsi Jawa Barat;Provinsi Jawa Barat;Kab. Cirebon;path12
+174;PW10;Perwakilan BPKP Provinsi Jawa Barat;Provinsi Jawa Barat;Kab. Garut;path12
+175;PW10;Perwakilan BPKP Provinsi Jawa Barat;Provinsi Jawa Barat;Kab. Indramayu;path12
+176;PW10;Perwakilan BPKP Provinsi Jawa Barat;Provinsi Jawa Barat;Kab. Karawang;path12
+177;PW10;Perwakilan BPKP Provinsi Jawa Barat;Provinsi Jawa Barat;Kab. Kuningan;path12
+178;PW10;Perwakilan BPKP Provinsi Jawa Barat;Provinsi Jawa Barat;Kab. Majalengka;path12
+179;PW10;Perwakilan BPKP Provinsi Jawa Barat;Provinsi Jawa Barat;Kab. Pangandaran;path12
+180;PW10;Perwakilan BPKP Provinsi Jawa Barat;Provinsi Jawa Barat;Kab. Purwakarta;path12
+181;PW10;Perwakilan BPKP Provinsi Jawa Barat;Provinsi Jawa Barat;Kab. Subang;path12
+182;PW10;Perwakilan BPKP Provinsi Jawa Barat;Provinsi Jawa Barat;Kab. Sukabumi;path12
+183;PW10;Perwakilan BPKP Provinsi Jawa Barat;Provinsi Jawa Barat;Kab. Sumedang;path12
+184;PW10;Perwakilan BPKP Provinsi Jawa Barat;Provinsi Jawa Barat;Kab. Tasikmalaya;path12
+185;PW10;Perwakilan BPKP Provinsi Jawa Barat;Provinsi Jawa Barat;Kota Bandung;path12
+186;PW10;Perwakilan BPKP Provinsi Jawa Barat;Provinsi Jawa Barat;Kota Banjar;path12
+187;PW10;Perwakilan BPKP Provinsi Jawa Barat;Provinsi Jawa Barat;Kota Bekasi;path12
+188;PW10;Perwakilan BPKP Provinsi Jawa Barat;Provinsi Jawa Barat;Kota Bogor;path12
+189;PW10;Perwakilan BPKP Provinsi Jawa Barat;Provinsi Jawa Barat;Kota Cimahi;path12
+190;PW10;Perwakilan BPKP Provinsi Jawa Barat;Provinsi Jawa Barat;Kota Cirebon;path12
+191;PW10;Perwakilan BPKP Provinsi Jawa Barat;Provinsi Jawa Barat;Kota Depok;path12
+192;PW10;Perwakilan BPKP Provinsi Jawa Barat;Provinsi Jawa Barat;Kota Sukabumi;path12
+193;PW10;Perwakilan BPKP Provinsi Jawa Barat;Provinsi Jawa Barat;Kota Tasikmalaya;path12
+194;PW30;Perwakilan BPKP Provinsi Banten;Provinsi Banten;Prov. Banten;path14
+195;PW30;Perwakilan BPKP Provinsi Banten;Provinsi Banten;Kab. Lebak;path14
+196;PW30;Perwakilan BPKP Provinsi Banten;Provinsi Banten;Kab. Pandeglang;path14
+197;PW30;Perwakilan BPKP Provinsi Banten;Provinsi Banten;Kab. Serang;path14
+198;PW30;Perwakilan BPKP Provinsi Banten;Provinsi Banten;Kab. Tangerang;path14
+199;PW30;Perwakilan BPKP Provinsi Banten;Provinsi Banten;Kota Cilegon;path14
+200;PW30;Perwakilan BPKP Provinsi Banten;Provinsi Banten;Kota Serang;path14
+201;PW30;Perwakilan BPKP Provinsi Banten;Provinsi Banten;Kota Tangerang;path14
+202;PW30;Perwakilan BPKP Provinsi Banten;Provinsi Banten;Kota Tangerang Selatan;path14
+203;PW11;Perwakilan BPKP Provinsi Jawa Tengah;Provinsi Jawa Tengah;Prov. Jawa Tengah;path13
+204;PW11;Perwakilan BPKP Provinsi Jawa Tengah;Provinsi Jawa Tengah;Kab. Banjarnegara;path13
+205;PW11;Perwakilan BPKP Provinsi Jawa Tengah;Provinsi Jawa Tengah;Kab. Banyumas;path13
+206;PW11;Perwakilan BPKP Provinsi Jawa Tengah;Provinsi Jawa Tengah;Kab. Batang;path13
+207;PW11;Perwakilan BPKP Provinsi Jawa Tengah;Provinsi Jawa Tengah;Kab. Blora;path13
+208;PW11;Perwakilan BPKP Provinsi Jawa Tengah;Provinsi Jawa Tengah;Kab. Boyolali;path13
+209;PW11;Perwakilan BPKP Provinsi Jawa Tengah;Provinsi Jawa Tengah;Kab. Brebes;path13
+210;PW11;Perwakilan BPKP Provinsi Jawa Tengah;Provinsi Jawa Tengah;Kab. Cilacap;path13
+211;PW11;Perwakilan BPKP Provinsi Jawa Tengah;Provinsi Jawa Tengah;Kab. Demak;path13
+212;PW11;Perwakilan BPKP Provinsi Jawa Tengah;Provinsi Jawa Tengah;Kab. Grobogan;path13
+213;PW11;Perwakilan BPKP Provinsi Jawa Tengah;Provinsi Jawa Tengah;Kab. Jepara;path13
+214;PW11;Perwakilan BPKP Provinsi Jawa Tengah;Provinsi Jawa Tengah;Kab. Karanganyar;path13
+215;PW11;Perwakilan BPKP Provinsi Jawa Tengah;Provinsi Jawa Tengah;Kab. Kebumen;path13
+216;PW11;Perwakilan BPKP Provinsi Jawa Tengah;Provinsi Jawa Tengah;Kab. Kendal;path13
+217;PW11;Perwakilan BPKP Provinsi Jawa Tengah;Provinsi Jawa Tengah;Kab. Klaten;path13
+218;PW11;Perwakilan BPKP Provinsi Jawa Tengah;Provinsi Jawa Tengah;Kab. Kudus;path13
+219;PW11;Perwakilan BPKP Provinsi Jawa Tengah;Provinsi Jawa Tengah;Kab. Magelang;path13
+220;PW11;Perwakilan BPKP Provinsi Jawa Tengah;Provinsi Jawa Tengah;Kab. Pati;path13
+221;PW11;Perwakilan BPKP Provinsi Jawa Tengah;Provinsi Jawa Tengah;Kab. Pekalongan;path13
+222;PW11;Perwakilan BPKP Provinsi Jawa Tengah;Provinsi Jawa Tengah;Kab. Pemalang;path13
+223;PW11;Perwakilan BPKP Provinsi Jawa Tengah;Provinsi Jawa Tengah;Kab. Purbalingga;path13
+224;PW11;Perwakilan BPKP Provinsi Jawa Tengah;Provinsi Jawa Tengah;Kab. Purworejo;path13
+225;PW11;Perwakilan BPKP Provinsi Jawa Tengah;Provinsi Jawa Tengah;Kab. Rembang;path13
+226;PW11;Perwakilan BPKP Provinsi Jawa Tengah;Provinsi Jawa Tengah;Kab. Semarang;path13
+227;PW11;Perwakilan BPKP Provinsi Jawa Tengah;Provinsi Jawa Tengah;Kab. Sragen;path13
+228;PW11;Perwakilan BPKP Provinsi Jawa Tengah;Provinsi Jawa Tengah;Kab. Sukoharjo;path13
+229;PW11;Perwakilan BPKP Provinsi Jawa Tengah;Provinsi Jawa Tengah;Kab. Tegal;path13
+230;PW11;Perwakilan BPKP Provinsi Jawa Tengah;Provinsi Jawa Tengah;Kab. Temanggung;path13
+231;PW11;Perwakilan BPKP Provinsi Jawa Tengah;Provinsi Jawa Tengah;Kab. Wonogiri;path13
+232;PW11;Perwakilan BPKP Provinsi Jawa Tengah;Provinsi Jawa Tengah;Kab. Wonosobo;path13
+233;PW11;Perwakilan BPKP Provinsi Jawa Tengah;Provinsi Jawa Tengah;Kota Magelang;path13
+234;PW11;Perwakilan BPKP Provinsi Jawa Tengah;Provinsi Jawa Tengah;Kota Pekalongan;path13
+235;PW11;Perwakilan BPKP Provinsi Jawa Tengah;Provinsi Jawa Tengah;Kota Salatiga;path13
+236;PW11;Perwakilan BPKP Provinsi Jawa Tengah;Provinsi Jawa Tengah;Kota Semarang;path13
+237;PW11;Perwakilan BPKP Provinsi Jawa Tengah;Provinsi Jawa Tengah;Kota Surakarta;path13
+238;PW11;Perwakilan BPKP Provinsi Jawa Tengah;Provinsi Jawa Tengah;Kota Tegal;path13
+239;PW12;Perwakilan BPKP Provinsi DI Yogyakarta;Provinsi DI Yogyakarta;Prov. Daerah Istimewa Yogyakarta;path16
+240;PW12;Perwakilan BPKP Provinsi DI Yogyakarta;Provinsi DI Yogyakarta;Kab. Bantul;path16
+241;PW12;Perwakilan BPKP Provinsi DI Yogyakarta;Provinsi DI Yogyakarta;Kab. Gunung Kidul;path16
+242;PW12;Perwakilan BPKP Provinsi DI Yogyakarta;Provinsi DI Yogyakarta;Kab. Kulon Progo;path16
+243;PW12;Perwakilan BPKP Provinsi DI Yogyakarta;Provinsi DI Yogyakarta;Kab. Sleman;path16
+244;PW12;Perwakilan BPKP Provinsi DI Yogyakarta;Provinsi DI Yogyakarta;Kota Yogyakarta;path16
+245;PW13;Perwakilan BPKP Provinsi Jawa Timur;Provinsi Jawa Timur;Prov. Jawa Timur;path15
+246;PW13;Perwakilan BPKP Provinsi Jawa Timur;Provinsi Jawa Timur;Kab. Bangkalan;path15
+247;PW13;Perwakilan BPKP Provinsi Jawa Timur;Provinsi Jawa Timur;Kab. Banyuwangi;path15
+248;PW13;Perwakilan BPKP Provinsi Jawa Timur;Provinsi Jawa Timur;Kab. Blitar;path15
+249;PW13;Perwakilan BPKP Provinsi Jawa Timur;Provinsi Jawa Timur;Kab. Bojonegoro;path15
+250;PW13;Perwakilan BPKP Provinsi Jawa Timur;Provinsi Jawa Timur;Kab. Bondowoso;path15
+251;PW13;Perwakilan BPKP Provinsi Jawa Timur;Provinsi Jawa Timur;Kab. Gresik;path15
+252;PW13;Perwakilan BPKP Provinsi Jawa Timur;Provinsi Jawa Timur;Kab. Jember;path15
+253;PW13;Perwakilan BPKP Provinsi Jawa Timur;Provinsi Jawa Timur;Kab. Jombang;path15
+254;PW13;Perwakilan BPKP Provinsi Jawa Timur;Provinsi Jawa Timur;Kab. Kediri;path15
+255;PW13;Perwakilan BPKP Provinsi Jawa Timur;Provinsi Jawa Timur;Kab. Lamongan;path15
+256;PW13;Perwakilan BPKP Provinsi Jawa Timur;Provinsi Jawa Timur;Kab. Lumajang;path15
+257;PW13;Perwakilan BPKP Provinsi Jawa Timur;Provinsi Jawa Timur;Kab. Madiun;path15
+258;PW13;Perwakilan BPKP Provinsi Jawa Timur;Provinsi Jawa Timur;Kab. Magetan;path15
+259;PW13;Perwakilan BPKP Provinsi Jawa Timur;Provinsi Jawa Timur;Kab. Malang;path15
+260;PW13;Perwakilan BPKP Provinsi Jawa Timur;Provinsi Jawa Timur;Kab. Nganjuk;path15
+261;PW13;Perwakilan BPKP Provinsi Jawa Timur;Provinsi Jawa Timur;Kab. Ngawi;path15
+262;PW13;Perwakilan BPKP Provinsi Jawa Timur;Provinsi Jawa Timur;Kab. Pacitan;path15
+263;PW13;Perwakilan BPKP Provinsi Jawa Timur;Provinsi Jawa Timur;Kab. Pamekasan;path15
+264;PW13;Perwakilan BPKP Provinsi Jawa Timur;Provinsi Jawa Timur;Kab. Pasuruan;path15
+265;PW13;Perwakilan BPKP Provinsi Jawa Timur;Provinsi Jawa Timur;Kab. Ponorogo;path15
+266;PW13;Perwakilan BPKP Provinsi Jawa Timur;Provinsi Jawa Timur;Kab. Probolinggo;path15
+267;PW13;Perwakilan BPKP Provinsi Jawa Timur;Provinsi Jawa Timur;Kab. Sampang;path15
+268;PW13;Perwakilan BPKP Provinsi Jawa Timur;Provinsi Jawa Timur;Kab. Sidoarjo;path15
+269;PW13;Perwakilan BPKP Provinsi Jawa Timur;Provinsi Jawa Timur;Kab. Situbondo;path15
+270;PW13;Perwakilan BPKP Provinsi Jawa Timur;Provinsi Jawa Timur;Kab. Sumenep;path15
+271;PW13;Perwakilan BPKP Provinsi Jawa Timur;Provinsi Jawa Timur;Kab. Trenggalek;path15
+272;PW13;Perwakilan BPKP Provinsi Jawa Timur;Provinsi Jawa Timur;Kab. Tuban;path15
+273;PW13;Perwakilan BPKP Provinsi Jawa Timur;Provinsi Jawa Timur;Kab. Tulungagung;path15
+274;PW13;Perwakilan BPKP Provinsi Jawa Timur;Provinsi Jawa Timur;Kab. Mojokerto;path15
+275;PW13;Perwakilan BPKP Provinsi Jawa Timur;Provinsi Jawa Timur;Kota Batu;path15
+276;PW13;Perwakilan BPKP Provinsi Jawa Timur;Provinsi Jawa Timur;Kota Blitar;path15
+277;PW13;Perwakilan BPKP Provinsi Jawa Timur;Provinsi Jawa Timur;Kota Kediri;path15
+278;PW13;Perwakilan BPKP Provinsi Jawa Timur;Provinsi Jawa Timur;Kota Madiun;path15
+279;PW13;Perwakilan BPKP Provinsi Jawa Timur;Provinsi Jawa Timur;Kota Malang;path15
+280;PW13;Perwakilan BPKP Provinsi Jawa Timur;Provinsi Jawa Timur;Kota Mojokerto;path15
+281;PW13;Perwakilan BPKP Provinsi Jawa Timur;Provinsi Jawa Timur;Kota Pasuruan;path15
+282;PW13;Perwakilan BPKP Provinsi Jawa Timur;Provinsi Jawa Timur;Kota Probolinggo;path15
+283;PW13;Perwakilan BPKP Provinsi Jawa Timur;Provinsi Jawa Timur;Kota Surabaya;path15
+284;PW14;Perwakilan BPKP Provinsi Kalimantan Barat;Provinsi Kalimantan Barat;Prov. Kalimantan Barat;path20
+285;PW14;Perwakilan BPKP Provinsi Kalimantan Barat;Provinsi Kalimantan Barat;Kab. Bengkayang;path20
+286;PW14;Perwakilan BPKP Provinsi Kalimantan Barat;Provinsi Kalimantan Barat;Kab. Kapuas hulu;path20
+287;PW14;Perwakilan BPKP Provinsi Kalimantan Barat;Provinsi Kalimantan Barat;Kab. Kayong Utara;path20
+288;PW14;Perwakilan BPKP Provinsi Kalimantan Barat;Provinsi Kalimantan Barat;Kab. Ketapang;path20
+289;PW14;Perwakilan BPKP Provinsi Kalimantan Barat;Provinsi Kalimantan Barat;Kab. Kubu Raya;path20
+290;PW14;Perwakilan BPKP Provinsi Kalimantan Barat;Provinsi Kalimantan Barat;Kab. Landak;path20
+291;PW14;Perwakilan BPKP Provinsi Kalimantan Barat;Provinsi Kalimantan Barat;Kab. Melawi;path20
+292;PW14;Perwakilan BPKP Provinsi Kalimantan Barat;Provinsi Kalimantan Barat;Kab. Pontianak (Mempawah);path20
+293;PW14;Perwakilan BPKP Provinsi Kalimantan Barat;Provinsi Kalimantan Barat;Kab. Sambas;path20
+294;PW14;Perwakilan BPKP Provinsi Kalimantan Barat;Provinsi Kalimantan Barat;Kab. Sanggau;path20
+295;PW14;Perwakilan BPKP Provinsi Kalimantan Barat;Provinsi Kalimantan Barat;Kab. Sekadau;path20
+296;PW14;Perwakilan BPKP Provinsi Kalimantan Barat;Provinsi Kalimantan Barat;Kab. Sintang;path20
+297;PW14;Perwakilan BPKP Provinsi Kalimantan Barat;Provinsi Kalimantan Barat;Kota Pontianak;path20
+298;PW14;Perwakilan BPKP Provinsi Kalimantan Barat;Provinsi Kalimantan Barat;Kota Singkawang;path20
+299;PW15;Perwakilan BPKP Provinsi Kalimantan Tengah;Provinsi Kalimantan Tengah;Prov. Kalimantan Tengah;path21
+300;PW15;Perwakilan BPKP Provinsi Kalimantan Tengah;Provinsi Kalimantan Tengah;Kab. Barito Selatan;path21
+301;PW15;Perwakilan BPKP Provinsi Kalimantan Tengah;Provinsi Kalimantan Tengah;Kab. Barito Timur;path21
+302;PW15;Perwakilan BPKP Provinsi Kalimantan Tengah;Provinsi Kalimantan Tengah;Kab. Barito Utara;path21
+303;PW15;Perwakilan BPKP Provinsi Kalimantan Tengah;Provinsi Kalimantan Tengah;Kab. Gunung Mas;path21
+304;PW15;Perwakilan BPKP Provinsi Kalimantan Tengah;Provinsi Kalimantan Tengah;Kab. Kapuas;path21
+305;PW15;Perwakilan BPKP Provinsi Kalimantan Tengah;Provinsi Kalimantan Tengah;Kab. Katingan;path21
+306;PW15;Perwakilan BPKP Provinsi Kalimantan Tengah;Provinsi Kalimantan Tengah;Kab. Kotawaringin Barat;path21
+307;PW15;Perwakilan BPKP Provinsi Kalimantan Tengah;Provinsi Kalimantan Tengah;Kab. Kotawaringin Timur;path21
+308;PW15;Perwakilan BPKP Provinsi Kalimantan Tengah;Provinsi Kalimantan Tengah;Kab. Lamandau;path21
+309;PW15;Perwakilan BPKP Provinsi Kalimantan Tengah;Provinsi Kalimantan Tengah;Kab. Murung Raya;path21
+310;PW15;Perwakilan BPKP Provinsi Kalimantan Tengah;Provinsi Kalimantan Tengah;Kab. Pulang Pisau;path21
+311;PW15;Perwakilan BPKP Provinsi Kalimantan Tengah;Provinsi Kalimantan Tengah;Kab. Seruyan;path21
+312;PW15;Perwakilan BPKP Provinsi Kalimantan Tengah;Provinsi Kalimantan Tengah;Kab. Sukamara;path21
+313;PW15;Perwakilan BPKP Provinsi Kalimantan Tengah;Provinsi Kalimantan Tengah;Kota Palangkaraya;path21
+314;PW16;Perwakilan BPKP Provinsi Kalimantan Selatan;Provinsi Kalimantan Selatan;Prov. Kalimantan Selatan;path22
+315;PW16;Perwakilan BPKP Provinsi Kalimantan Selatan;Provinsi Kalimantan Selatan;Kab. Balangan;path22
+316;PW16;Perwakilan BPKP Provinsi Kalimantan Selatan;Provinsi Kalimantan Selatan;Kab. Banjar;path22
+317;PW16;Perwakilan BPKP Provinsi Kalimantan Selatan;Provinsi Kalimantan Selatan;Kab. Barito Kuala;path22
+318;PW16;Perwakilan BPKP Provinsi Kalimantan Selatan;Provinsi Kalimantan Selatan;Kab. Hulu Sungai Selatan;path22
+319;PW16;Perwakilan BPKP Provinsi Kalimantan Selatan;Provinsi Kalimantan Selatan;Kab. Hulu Sungai Tengah;path22
+320;PW16;Perwakilan BPKP Provinsi Kalimantan Selatan;Provinsi Kalimantan Selatan;Kab. Hulu Sungai Utara;path22
+321;PW16;Perwakilan BPKP Provinsi Kalimantan Selatan;Provinsi Kalimantan Selatan;Kab. Kotabaru;path22
+322;PW16;Perwakilan BPKP Provinsi Kalimantan Selatan;Provinsi Kalimantan Selatan;Kab. Tabalong;path22
+323;PW16;Perwakilan BPKP Provinsi Kalimantan Selatan;Provinsi Kalimantan Selatan;Kab. Tanah Bumbu;path22
+324;PW16;Perwakilan BPKP Provinsi Kalimantan Selatan;Provinsi Kalimantan Selatan;Kab. Tanah Laut;path22
+325;PW16;Perwakilan BPKP Provinsi Kalimantan Selatan;Provinsi Kalimantan Selatan;Kab. Tapin;path22
+326;PW16;Perwakilan BPKP Provinsi Kalimantan Selatan;Provinsi Kalimantan Selatan;Kota Banjar Baru;path22
+327;PW16;Perwakilan BPKP Provinsi Kalimantan Selatan;Provinsi Kalimantan Selatan;Kota Banjarmasin;path22
+328;PW17;Perwakilan BPKP Provinsi Kalimantan Timur;Provinsi Kalimantan Timur;Prov. Kalimantan Timur;path23
+329;PW17;Perwakilan BPKP Provinsi Kalimantan Timur;Provinsi Kalimantan Timur;Kab. Berau;path23
+330;PW17;Perwakilan BPKP Provinsi Kalimantan Timur;Provinsi Kalimantan Timur;Kab. Kutai Barat;path23
+331;PW17;Perwakilan BPKP Provinsi Kalimantan Timur;Provinsi Kalimantan Timur;Kab. Kutai Kertanegara;path23
+332;PW17;Perwakilan BPKP Provinsi Kalimantan Timur;Provinsi Kalimantan Timur;Kab. Kutai Timur;path23
+333;PW17;Perwakilan BPKP Provinsi Kalimantan Timur;Provinsi Kalimantan Timur;Kab. Mahakam Ulu;path23
+334;PW17;Perwakilan BPKP Provinsi Kalimantan Timur;Provinsi Kalimantan Timur;Kab. Paser;path23
+335;PW17;Perwakilan BPKP Provinsi Kalimantan Timur;Provinsi Kalimantan Timur;Kab. Penajam Paser Utara;path23
+336;PW17;Perwakilan BPKP Provinsi Kalimantan Timur;Provinsi Kalimantan Timur;Kota Balikpapan;path23
+337;PW17;Perwakilan BPKP Provinsi Kalimantan Timur;Provinsi Kalimantan Timur;Kota Bontang;path23
+338;PW17;Perwakilan BPKP Provinsi Kalimantan Timur;Provinsi Kalimantan Timur;Kota Samarinda;path23
+339;PW34;Perwakilan BPKP Provinsi Kalimantan Utara;Provinsi Kalimantan Utara;Prov. Kalimantan Utara;path24
+340;PW34;Perwakilan BPKP Provinsi Kalimantan Utara;Provinsi Kalimantan Utara;Kab. Bulungan;path24
+341;PW34;Perwakilan BPKP Provinsi Kalimantan Utara;Provinsi Kalimantan Utara;Kab. Malinau;path24
+342;PW34;Perwakilan BPKP Provinsi Kalimantan Utara;Provinsi Kalimantan Utara;Kab. Nunukan;path24
+343;PW34;Perwakilan BPKP Provinsi Kalimantan Utara;Provinsi Kalimantan Utara;Kab. Tana Tidung;path24
+344;PW34;Perwakilan BPKP Provinsi Kalimantan Utara;Provinsi Kalimantan Utara;Kota Tarakan;path24
+345;PW32;Perwakilan BPKP Provinsi Sulawesi Barat;Provinsi Sulawesi Barat;Prov. Sulawesi Barat;path30
+346;PW32;Perwakilan BPKP Provinsi Sulawesi Barat;Provinsi Sulawesi Barat;Kab. Majene;path30
+347;PW32;Perwakilan BPKP Provinsi Sulawesi Barat;Provinsi Sulawesi Barat;Kab. Mamasa;path30
+348;PW32;Perwakilan BPKP Provinsi Sulawesi Barat;Provinsi Sulawesi Barat;Kab. Mamuju;path30
+349;PW32;Perwakilan BPKP Provinsi Sulawesi Barat;Provinsi Sulawesi Barat;Kab. Mamuju Tengah;path30
+350;PW32;Perwakilan BPKP Provinsi Sulawesi Barat;Provinsi Sulawesi Barat;Kab. Pasang Kayu (Mamuju Utara);path30
+351;PW32;Perwakilan BPKP Provinsi Sulawesi Barat;Provinsi Sulawesi Barat;Kab. Polewali Mandar;path30
+352;PW18;Perwakilan BPKP Provinsi Sulawesi Utara;Provinsi Sulawesi Utara;Prov. Sulawesi Utara;path25
+353;PW18;Perwakilan BPKP Provinsi Sulawesi Utara;Provinsi Sulawesi Utara;Kab. Bolaang Mongondow;path25
+354;PW18;Perwakilan BPKP Provinsi Sulawesi Utara;Provinsi Sulawesi Utara;Kab. Bolaang Mongondow Selatan;path25
+355;PW18;Perwakilan BPKP Provinsi Sulawesi Utara;Provinsi Sulawesi Utara;Kab. Bolaang Mongondow Timur;path25
+356;PW18;Perwakilan BPKP Provinsi Sulawesi Utara;Provinsi Sulawesi Utara;Kab. Bolaang Mongondow Utara;path25
+357;PW18;Perwakilan BPKP Provinsi Sulawesi Utara;Provinsi Sulawesi Utara;Kab. Kep. Talaud;path25
+358;PW18;Perwakilan BPKP Provinsi Sulawesi Utara;Provinsi Sulawesi Utara;Kab. Minahasa;path25
+359;PW18;Perwakilan BPKP Provinsi Sulawesi Utara;Provinsi Sulawesi Utara;Kab. Minahasa Selatan;path25
+360;PW18;Perwakilan BPKP Provinsi Sulawesi Utara;Provinsi Sulawesi Utara;Kab. Minahasa Tenggara;path25
+361;PW18;Perwakilan BPKP Provinsi Sulawesi Utara;Provinsi Sulawesi Utara;Kab. Minahasa Utara;path25
+362;PW18;Perwakilan BPKP Provinsi Sulawesi Utara;Provinsi Sulawesi Utara;Kab. Siau Tagulandang Biaro;path25
+363;PW18;Perwakilan BPKP Provinsi Sulawesi Utara;Provinsi Sulawesi Utara;Kab. Kep. Sangihe;path25
+364;PW18;Perwakilan BPKP Provinsi Sulawesi Utara;Provinsi Sulawesi Utara;Kota Bitung;path25
+365;PW18;Perwakilan BPKP Provinsi Sulawesi Utara;Provinsi Sulawesi Utara;Kota Kotamobagu;path25
+366;PW18;Perwakilan BPKP Provinsi Sulawesi Utara;Provinsi Sulawesi Utara;Kota Manado;path25
+367;PW18;Perwakilan BPKP Provinsi Sulawesi Utara;Provinsi Sulawesi Utara;Kota Tomohon;path25
+368;PW31;Perwakilan BPKP Provinsi Gorontalo;Provinsi Gorontalo;Prov. Gorontalo;path31
+369;PW31;Perwakilan BPKP Provinsi Gorontalo;Provinsi Gorontalo;Kab. Boalemo;path31
+370;PW31;Perwakilan BPKP Provinsi Gorontalo;Provinsi Gorontalo;Kab. Bone Bolango;path31
+371;PW31;Perwakilan BPKP Provinsi Gorontalo;Provinsi Gorontalo;Kab. Gorontalo;path31
+372;PW31;Perwakilan BPKP Provinsi Gorontalo;Provinsi Gorontalo;Kab. Gorontalo Utara;path31
+373;PW31;Perwakilan BPKP Provinsi Gorontalo;Provinsi Gorontalo;Kab. Pohuwato;path31
+374;PW31;Perwakilan BPKP Provinsi Gorontalo;Provinsi Gorontalo;Kota Gorontalo;path31
+375;PW19;Perwakilan BPKP Provinsi Sulawesi Tengah;Provinsi Sulawesi Tengah;Prov. Sulawesi Tengah;path26
+376;PW19;Perwakilan BPKP Provinsi Sulawesi Tengah;Provinsi Sulawesi Tengah;Kab. Banggai;path26
+377;PW19;Perwakilan BPKP Provinsi Sulawesi Tengah;Provinsi Sulawesi Tengah;Kab. Banggai Kepulauan;path26
+378;PW19;Perwakilan BPKP Provinsi Sulawesi Tengah;Provinsi Sulawesi Tengah;Kab. Banggai Laut;path26
+379;PW19;Perwakilan BPKP Provinsi Sulawesi Tengah;Provinsi Sulawesi Tengah;Kab. Buol;path26
+380;PW19;Perwakilan BPKP Provinsi Sulawesi Tengah;Provinsi Sulawesi Tengah;Kab. Donggala;path26
+381;PW19;Perwakilan BPKP Provinsi Sulawesi Tengah;Provinsi Sulawesi Tengah;Kab. Morowali;path26
+382;PW19;Perwakilan BPKP Provinsi Sulawesi Tengah;Provinsi Sulawesi Tengah;Kab. Morowali Utara;path26
+383;PW19;Perwakilan BPKP Provinsi Sulawesi Tengah;Provinsi Sulawesi Tengah;Kab. Parigi Moutong;path26
+384;PW19;Perwakilan BPKP Provinsi Sulawesi Tengah;Provinsi Sulawesi Tengah;Kab. Poso;path26
+385;PW19;Perwakilan BPKP Provinsi Sulawesi Tengah;Provinsi Sulawesi Tengah;Kab. Sigi;path26
+386;PW19;Perwakilan BPKP Provinsi Sulawesi Tengah;Provinsi Sulawesi Tengah;Kab. Tojo Una-Una;path26
+387;PW19;Perwakilan BPKP Provinsi Sulawesi Tengah;Provinsi Sulawesi Tengah;Kab. Toli-Toli;path26
+388;PW19;Perwakilan BPKP Provinsi Sulawesi Tengah;Provinsi Sulawesi Tengah;Kota Palu;path26
+389;PW21;Perwakilan BPKP Provinsi Sulawesi Selatan;Provinsi Sulawesi Selatan;Prov. Sulawesi Selatan;path27
+390;PW21;Perwakilan BPKP Provinsi Sulawesi Selatan;Provinsi Sulawesi Selatan;Kab. Bantaeng;path27
+391;PW21;Perwakilan BPKP Provinsi Sulawesi Selatan;Provinsi Sulawesi Selatan;Kab. Barru;path27
+392;PW21;Perwakilan BPKP Provinsi Sulawesi Selatan;Provinsi Sulawesi Selatan;Kab. Bone;path27
+393;PW21;Perwakilan BPKP Provinsi Sulawesi Selatan;Provinsi Sulawesi Selatan;Kab. Bulu Kumba;path27
+394;PW21;Perwakilan BPKP Provinsi Sulawesi Selatan;Provinsi Sulawesi Selatan;Kab. Enrekang;path27
+395;PW21;Perwakilan BPKP Provinsi Sulawesi Selatan;Provinsi Sulawesi Selatan;Kab. Gowa;path27
+396;PW21;Perwakilan BPKP Provinsi Sulawesi Selatan;Provinsi Sulawesi Selatan;Kab. Jeneponto;path27
+397;PW21;Perwakilan BPKP Provinsi Sulawesi Selatan;Provinsi Sulawesi Selatan;Kab. Luwu;path27
+398;PW21;Perwakilan BPKP Provinsi Sulawesi Selatan;Provinsi Sulawesi Selatan;Kab. Luwu Timur;path27
+399;PW21;Perwakilan BPKP Provinsi Sulawesi Selatan;Provinsi Sulawesi Selatan;Kab. Luwu Utara;path27
+400;PW21;Perwakilan BPKP Provinsi Sulawesi Selatan;Provinsi Sulawesi Selatan;Kab. Maros;path27
+401;PW21;Perwakilan BPKP Provinsi Sulawesi Selatan;Provinsi Sulawesi Selatan;Kab. Pangkep;path27
+402;PW21;Perwakilan BPKP Provinsi Sulawesi Selatan;Provinsi Sulawesi Selatan;Kab. Pinrang;path27
+403;PW21;Perwakilan BPKP Provinsi Sulawesi Selatan;Provinsi Sulawesi Selatan;Kab. Kepulauan Selayar;path27
+404;PW21;Perwakilan BPKP Provinsi Sulawesi Selatan;Provinsi Sulawesi Selatan;Kab. Sidrap;path27
+405;PW21;Perwakilan BPKP Provinsi Sulawesi Selatan;Provinsi Sulawesi Selatan;Kab. Sinjai;path27
+406;PW21;Perwakilan BPKP Provinsi Sulawesi Selatan;Provinsi Sulawesi Selatan;Kab. Soppeng;path27
+407;PW21;Perwakilan BPKP Provinsi Sulawesi Selatan;Provinsi Sulawesi Selatan;Kab. Takalar;path27
+408;PW21;Perwakilan BPKP Provinsi Sulawesi Selatan;Provinsi Sulawesi Selatan;Kab. Tanatoraja;path27
+409;PW21;Perwakilan BPKP Provinsi Sulawesi Selatan;Provinsi Sulawesi Selatan;Kab. Toraja Utara;path27
+410;PW21;Perwakilan BPKP Provinsi Sulawesi Selatan;Provinsi Sulawesi Selatan;Kab. Wajo;path27
+411;PW21;Perwakilan BPKP Provinsi Sulawesi Selatan;Provinsi Sulawesi Selatan;Kota Makassar;path27
+412;PW21;Perwakilan BPKP Provinsi Sulawesi Selatan;Provinsi Sulawesi Selatan;Kota Palopo;path27
+413;PW21;Perwakilan BPKP Provinsi Sulawesi Selatan;Provinsi Sulawesi Selatan;Kota Pare-Pare;path27
+414;PW20;Perwakilan BPKP Provinsi Sulawesi Tenggara;Provinsi Sulawesi Tenggara;Prov. Sulawesi Tenggara;path28
+415;PW20;Perwakilan BPKP Provinsi Sulawesi Tenggara;Provinsi Sulawesi Tenggara;Kab. Bombana;path28
+416;PW20;Perwakilan BPKP Provinsi Sulawesi Tenggara;Provinsi Sulawesi Tenggara;Kab. Buton;path28
+417;PW20;Perwakilan BPKP Provinsi Sulawesi Tenggara;Provinsi Sulawesi Tenggara;Kab. Buton Utara;path28
+418;PW20;Perwakilan BPKP Provinsi Sulawesi Tenggara;Provinsi Sulawesi Tenggara;Kab. Kolaka;path28
+419;PW20;Perwakilan BPKP Provinsi Sulawesi Tenggara;Provinsi Sulawesi Tenggara;Kab. Kolaka Timur;path28
+420;PW20;Perwakilan BPKP Provinsi Sulawesi Tenggara;Provinsi Sulawesi Tenggara;Kab. Kolaka Utara;path28
+421;PW20;Perwakilan BPKP Provinsi Sulawesi Tenggara;Provinsi Sulawesi Tenggara;Kab. Konawe;path28
+422;PW20;Perwakilan BPKP Provinsi Sulawesi Tenggara;Provinsi Sulawesi Tenggara;Kab. Konawe Kepulauan;path28
+423;PW20;Perwakilan BPKP Provinsi Sulawesi Tenggara;Provinsi Sulawesi Tenggara;Kab. Konawe Selatan;path28
+424;PW20;Perwakilan BPKP Provinsi Sulawesi Tenggara;Provinsi Sulawesi Tenggara;Kab. Konawe Utara;path28
+425;PW20;Perwakilan BPKP Provinsi Sulawesi Tenggara;Provinsi Sulawesi Tenggara;Kab. Muna;path28
+426;PW20;Perwakilan BPKP Provinsi Sulawesi Tenggara;Provinsi Sulawesi Tenggara;Kab. Wakatobi;path28
+427;PW20;Perwakilan BPKP Provinsi Sulawesi Tenggara;Provinsi Sulawesi Tenggara;Kota Bau-Bau;path28
+428;PW20;Perwakilan BPKP Provinsi Sulawesi Tenggara;Provinsi Sulawesi Tenggara;Kota Kendari;path28
+429;PW20;Perwakilan BPKP Provinsi Sulawesi Tenggara;Provinsi Sulawesi Tenggara;Kab. Buton Selatan;path28
+430;PW20;Perwakilan BPKP Provinsi Sulawesi Tenggara;Provinsi Sulawesi Tenggara;Kab. Buton Tengah;path28
+431;PW20;Perwakilan BPKP Provinsi Sulawesi Tenggara;Provinsi Sulawesi Tenggara;Kab. Muna Barat;path28
+432;PW22;Perwakilan BPKP Provinsi Bali;Provinsi Bali;Prov. Bali;path17
+433;PW22;Perwakilan BPKP Provinsi Bali;Provinsi Bali;Kab. Badung;path17
+434;PW22;Perwakilan BPKP Provinsi Bali;Provinsi Bali;Kab. Bangli;path17
+435;PW22;Perwakilan BPKP Provinsi Bali;Provinsi Bali;Kab. Buleleng;path17
+436;PW22;Perwakilan BPKP Provinsi Bali;Provinsi Bali;Kab. Gianyar;path17
+437;PW22;Perwakilan BPKP Provinsi Bali;Provinsi Bali;Kab. Jembrana;path17
+438;PW22;Perwakilan BPKP Provinsi Bali;Provinsi Bali;Kab. Karang Asem;path17
+439;PW22;Perwakilan BPKP Provinsi Bali;Provinsi Bali;Kab. Klungkung;path17
+440;PW22;Perwakilan BPKP Provinsi Bali;Provinsi Bali;Kab. Tabanan;path17
+441;PW22;Perwakilan BPKP Provinsi Bali;Provinsi Bali;Kota Denpasar;path17
+442;PW23;Perwakilan BPKP Provinsi Nusa Tenggara Barat;Provinsi Nusa Tenggara Barat;Prov. Nusa Tenggara Barat;path18
+443;PW23;Perwakilan BPKP Provinsi Nusa Tenggara Barat;Provinsi Nusa Tenggara Barat;Kab. Bima;path18
+444;PW23;Perwakilan BPKP Provinsi Nusa Tenggara Barat;Provinsi Nusa Tenggara Barat;Kab. Dompu;path18
+445;PW23;Perwakilan BPKP Provinsi Nusa Tenggara Barat;Provinsi Nusa Tenggara Barat;Kab. Lombok Barat;path18
+446;PW23;Perwakilan BPKP Provinsi Nusa Tenggara Barat;Provinsi Nusa Tenggara Barat;Kab. Lombok Timur;path18
+447;PW23;Perwakilan BPKP Provinsi Nusa Tenggara Barat;Provinsi Nusa Tenggara Barat;Kab. Lombok Utara;path18
+448;PW23;Perwakilan BPKP Provinsi Nusa Tenggara Barat;Provinsi Nusa Tenggara Barat;Kab. Sumbawa;path18
+449;PW23;Perwakilan BPKP Provinsi Nusa Tenggara Barat;Provinsi Nusa Tenggara Barat;Kab. Sumbawa Barat;path18
+450;PW23;Perwakilan BPKP Provinsi Nusa Tenggara Barat;Provinsi Nusa Tenggara Barat;Kab. Lombok Tengah;path18
+451;PW23;Perwakilan BPKP Provinsi Nusa Tenggara Barat;Provinsi Nusa Tenggara Barat;Kota Bima;path18
+452;PW23;Perwakilan BPKP Provinsi Nusa Tenggara Barat;Provinsi Nusa Tenggara Barat;Kota Mataram;path18
+453;PW24;Perwakilan BPKP Provinsi Nusa Tenggara Timur;Provinsi Nusa Tenggara Timur;Prov. Nusa Tenggara Timur;path19
+454;PW24;Perwakilan BPKP Provinsi Nusa Tenggara Timur;Provinsi Nusa Tenggara Timur;Kab. Alor;path19
+455;PW24;Perwakilan BPKP Provinsi Nusa Tenggara Timur;Provinsi Nusa Tenggara Timur;Kab. Belu;path19
+456;PW24;Perwakilan BPKP Provinsi Nusa Tenggara Timur;Provinsi Nusa Tenggara Timur;Kab. Ende;path19
+457;PW24;Perwakilan BPKP Provinsi Nusa Tenggara Timur;Provinsi Nusa Tenggara Timur;Kab. Flores Timur;path19
+458;PW24;Perwakilan BPKP Provinsi Nusa Tenggara Timur;Provinsi Nusa Tenggara Timur;Kab. Kupang;path19
+459;PW24;Perwakilan BPKP Provinsi Nusa Tenggara Timur;Provinsi Nusa Tenggara Timur;Kab. Lembata;path19
+460;PW24;Perwakilan BPKP Provinsi Nusa Tenggara Timur;Provinsi Nusa Tenggara Timur;Kab. Malaka;path19
+461;PW24;Perwakilan BPKP Provinsi Nusa Tenggara Timur;Provinsi Nusa Tenggara Timur;Kab. Manggarai;path19
+462;PW24;Perwakilan BPKP Provinsi Nusa Tenggara Timur;Provinsi Nusa Tenggara Timur;Kab. Manggarai Barat;path19
+463;PW24;Perwakilan BPKP Provinsi Nusa Tenggara Timur;Provinsi Nusa Tenggara Timur;Kab. Manggarai Timur;path19
+464;PW24;Perwakilan BPKP Provinsi Nusa Tenggara Timur;Provinsi Nusa Tenggara Timur;Kab. Nagekeo;path19
+465;PW24;Perwakilan BPKP Provinsi Nusa Tenggara Timur;Provinsi Nusa Tenggara Timur;Kab. Ngada;path19
+466;PW24;Perwakilan BPKP Provinsi Nusa Tenggara Timur;Provinsi Nusa Tenggara Timur;Kab. Rote Ndao;path19
+467;PW24;Perwakilan BPKP Provinsi Nusa Tenggara Timur;Provinsi Nusa Tenggara Timur;Kab. Sabu Raijua;path19
+468;PW24;Perwakilan BPKP Provinsi Nusa Tenggara Timur;Provinsi Nusa Tenggara Timur;Kab. Sikka;path19
+469;PW24;Perwakilan BPKP Provinsi Nusa Tenggara Timur;Provinsi Nusa Tenggara Timur;Kab. Sumba Barat;path19
+470;PW24;Perwakilan BPKP Provinsi Nusa Tenggara Timur;Provinsi Nusa Tenggara Timur;Kab. Sumba Barat Daya;path19
+471;PW24;Perwakilan BPKP Provinsi Nusa Tenggara Timur;Provinsi Nusa Tenggara Timur;Kab. Sumba Tengah;path19
+472;PW24;Perwakilan BPKP Provinsi Nusa Tenggara Timur;Provinsi Nusa Tenggara Timur;Kab. Sumba Timur;path19
+473;PW24;Perwakilan BPKP Provinsi Nusa Tenggara Timur;Provinsi Nusa Tenggara Timur;Kab. Timor Tengah Selatan;path19
+474;PW24;Perwakilan BPKP Provinsi Nusa Tenggara Timur;Provinsi Nusa Tenggara Timur;Kab. Timor Tengah Utara;path19
+475;PW24;Perwakilan BPKP Provinsi Nusa Tenggara Timur;Provinsi Nusa Tenggara Timur;Kota Kupang;path19
+476;PW25;Perwakilan BPKP Provinsi Maluku;Provinsi Maluku;Prov. Maluku;path31
+477;PW25;Perwakilan BPKP Provinsi Maluku;Provinsi Maluku;Kab. Buru;path31
+478;PW25;Perwakilan BPKP Provinsi Maluku;Provinsi Maluku;Kab. Buru Selatan;path31
+479;PW25;Perwakilan BPKP Provinsi Maluku;Provinsi Maluku;Kab. Kep. Aru;path31
+480;PW25;Perwakilan BPKP Provinsi Maluku;Provinsi Maluku;Kab. Maluku Barat Daya;path31
+481;PW25;Perwakilan BPKP Provinsi Maluku;Provinsi Maluku;Kab. Maluku Tengah;path31
+482;PW25;Perwakilan BPKP Provinsi Maluku;Provinsi Maluku;Kab. Maluku Tenggara;path31
+483;PW25;Perwakilan BPKP Provinsi Maluku;Provinsi Maluku;Kab. Maluku Tenggara Barat (Kab. Kep. Tanimbar);path31
+484;PW25;Perwakilan BPKP Provinsi Maluku;Provinsi Maluku;Kab. Seram Bagian Barat;path31
+485;PW25;Perwakilan BPKP Provinsi Maluku;Provinsi Maluku;Kab. Seram Bagian Timur;path31
+486;PW25;Perwakilan BPKP Provinsi Maluku;Provinsi Maluku;Kota Ambon;path31
+487;PW25;Perwakilan BPKP Provinsi Maluku;Provinsi Maluku;Kota Tual;path31
+488;PW33;Perwakilan BPKP Provinsi Maluku Utara;Provinsi Maluku Utara;Prov. Maluku Utara;path32
+489;PW33;Perwakilan BPKP Provinsi Maluku Utara;Provinsi Maluku Utara;Kab. Halmahera Barat;path32
+490;PW33;Perwakilan BPKP Provinsi Maluku Utara;Provinsi Maluku Utara;Kab. Halmahera Selatan;path32
+491;PW33;Perwakilan BPKP Provinsi Maluku Utara;Provinsi Maluku Utara;Kab. Halmahera Tengah;path32
+492;PW33;Perwakilan BPKP Provinsi Maluku Utara;Provinsi Maluku Utara;Kab. Halmahera Timur;path32
+493;PW33;Perwakilan BPKP Provinsi Maluku Utara;Provinsi Maluku Utara;Kab. Halmahera Utara;path32
+494;PW33;Perwakilan BPKP Provinsi Maluku Utara;Provinsi Maluku Utara;Kab. Kepl. Sula;path32
+495;PW33;Perwakilan BPKP Provinsi Maluku Utara;Provinsi Maluku Utara;Kab. Pulau Morotai;path32
+496;PW33;Perwakilan BPKP Provinsi Maluku Utara;Provinsi Maluku Utara;Kab. Pulau Taliabu;path32
+497;PW33;Perwakilan BPKP Provinsi Maluku Utara;Provinsi Maluku Utara;Kota Ternate;path32
+498;PW33;Perwakilan BPKP Provinsi Maluku Utara;Provinsi Maluku Utara;Kota Tidore Kepulauan;path32
+499;PW26;Perwakilan BPKP Provinsi Papua;Provinsi Papua;Prov. Papua;path33
+500;PW26;Perwakilan BPKP Provinsi Papua;Provinsi Papua;Kab. Biak Numfor;path33
+501;PW26;Perwakilan BPKP Provinsi Papua;Provinsi Papua;Kab. Jayapura;path33
+502;PW26;Perwakilan BPKP Provinsi Papua;Provinsi Papua;Kab. Keerom;path33
+503;PW26;Perwakilan BPKP Provinsi Papua;Provinsi Papua;Kab. Kepulauan Yapen;path33
+504;PW26;Perwakilan BPKP Provinsi Papua;Provinsi Papua;Kab. Mamberamo Raya;path33
+505;PW26;Perwakilan BPKP Provinsi Papua;Provinsi Papua;Kab. Sarmi;path33
+506;PW26;Perwakilan BPKP Provinsi Papua;Provinsi Papua;Kab. Supiori;path33
+507;PW26;Perwakilan BPKP Provinsi Papua;Provinsi Papua;Kab. Waropen;path33
+508;PW26;Perwakilan BPKP Provinsi Papua;Provinsi Papua;Kota Jayapura;path33
+509;PW27;Perwakilan BPKP Provinsi Papua Barat;Provinsi Papua Barat;Prov. Papua Barat;path34
+510;PW27;Perwakilan BPKP Provinsi Papua Barat;Provinsi Papua Barat;Kab. Fak-Fak;path34
+511;PW27;Perwakilan BPKP Provinsi Papua Barat;Provinsi Papua Barat;Kab. Kaimana;path34
+512;PW27;Perwakilan BPKP Provinsi Papua Barat;Provinsi Papua Barat;Kab. Manokwari;path34
+513;PW27;Perwakilan BPKP Provinsi Papua Barat;Provinsi Papua Barat;Kab. Manokwari Selatan;path34
+514;PW27;Perwakilan BPKP Provinsi Papua Barat;Provinsi Papua Barat;Kab. Pegunungan Arfak;path34
+515;PW27;Perwakilan BPKP Provinsi Papua Barat;Provinsi Papua Barat;Kab. Teluk Bintuni;path34
+516;PW27;Perwakilan BPKP Provinsi Papua Barat;Provinsi Papua Barat;Kab. Teluk Wondama;path34
+517;PW26;Perwakilan BPKP Provinsi Papua;Provinsi Papua;Prov. Papua Selatan;path33
+518;PW26;Perwakilan BPKP Provinsi Papua;Provinsi Papua;Kab. Asmat;path33
+519;PW26;Perwakilan BPKP Provinsi Papua;Provinsi Papua;Kab. Boven Digoel;path33
+520;PW26;Perwakilan BPKP Provinsi Papua;Provinsi Papua;Kab. Mappi;path33
+521;PW26;Perwakilan BPKP Provinsi Papua;Provinsi Papua;Kab. Merauke;path33
+522;PW26;Perwakilan BPKP Provinsi Papua;Provinsi Papua;Prov. Papua Tengah;path33
+523;PW26;Perwakilan BPKP Provinsi Papua;Provinsi Papua;Kab. Deiyai;path33
+524;PW26;Perwakilan BPKP Provinsi Papua;Provinsi Papua;Kab. Dogiyai;path33
+525;PW26;Perwakilan BPKP Provinsi Papua;Provinsi Papua;Kab. Intan Jaya;path33
+526;PW26;Perwakilan BPKP Provinsi Papua;Provinsi Papua;Kab. Mimika;path33
+527;PW26;Perwakilan BPKP Provinsi Papua;Provinsi Papua;Kab. Nabire;path33
+528;PW26;Perwakilan BPKP Provinsi Papua;Provinsi Papua;Kab. Paniai;path33
+529;PW26;Perwakilan BPKP Provinsi Papua;Provinsi Papua;Kab. Puncak;path33
+530;PW26;Perwakilan BPKP Provinsi Papua;Provinsi Papua;Kab. Puncak Jaya;path33
+531;PW26;Perwakilan BPKP Provinsi Papua;Provinsi Papua;Prov. Papua Pegunungan;path33
+532;PW26;Perwakilan BPKP Provinsi Papua;Provinsi Papua;Kab. Jayawijaya;path33
+533;PW26;Perwakilan BPKP Provinsi Papua;Provinsi Papua;Kab. Lanny Jaya;path33
+534;PW26;Perwakilan BPKP Provinsi Papua;Provinsi Papua;Kab. Mamberamo Tengah;path33
+535;PW26;Perwakilan BPKP Provinsi Papua;Provinsi Papua;Kab. Nduga;path33
+536;PW26;Perwakilan BPKP Provinsi Papua;Provinsi Papua;Kab. Pegunungan Bintang;path33
+537;PW26;Perwakilan BPKP Provinsi Papua;Provinsi Papua;Kab. Tolikara;path33
+538;PW26;Perwakilan BPKP Provinsi Papua;Provinsi Papua;Kab. Yahukimo;path33
+539;PW26;Perwakilan BPKP Provinsi Papua;Provinsi Papua;Kab. Yalimo;path33
+540;PW27;Perwakilan BPKP Provinsi Papua Barat;Provinsi Papua Barat;Prov. Papua Barat Daya;path34
+541;PW27;Perwakilan BPKP Provinsi Papua Barat;Provinsi Papua Barat;Kab. Kep. Raja Ampat;path34
+542;PW27;Perwakilan BPKP Provinsi Papua Barat;Provinsi Papua Barat;Kab. Maybrat;path34
+543;PW27;Perwakilan BPKP Provinsi Papua Barat;Provinsi Papua Barat;Kab. Sorong;path34
+544;PW27;Perwakilan BPKP Provinsi Papua Barat;Provinsi Papua Barat;Kab. Sorong Selatan;path34
+545;PW27;Perwakilan BPKP Provinsi Papua Barat;Provinsi Papua Barat;Kab. Tambrauw;path34
+546;PW27;Perwakilan BPKP Provinsi Papua Barat;Provinsi Papua Barat;Kota Sorong;path34

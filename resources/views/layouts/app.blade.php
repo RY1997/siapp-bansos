@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>{{ config('app.name') }}</title>
+    <title>SiAPP BANSOS</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
 
     <!-- Font Awesome -->
@@ -36,6 +36,8 @@
 
     @stack('third_party_stylesheets')
 
+    @livewireStyles
+
     @stack('page_css')
 </head>
 
@@ -53,19 +55,18 @@
         <ul class="navbar-nav ml-auto">
             <li class="nav-item dropdown user-menu">
                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
-                    <img src="https://assets.infyom.com/logo/blue_logo_150x150.png"
+                    <img src="https://adminlte.io/themes/AdminLTE/dist/img/user2-160x160.jpg"
                          class="user-image img-circle elevation-2" alt="User Image">
                     <span class="d-none d-md-inline">{{ Auth::user()->name }}</span>
                 </a>
                 <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
                     <!-- User image -->
                     <li class="user-header bg-primary">
-                        <img src="https://assets.infyom.com/logo/blue_logo_150x150.png"
+                        <img src="https://adminlte.io/themes/AdminLTE/dist/img/user2-160x160.jpg"
                              class="img-circle elevation-2"
                              alt="User Image">
                         <p>
                             {{ Auth::user()->name }}
-                            <small>Member since {{ Auth::user()->created_at->format('M. Y') }}</small>
                         </p>
                     </li>
                     <!-- Menu Footer-->
@@ -88,7 +89,7 @@
 @include('layouts.sidebar')
 
 <!-- Content Wrapper. Contains page content -->
-    <div class="content-wrapper">
+    <div class="content-wrapper text-sm">
         <section class="content">
             @yield('content')
         </section>
@@ -153,7 +154,9 @@
     });
 </script>
 
-@stack('third_party_scripts')
+<script src="//unpkg.com/alpinejs" defer></script>
+   @stack('third_party_scripts')
+   @livewireScripts
 
 @stack('page_scripts')
 </body>

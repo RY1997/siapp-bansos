@@ -1,0 +1,36 @@
+﻿id;name;email;kd_pwk;role;password
+1;Administrator;bansos_admin@wasseda.com;admin;Admin;admin123
+2;Perwakilan BPKP Aceh;bansos_pw01@wasseda.com;PW01;Perwakilan BPKP;password
+3;Perwakilan BPKP Sumatera Utara;bansos_pw02@wasseda.com;PW02;Perwakilan BPKP;password
+4;Perwakilan BPKP Sumatera Barat;bansos_pw03@wasseda.com;PW03;Perwakilan BPKP;password
+5;Perwakilan BPKP Riau;bansos_pw04@wasseda.com;PW04;Perwakilan BPKP;password
+6;Perwakilan BPKP Jambi;bansos_pw05@wasseda.com;PW05;Perwakilan BPKP;password
+7;Perwakilan BPKP Bengkulu;bansos_pw06@wasseda.com;PW06;Perwakilan BPKP;password
+8;Perwakilan BPKP Sumatera Selatan;bansos_pw07@wasseda.com;PW07;Perwakilan BPKP;password
+9;Perwakilan BPKP Lampung;bansos_pw08@wasseda.com;PW08;Perwakilan BPKP;password
+10;Perwakilan BPKP DKI Jakarta;bansos_pw09@wasseda.com;PW09;Perwakilan BPKP;password
+11;Perwakilan BPKP Jawa Barat;bansos_pw10@wasseda.com;PW10;Perwakilan BPKP;password
+12;Perwakilan BPKP Jawa Tengah;bansos_pw11@wasseda.com;PW11;Perwakilan BPKP;password
+13;Perwakilan BPKP Daerah Istimewa Yogyakarta;bansos_pw12@wasseda.com;PW12;Perwakilan BPKP;password
+14;Perwakilan BPKP Jawa Timur;bansos_pw13@wasseda.com;PW13;Perwakilan BPKP;password
+15;Perwakilan BPKP Kalimantan Barat;bansos_pw14@wasseda.com;PW14;Perwakilan BPKP;password
+16;Perwakilan BPKP Kalimantan Tengah;bansos_pw15@wasseda.com;PW15;Perwakilan BPKP;password
+17;Perwakilan BPKP Kalimantan Selatan;bansos_pw16@wasseda.com;PW16;Perwakilan BPKP;password
+18;Perwakilan BPKP Kalimantan Timur;bansos_pw17@wasseda.com;PW17;Perwakilan BPKP;password
+19;Perwakilan BPKP Sulawesi Utara;bansos_pw18@wasseda.com;PW18;Perwakilan BPKP;password
+20;Perwakilan BPKP Sulawesi Tengah;bansos_pw19@wasseda.com;PW19;Perwakilan BPKP;password
+21;Perwakilan BPKP Sulawesi Tenggara;bansos_pw20@wasseda.com;PW20;Perwakilan BPKP;password
+22;Perwakilan BPKP Sulawesi Selatan;bansos_pw21@wasseda.com;PW21;Perwakilan BPKP;password
+23;Perwakilan BPKP Bali;bansos_pw22@wasseda.com;PW22;Perwakilan BPKP;password
+24;Perwakilan BPKP Nusa Tenggara Barat;bansos_pw23@wasseda.com;PW23;Perwakilan BPKP;password
+25;Perwakilan BPKP Nusa Tenggara Timur;bansos_pw24@wasseda.com;PW24;Perwakilan BPKP;password
+26;Perwakilan BPKP Maluku;bansos_pw25@wasseda.com;PW25;Perwakilan BPKP;password
+27;Perwakilan BPKP Papua;bansos_pw26@wasseda.com;PW26;Perwakilan BPKP;password
+28;Perwakilan BPKP Papua Barat;bansos_pw27@wasseda.com;PW27;Perwakilan BPKP;password
+29;Perwakilan BPKP Kepulauan Riau;bansos_pw28@wasseda.com;PW28;Perwakilan BPKP;password
+30;Perwakilan BPKP Bangka Belitung;bansos_pw29@wasseda.com;PW29;Perwakilan BPKP;password
+31;Perwakilan BPKP Banten;bansos_pw30@wasseda.com;PW30;Perwakilan BPKP;password
+32;Perwakilan BPKP Gorontalo;bansos_pw31@wasseda.com;PW31;Perwakilan BPKP;password
+33;Perwakilan BPKP Sulawesi Barat;bansos_pw32@wasseda.com;PW32;Perwakilan BPKP;password
+34;Perwakilan BPKP Maluku Utara;bansos_pw33@wasseda.com;PW33;Perwakilan BPKP;password
+35;Perwakilan BPKP Kalimantan Utara;bansos_pw34@wasseda.com;PW34;Perwakilan BPKP;password

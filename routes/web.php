@@ -20,3 +20,17 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::resource('penggunas', App\Http\Controllers\PenggunaController::class);
+
+Route::resource('daftarPemdaBaselines', App\Http\Controllers\DaftarPemdaBaselineController::class);
+
+Route::resource('daftarPemdaBaselines', App\Http\Controllers\DaftarPemdaBaselineController::class);
+
+Route::resource('daftarOpds', App\Http\Controllers\DaftarOpdController::class);
+
+Route::resource('ujiAktBansos', App\Http\Controllers\UjiAktBansosController::class);
+Route::get('/ujiAktBansos/{pemda_id}/{opd_id}', [App\Http\Controllers\UjiAktBansosController::class, 'indexaktbansos'])->name('indexaktbansos');
+Route::get('/ujiAktBansos/create/{pemda_id}/{opd_id}/{rek_id}', [App\Http\Controllers\UjiAktBansosController::class, 'createaktbansos'])->name('createaktbansos');
+
+

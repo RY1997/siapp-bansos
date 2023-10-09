@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{{ config('app.name') }} | Login</title>
+    <title>SiAPP BANSOS | Login</title>
 
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -34,7 +34,7 @@
 <body class="hold-transition login-page">
 <div class="login-box">
     <div class="login-logo">
-        <a href="{{ url('/home') }}"><b>{{ config('app.name') }}</b></a>
+        <a href="{{ url('/home') }}"><b>SiAPP BANSOS</b></a>
     </div>
 
     <!-- /.login-logo -->
@@ -78,12 +78,12 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-8">
+                    <!-- <div class="col-8">
                         <div class="icheck-primary">
                             <input type="checkbox" id="remember">
                             <label for="remember">Remember Me</label>
                         </div>
-                    </div>
+                    </div> -->
 
                     <div class="col-4">
                         <button type="submit" class="btn btn-primary btn-block">Sign In</button>
@@ -92,12 +92,12 @@
                 </div>
             </form>
 
-            <p class="mb-1">
+            <!-- <p class="mb-1">
                 <a href="{{ route('password.request') }}">I forgot my password</a>
             </p>
             <p class="mb-0">
                 <a href="{{ route('register') }}" class="text-center">Register a new membership</a>
-            </p>
+            </p> -->
         </div>
         <!-- /.login-card-body -->
     </div>
