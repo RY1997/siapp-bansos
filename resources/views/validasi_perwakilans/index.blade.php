@@ -5,7 +5,7 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1>Validasi Perwakilans</h1>
+                    <h1>Validasi Isian Perwakilan</h1>
                 </div>
             </div>
         </div>
