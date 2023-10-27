@@ -16,6 +16,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
  * @property string $nm_opd
  * @property string $kd_rek
  * @property string $uji_nm_aktivitas
+ * @property string $jenis_bansos
  * @property string $uji_bansos_sejenis
  * @property number $uji_anggaran
  * @property number $uji_realisasi
@@ -45,15 +46,19 @@ class UjiAktBansos extends Model
         'nm_opd',
         'kd_rek',
         'uji_nm_aktivitas',
+        'jenis_bansos',
         'uji_bansos_sejenis',
+        'nm_bansos_sejenis',
         'uji_anggaran',
         'uji_realisasi',
         'uji_kpm',
         'satuan_kpm',
         'uji_juknis',
-        'bentuk_juknis',
+        'nm_juknis',
         'uji_basis_salur',
-        'uji_monev'
+        'nm_basis_salur',
+        'uji_monev',
+        'uji_rencana_bansos'
     ];
 
     /**
@@ -68,14 +73,17 @@ class UjiAktBansos extends Model
         'nm_opd' => 'string',
         'kd_rek' => 'string',
         'uji_nm_aktivitas' => 'string',
+        'jenis_bansos' => 'string',
         'uji_bansos_sejenis' => 'string',
+        'nm_bansos_sejenis' => 'string',
         'uji_anggaran' => 'decimal:2',
         'uji_realisasi' => 'decimal:2',
         'uji_kpm' => 'integer',
         'satuan_kpm' => 'string',
         'uji_juknis' => 'string',
-        'bentuk_juknis' => 'string',
+        'nm_juknis' => 'string',
         'uji_basis_salur' => 'string',
+        'nm_basis_salur' => 'string',
         'uji_monev' => 'string'
     ];
 
@@ -90,14 +98,17 @@ class UjiAktBansos extends Model
         'nm_opd' => 'required|string|max:255',
         'kd_rek' => 'required|string|max:255',
         'uji_nm_aktivitas' => 'required|string',
+        'jenis_bansos' => 'required|string|max:255',
         'uji_bansos_sejenis' => 'required|string|max:255',
+        'nm_bansos_sejenis' => 'required|string|max:255',
         'uji_anggaran' => 'required|numeric',
         'uji_realisasi' => 'required|numeric',
         'uji_kpm' => 'required|integer',
         'satuan_kpm' => 'required|string|max:255',
         'uji_juknis' => 'required|string|max:255',
-        'bentuk_juknis' => 'required|string|max:255',
+        'nm_juknis' => 'required|string|max:255',
         'uji_basis_salur' => 'required|string|max:255',
+        'nm_basis_salur' => 'required|string|max:255',
         'uji_monev' => 'required|string|max:255',
         'created_at' => 'nullable',
         'updated_at' => 'nullable'

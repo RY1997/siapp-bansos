@@ -1,48 +1,27 @@
-<!-- <li class="nav-item">
-    <a href="#"
-       class="nav-link">
-        <p>Dashboard</p>
+<li class="nav-item">
+    <a href="{{ route('home') }}"
+       class="nav-link {{ Request::is('home*') ? 'active' : '' }}">
+       <i class="fa fa-cubes m-2"></i><p class="ml-2">Dashboard</p>
     </a>
-</li> -->
-
-<!-- <li class="nav-item">
-    <a href="#"
-       class="nav-link">
-        <p>Pengaturan</p>
-    </a>
-</li> -->
+</li>
 
 <li class="nav-item">
     <a href="{{ route('penggunas.index') }}"
        class="nav-link {{ Request::is('penggunas*') ? 'active' : '' }}">
-        <p>Pengguna</p>
+       <i class="fa fa-user m-2"></i><p class="ml-2">Pengguna</p>
     </a>
 </li>
 
 <li class="nav-item">
-    <a href="{{ route('daftarPemdaBaselines.index') }}"
-       class="nav-link {{ Request::is('daftarPemdaBaselines*') || Request::is('ujiAktBansos*') ? 'active' : '' }}">
-        <p>Monitoring</p>
-    </a>
-</li>
-
-<!-- <li class="nav-item">
-    <a href="#"
-       class="nav-link">
-        <p>Validasi Isian</p>
+    <a href="{{ route('pemdaMonitorings.index') }}"
+       class="nav-link {{ Request::is('pemdaMonitorings*') || Request::is('ujiAktBansos*') ? 'active' : '' }}">
+       <i class="fa fa-life-ring m-2"></i><p class="ml-2">Monitoring</p>
     </a>
 </li>
 
 <li class="nav-item">
-    <a href="#"
-       class="nav-link">
-        <p>Upload Laporan</p>
+    <a href="{{ route('validasiPerwakilans.index') }}"
+       class="nav-link {{ Request::is('validasiPerwakilans*') || Request::is('validasiPemdas*') ? 'active' : '' }}">
+        <i class="fa fa-object-ungroup m-2"></i><p class="ml-2">Validasi & QA</p>
     </a>
 </li>
-
-<li class="nav-item">
-    <a href="#"
-       class="nav-link">
-        <p>Ekspor</p>
-    </a>
-</li> -->

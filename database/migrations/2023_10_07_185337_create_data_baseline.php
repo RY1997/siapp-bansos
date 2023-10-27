@@ -21,7 +21,11 @@ class CreateDataBaseline extends Migration
             $table->date('tgl_perda')->nullable();
             $table->string('no_perkada_bansos')->nullable();
             $table->date('tgl_perkada_bansos')->nullable();
+            $table->text('link')->nullable();
+            $table->string('status')->nullable();
             $table->decimal('belanja_daerah', 22, 2);
+            $table->decimal('a_belanja_daerah', 22, 2)->default(0);
+            $table->decimal('r_belanja_daerah', 22, 2)->default(0);
             $table->decimal('5_1_02_01_01_0039', 22, 2);
             $table->decimal('5_1_02_02_02', 22, 2);
             $table->decimal('5_1_02_02_02_0001', 22, 2);
@@ -34,7 +38,11 @@ class CreateDataBaseline extends Migration
             $table->decimal('5_1_02_02_02_0008', 22, 2);
             $table->decimal('5_1_02_02_02_0009', 22, 2);
             $table->decimal('5_3', 22, 2);
+            $table->decimal('a_5_3', 22, 2)->default(0);
+            $table->decimal('r_5_3', 22, 2)->default(0);
             $table->decimal('5_1_06', 22, 2);
+            $table->decimal('a_5_1_06', 22, 2)->default(0);
+            $table->decimal('r_5_1_06', 22, 2)->default(0);
             $table->decimal('5_1_06_01', 22, 2);
             $table->decimal('5_1_06_01_01', 22, 2);
             $table->decimal('5_1_06_01_01_0001', 22, 2);

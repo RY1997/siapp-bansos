@@ -30,7 +30,7 @@
             <div class="card-footer">
                 <div class="float-right">
                     {!! Form::submit('Simpan', ['class' => 'btn btn-primary']) !!}
-                    <a href="{{ url('/ujiAktBansos/'.$daftarPemdaBaseline->id.'/'.$daftarOpd->id.'/') }}" class="btn btn-default">Batal</a>
+                    <a href="{{ url('/ujiAktBansos/'.$pemdaMonitoring->id.'/'.$daftarOpd->id.'/') }}" class="btn btn-default">Batal</a>
                 </div>
             </div>
 

@@ -32,15 +32,13 @@ class DaftarPemdaBaselineController extends AppBaseController
      */
     public function index(Request $request)
     {
-        $daftarPemdaBaselines = DaftarPemdaBaseline::all();
-
-        if (Auth::user()->role == 2) {
-            $daftarPemdaBaselines = $daftarPemdaBaselines->where(['kd_pwk' => Auth::user()->kd_pwk])->get();
-        } elseif (Auth::user()->role == 3) {
-            $daftarPemdaBaselines = $daftarPemdaBaselines->where(['nm_pemda' => Auth::user()->nm_pemda])->get();
+        if (Auth::user()->role == 'Admin') {
+            $daftarPemdaBaselines = DaftarPemdaBaseline::paginate(10);
+        } elseif (Auth::user()->role == 'Perwakilan BPKP') {
+            $daftarPemdaBaselines = DaftarPemdaBaseline::where(['kd_pwk' => Auth::user()->kd_pwk])->paginate(10);
+        } elseif (Auth::user()->role == 'Pemerintah Daerah') {
+            $daftarPemdaBaselines = DaftarPemdaBaseline::where(['nm_pemda' => Auth::user()->nm_pemda])->paginate(10);
         }
-
-        $daftarPemdaBaselines = DaftarPemdaBaseline::paginate(10);
 
         return view('daftar_pemda_baselines.index')
             ->with('daftarPemdaBaselines', $daftarPemdaBaselines);
@@ -138,7 +136,7 @@ class DaftarPemdaBaselineController extends AppBaseController
 
         Flash::success('Daftar Pemda Baseline updated successfully.');
 
-        return redirect(route('daftarPemdaBaselines.index'));
+        return redirect(url('daftarPemdaBaselines/'.$id.'/edit'));
     }
 
     /**

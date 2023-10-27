@@ -23,7 +23,7 @@
             <td>{{ $daftarPemdaBaseline->nm_pemda }}</td>
             <td>{{ $daftarPemdaBaseline->no_perda }}</td>
             <td>{{ $daftarPemdaBaseline->tgl_perda }}</td>
-            <td>{{ number_format($daftarPemdaBaseline->belanja_daerah,2,",",".") }}</td>
+            <td>@rupiah($daftarPemdaBaseline->belanja_daerah)</td>
             <td>{{ number_format($daftarPemdaBaseline->{'5_1_02_01_01_0039'},2,",",".") }}</td>
             <td>{{ number_format($daftarPemdaBaseline->{'5_1_02_02_02'},2,",",".") }}</td>
             <td>{{ number_format($daftarPemdaBaseline->{'5_1_06'},2,",",".") }}</td>

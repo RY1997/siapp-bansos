@@ -22,6 +22,7 @@ class UjiAktBansosRepository extends BaseRepository
         'nm_opd',
         'kd_rek',
         'uji_nm_aktivitas',
+        'jenis_bansos',
         'uji_bansos_sejenis',
         'uji_anggaran',
         'uji_realisasi',

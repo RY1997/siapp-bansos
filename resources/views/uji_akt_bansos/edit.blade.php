@@ -21,14 +21,14 @@
 
             <div class="card-body">
                 <div class="row">
-                    @include('uji_akt_bansos.edit_fields')
+                    @include('uji_akt_bansos.fields')
                 </div>
             </div>
 
             <div class="card-footer">
                 <div class="float-right">
                     {!! Form::submit('Simpan', ['class' => 'btn btn-primary']) !!}
-                    <a href="{{ url('/ujiAktBansos/'.$daftarPemdaBaseline->id.'/'.$daftarOpd->id.'/') }}" class="btn btn-default">Batal</a>
+                    <a href="{{ url('/ujiAktBansos/'.$pemdaMonitoring->id.'/'.$daftarOpd->id.'/') }}" class="btn btn-default">Batal</a>
                 </div>
             </div>
 

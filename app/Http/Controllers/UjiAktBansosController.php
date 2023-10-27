@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Requests\CreateUjiAktBansosRequest;
 use App\Http\Requests\UpdateUjiAktBansosRequest;
 use App\Models\DaftarOpd;
-use App\Models\DaftarPemdaBaseline;
+use App\Models\PemdaMonitoring;
 use App\Models\DataRekening;
 use App\Models\UjiAktBansos;
 use App\Repositories\UjiAktBansosRepository;
@@ -44,14 +44,14 @@ class UjiAktBansosController extends AppBaseController
         $ujiAktBansos = UjiAktBansos::where(['kd_pemda' => $pemda_id, 'kd_opd' => $opd_id])->get();
         $jenisBansos = $ujiAktBansos->groupBy('jenis');
 
-        $daftarPemdaBaseline = DaftarPemdaBaseline::where(['id' => $pemda_id])->first();
+        $pemdaMonitoring = PemdaMonitoring::where(['id' => $pemda_id])->first();
 
         $daftarOpd = DaftarOpd::where(['id' => $opd_id])->first();
 
         $dataRekening = DataRekening::where(['level' => 6])->get();
 
         return view('uji_akt_bansos.index')
-            ->with(['ujiAktBansos' => $ujiAktBansos, 'jenisBansos' => $jenisBansos, 'daftarPemdaBaseline' => $daftarPemdaBaseline, 'daftarOpd' => $daftarOpd, 'dataRekening' => $dataRekening]);
+            ->with(['ujiAktBansos' => $ujiAktBansos, 'jenisBansos' => $jenisBansos, 'pemdaMonitoring' => $pemdaMonitoring, 'daftarOpd' => $daftarOpd, 'dataRekening' => $dataRekening]);
     }
 
     /**
@@ -66,14 +66,14 @@ class UjiAktBansosController extends AppBaseController
 
     public function createaktbansos($pemda_id, $opd_id, $rek_id)
     {
-        $daftarPemdaBaseline = DaftarPemdaBaseline::where(['id' => $pemda_id])->first();
+        $pemdaMonitoring = PemdaMonitoring::where(['id' => $pemda_id])->first();
 
         $daftarOpd = DaftarOpd::where(['id' => $opd_id])->first();
 
         $dataRekening = DataRekening::where(['id' => $rek_id])->first();
         
         return view('uji_akt_bansos.create')
-            ->with(['daftarPemdaBaseline' => $daftarPemdaBaseline, 'daftarOpd' => $daftarOpd, 'dataRekening' => $dataRekening]);
+            ->with(['pemdaMonitoring' => $pemdaMonitoring, 'daftarOpd' => $daftarOpd, 'dataRekening' => $dataRekening]);
     }
 
     /**
@@ -125,7 +125,7 @@ class UjiAktBansosController extends AppBaseController
     {
         $ujiAktBansos = $this->ujiAktBansosRepository->find($id);
 
-        $daftarPemdaBaseline = DaftarPemdaBaseline::where(['id' => $ujiAktBansos->kd_pemda])->first();
+        $pemdaMonitoring = PemdaMonitoring::where(['id' => $ujiAktBansos->kd_pemda])->first();
 
         $daftarOpd = DaftarOpd::where(['id' => $ujiAktBansos->kd_opd])->first();
 
@@ -137,7 +137,7 @@ class UjiAktBansosController extends AppBaseController
             return redirect(route('ujiAktBansos.index'));
         }
 
-        return view('uji_akt_bansos.edit')->with(['ujiAktBansos' => $ujiAktBansos , 'daftarPemdaBaseline' => $daftarPemdaBaseline, 'daftarOpd' => $daftarOpd, 'dataRekening' => $dataRekening]);
+        return view('uji_akt_bansos.edit')->with(['ujiAktBansos' => $ujiAktBansos , 'pemdaMonitoring' => $pemdaMonitoring, 'daftarOpd' => $daftarOpd, 'dataRekening' => $dataRekening]);
     }
 
     /**

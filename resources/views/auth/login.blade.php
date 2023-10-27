@@ -34,7 +34,8 @@
 <body class="hold-transition login-page">
 <div class="login-box">
     <div class="login-logo">
-        <a href="{{ url('/home') }}"><b>SiAPP BANSOS</b></a>
+        <img class="my-1" src="https://upload.wikimedia.org/wikipedia/commons/1/11/BPKP_Logo.png" width="100">
+        <a class="my-3"><b>SiAPP BANSOS</b></a>
     </div>
 
     <!-- /.login-logo -->
@@ -42,21 +43,21 @@
     <!-- /.login-box-body -->
     <div class="card">
         <div class="card-body login-card-body">
-            <p class="login-box-msg">Sign in to start your session</p>
+            <p class="login-box-msg">Silahkan masuk dengan Login yang telah diberikan</p>
 
             <form method="post" action="{{ url('/login') }}">
                 @csrf
 
                 <div class="input-group mb-3">
-                    <input type="email"
-                           name="email"
-                           value="{{ old('email') }}"
-                           placeholder="Email"
-                           class="form-control @error('email') is-invalid @enderror">
+                    <input type="username"
+                           name="username"
+                           value="{{ old('username') }}"
+                           placeholder="Username"
+                           class="form-control @error('username') is-invalid @enderror">
                     <div class="input-group-append">
-                        <div class="input-group-text"><span class="fas fa-envelope"></span></div>
+                        <div class="input-group-text"><span class="fas fa-user"></span></div>
                     </div>
-                    @error('email')
+                    @error('username')
                     <span class="error invalid-feedback">{{ $message }}</span>
                     @enderror
                 </div>
