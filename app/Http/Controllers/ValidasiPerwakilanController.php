@@ -35,7 +35,7 @@ class ValidasiPerwakilanController extends AppBaseController
     {
         $validasiPerwakilans = DataPemda::join('data_baseline' , 'data_pemda.id' , '=' , 'data_baseline.id')->groupBy('data_pemda.kd_pwk')->selectRaw('*, sum(a_5_1_06) as sum_a_5_1_06, sum(r_5_1_06) as sum_r_5_1_06');
 
-        $rincianBansos = UjiAktBansos::where('kd_rek' , '>=' , 15)->where('kd_rek' , '<=' , 32)->join('data_baseline' , 'mon_bansos.kd_pemda' , '=' , 'data_baseline.id')->groupBy('kd_pwk')->selectRaw('*, sum(uji_anggaran) as sum_uji_anggaran, sum(uji_realisasi) as sum_uji_realisasi');
+        $rincianBansos = UjiAktBansos::whereBetween('kd_rek', [15, 32])->join('data_baseline' , 'mon_bansos.kd_pemda' , '=' , 'data_baseline.id')->groupBy('kd_pwk')->selectRaw('*, sum(uji_anggaran) as sum_uji_anggaran, sum(uji_realisasi) as sum_uji_realisasi');
 
         if (Auth::user()->role == 'Admin') {
             $validasiPerwakilans = $validasiPerwakilans->get();
