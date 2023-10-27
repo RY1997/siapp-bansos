@@ -42,21 +42,21 @@
             <td>@rupiah($pemdaMonitoring->belanja_daerah)</td>
             <td>@rupiah($pemdaMonitoring->a_belanja_daerah)</td>
             <td>@rupiah($pemdaMonitoring->r_belanja_daerah)</td>
-            <td>@if ($pemdaMonitoring->a_belanja_daerah > 0) @persen($pemdaMonitoring->r_belanja_daerah/$pemdaMonitoring->a_belanja_daerah) @else 0,00 @endif</td>
+            <td>@if ($pemdaMonitoring->a_belanja_daerah > 0) @persen($pemdaMonitoring->r_belanja_daerah/$pemdaMonitoring->a_belanja_daerah * 100) @else 0,00 @endif</td>
         </tr>
         <tr>
             <td class="text-left">Anggaran Belanja Bansos 2023</td>
             <td>@rupiah($pemdaMonitoring->{'5_1_06'})</td>
             <td>@rupiah($pemdaMonitoring->a_5_1_06)</td>
             <td>@rupiah($pemdaMonitoring->r_5_1_06)</td>
-            <td>@if ($pemdaMonitoring->a_5_1_06 > 0) @persen($pemdaMonitoring->r_5_1_06/$pemdaMonitoring->a_5_1_06) @else 0,00 @endif</td>
+            <td>@if ($pemdaMonitoring->a_5_1_06 > 0) @persen($pemdaMonitoring->r_5_1_06/$pemdaMonitoring->a_5_1_06 * 100) @else 0,00 @endif</td>
         </tr>
         <tr>
             <td class="text-left">Belanja Tidak Terduga (BTT)</td>
             <td>@rupiah($pemdaMonitoring->{'5_3'})</td>
             <td>@rupiah($pemdaMonitoring->a_5_3)</td>
             <td>@rupiah($pemdaMonitoring->r_5_3)</td>
-            <td>@if ($pemdaMonitoring->a_5_3 > 0) @persen($pemdaMonitoring->r_5_3/$pemdaMonitoring->a_5_3) @else 0,00 @endif</td>
+            <td>@if ($pemdaMonitoring->a_5_3 > 0) @persen($pemdaMonitoring->r_5_3/$pemdaMonitoring->a_5_3 * 100) @else 0,00 @endif</td>
         </tr>
     </tbody>
 </table>
