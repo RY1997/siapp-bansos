@@ -100,7 +100,7 @@
                             <td>Persentase realisasi belanja bansos tidak direncanakan/anggaran BTT</td>
                             <td>
                             @if ($ujiMonitoring->where('kd_rek' , 33)->sum('uji_anggaran') > 0)
-                                @persen($ujiMonitoring->where('kd_rek' , 33)->sum('uji_realisasi') / $ujiMonitoring->where('kd_rek' , 33)->sum('uji_anggaran'))%
+                                @persen($ujiMonitoring->where('kd_rek' , 33)->sum('uji_realisasi') / $ujiMonitoring->where('kd_rek' , 33)->sum('uji_anggaran') * 100)%
                             @else
                                 0,00%
                             @endif
