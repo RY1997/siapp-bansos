@@ -23,7 +23,7 @@
     <div class="col-sm-4">
         <div class="small-box bg-danger">
             <div class="inner">
-                <p class="mb-0">Belanja Daerah</p>
+                <p class="mb-0">Realisasi Belanja Daerah</p>
                 <h3>@rupiah($pemdaMonitoring->sum('r_belanja_daerah')/1000000000) M</h3>
                 <p>dari anggaran @rupiah($pemdaMonitoring->sum('a_belanja_daerah')/1000000000) M</p>
             </div>
@@ -36,7 +36,7 @@
     <div class="col-sm-4">
         <div class="small-box bg-warning">
             <div class="inner">
-                <p class="mb-0">Belanja Bantuan Sosial</p>
+                <p class="mb-0">Realisasi Belanja Bantuan Sosial</p>
                 <h3>@rupiah($pemdaMonitoring->sum('r_5_1_06')/1000000000) M</h3>
                 <p>dari anggaran @rupiah($pemdaMonitoring->sum('a_5_1_06')/1000000000) M</p>
             </div>
@@ -49,7 +49,7 @@
     <div class="col-sm-4">
         <div class="small-box bg-primary">
             <div class="inner">
-                <p class="mb-0">Belanja Tidak Terduga</p>
+                <p class="mb-0">Realisasi Belanja Tidak Terduga</p>
                 <h3>@rupiah($pemdaMonitoring->sum('r_5_3')/1000000000) M</h3>
                 <p>dari anggaran @rupiah($pemdaMonitoring->sum('a_5_3')/1000000000) M</p>
             </div>

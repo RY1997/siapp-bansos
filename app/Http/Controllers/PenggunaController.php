@@ -38,8 +38,10 @@ class PenggunaController extends AppBaseController
 
         if (Auth()->user()->role == 'Admin') {
             $penggunas = Pengguna::paginate(10);
-        } else {
+        } elseif (Auth()->user()->role == 'Perwakilan BPKP') {
             $penggunas = Pengguna::where(['kd_pwk' => Auth()->user()->kd_pwk])->paginate(10);
+        } else {
+            $penggunas = Pengguna::where(['id' => Auth()->user()->id])->paginate(10);
         }
 
         return view('penggunas.index')
@@ -126,10 +128,10 @@ class PenggunaController extends AppBaseController
 
         if ($pengguna->role == 'Admin') {
             $pemda = DataPemda::all('nm_pemda');
-            $kd_pwk = User::get('kd_pwk');
+            $kd_pwk = User::groupBy('kd_pwk')->get('kd_pwk');
         } else {
             $pemda = DataPemda::where(['kd_pwk' => $pengguna->kd_pwk])->get('nm_pemda');
-            $kd_pwk = User::get('kd_pwk');
+            $kd_pwk = User::groupBy('kd_pwk')->get('kd_pwk');
         }
 
         return view('penggunas.edit')->with(['pengguna' => $pengguna, 'pemda' => $pemda, 'kd_pwk' => $kd_pwk]);

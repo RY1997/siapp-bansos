@@ -70,13 +70,9 @@
 </div>
 <div class="form-group col-sm-9">
     @if ($dataRekening->id == 15 || $dataRekening->id == 20 || $dataRekening->id == 25 || $dataRekening->id == 30)
-    <select class="form-control text-sm custom-select" id="jenis_bansos" name="jenis_bansos" readonly>
-        <option value="Uang" selected>Uang</option>
-    </select>
+    <input class="form-control text-sm" type="text" id="jenis_bansos" name="jenis_bansos" value="Uang" readonly>
     @elseif ($dataRekening->id == 17 || $dataRekening->id == 22 || $dataRekening->id == 27 || $dataRekening->id == 32)
-    <select class="form-control text-sm custom-select" id="jenis_bansos" name="jenis_bansos" readonly>
-        <option value="Barang" selected>Barang</option>
-    </select>
+    <input class="form-control text-sm" type="text" id="jenis_bansos" name="jenis_bansos" value="Barang" readonly>
     @else
     {!! Form::select('jenis_bansos', ['' => 'Pilih', 'Uang' => 'Uang', 'Barang' => 'Barang'], null, ['class' => 'form-control text-sm custom-select']) !!}
     @endif
@@ -142,7 +138,7 @@
     <p>Basis Data Penyaluran</p>
 </div>
 <div class="form-group col-sm-3">
-    {!! Form::select('uji_basis_salur', ['' => 'Pilih', 'DTKS' => 'DTKS', 'Basis Data Daerah' => 'Basis Data Daerah', 'Hasil Pendataan Mandiri' => 'Hasil Pendataan Mandiri', 'Basis Data Lainnya' => 'Basis Data Lainnya'], null, ['class' => 'form-control text-sm custom-select']) !!}
+    {!! Form::select('uji_basis_salur', ['' => 'Pilih', 'DTKS' => 'DTKS', 'Pemadanan DTKS' => 'Pemadanan DTKS', 'Basis Data Daerah' => 'Basis Data Daerah', 'Hasil Pendataan Mandiri' => 'Hasil Pendataan Mandiri', 'Basis Data Lainnya' => 'Basis Data Lainnya'], null, ['class' => 'form-control text-sm custom-select']) !!}
 </div>
 <div class="form-group col-sm-2">
     <p>Keterangan Basis Salur</p>

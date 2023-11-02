@@ -101,7 +101,7 @@
     <!-- Main Footer -->
     <footer class="main-footer">
         <div class="float-right d-none d-sm-block">
-            <b>Versi</b> 1.0
+            <b>Versi</b> 1.2.b
         </div>
         <a>
            SiAPP BANSOS &copy; 2023 | Direktorat Pengawasan Akuntabilitas Program Lintas Sektoral Pembangunan Daerah

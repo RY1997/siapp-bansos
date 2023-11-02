@@ -94,7 +94,12 @@ class PemdaMonitoringController extends AppBaseController
             return redirect(route('pemdaMonitorings.index'));
         }
 
-        return view('pemda_monitorings.show')->with(['pemdaMonitoring' => $pemdaMonitoring, 'daftarOpd' => $daftarOpd, 'ujiAktBansos' => $ujiAktBansos]);
+        if ($pemdaMonitoring->status == 'Draft') {
+            return view('pemda_monitorings.show')->with(['pemdaMonitoring' => $pemdaMonitoring, 'daftarOpd' => $daftarOpd, 'ujiAktBansos' => $ujiAktBansos]);
+        } else {
+            Flash::error('Data Sudah Difinalkan');
+            return redirect(route('pemdaMonitorings.index'));
+        }
     }
 
     /**
@@ -137,9 +142,15 @@ class PemdaMonitoringController extends AppBaseController
 
         $pemdaMonitoring = $this->pemdaMonitoringRepository->update($request->all(), $id);
 
-        Flash::success('Pemda Monitoring updated successfully.');
+        $status = $this->pemdaMonitoringRepository->find($id);
 
-        return redirect(route('pemdaMonitorings.show', $id));
+        if ($status->status == 'Draft') {
+            Flash::success('Pemda Monitoring updated successfully.');
+            return redirect(route('pemdaMonitorings.show', $id));
+        } else {
+            Flash::success('Pemda Monitoring updated successfully.');
+            return redirect(route('pemdaMonitorings.index'));
+        }
     }
 
     /**

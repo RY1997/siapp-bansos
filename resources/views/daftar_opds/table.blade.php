@@ -37,7 +37,13 @@
             <td>@rupiah($ujiAktBansos->where('nm_opd', $daftarOpd->opd)->where('kd_rek', 4)->sum('uji_anggaran') + 
                 $ujiAktBansos->where('nm_opd', $daftarOpd->opd)->where('kd_rek', 5)->sum('uji_anggaran') + 
                 $ujiAktBansos->where('nm_opd', $daftarOpd->opd)->where('kd_rek', 6)->sum('uji_anggaran'))</td>
-            <td class="text-center">{{ $pemdaMonitoring->{$daftarOpd->kd_column} > 0 ? "Wajib Diisi" : "Opsional" }}</td>
+            <td class="text-center">
+                @if ($ujiAktBansos->where('nm_opd', $daftarOpd->opd)->sum('uji_anggaran') > 0)
+                <span class="badge bg-primary text-xs">Sudah Diisi</span>
+                @else ($pemdaMonitoring->{$daftarOpd->kd_column} > 0)
+                {{ $pemdaMonitoring->{$daftarOpd->kd_column} > 0 ? "OPD Wajib" : "Opsional" }}
+                @endif
+            </td>
                 <td width="120">
                     <div class='btn-group'>
                         <a href="{{ url('/ujiAktBansos/'.$pemdaMonitoring->id.'/'.$daftarOpd->id.'/') }}"

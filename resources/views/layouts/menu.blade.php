@@ -20,7 +20,7 @@
 </li>
 
 <li class="nav-item">
-    <a href="{{ route('validasiPerwakilans.index') }}"
+    <a href="{{ Auth::user()->role != 'Pemerintah Daerah' ? route('validasiPerwakilans.index') : route('validasiPerwakilans.show', [Auth::user()->kd_pwk]) }}"
        class="nav-link {{ Request::is('validasiPerwakilans*') || Request::is('validasiPemdas*') ? 'active' : '' }}">
         <i class="fa fa-object-ungroup m-2"></i><p class="ml-2">Validasi & QA</p>
     </a>

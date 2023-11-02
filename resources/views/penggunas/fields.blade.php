@@ -27,18 +27,15 @@
 <div class="form-group col-sm-3">
     <p>Peran</p>
 </div>
+@if (Auth::user()->role == 'Admin')
 <div class="form-group col-sm-9">
-    <select class="form-control text-sm custom-select" id="role" name="role">
-        <option selected>Pilih</option>
-        @if (Auth::user()->role == 'Admin')
-        <option value="Admin">Admin</option>
-        @endif
-        @if (Auth::user()->role == 'Admin' || Auth::user()->role == 'Perwakilan BPKP')
-        <option value="Perwakilan BPKP">Perwakilan BPKP</option>
-        @endif
-        <option value="Pemerintah Daerah">Pemerintah Daerah</option>
-    </select>
+    {!! Form::select('role', ['' => 'Pilih', 'Admin' => 'Admin', 'Perwakilan BPKP' => 'Perwakilan BPKP'], null, ['class' => 'form-control text-sm custom-select']) !!}
 </div>
+@else
+<div class="form-group col-sm-9">
+    <input class="form-control text-sm" type="text" id="role" name="role" value="{{ Auth::user()->role }}" readonly>
+</div>
+@endif
 
 <!-- Kd Pwk Field -->
 @if (Auth::user()->role == 'Admin')
@@ -49,7 +46,7 @@
     <select class="form-control text-sm custom-select" id="kd_pwk" name="kd_pwk">
         <option selected>Pilih</option>
         @foreach ($kd_pwk as $data1)
-        <option value="{{ $data1->kd_pwk }}">{{ $data1->kd_pwk }}</option>
+        <option value="{{ $data1->kd_pwk }}" {{ $data1->kd_pwk == $pengguna->kd_pwk ? 'selected' : '' }}>{{ $data1->kd_pwk }}</option>
         @endforeach    
     </select>
 </div>
@@ -59,11 +56,17 @@
 <div class="form-group col-sm-3">
     <p>Unit Kerja</p>
 </div>
+@if (Auth::user()->role == 'Admin')
 <div class="form-group col-sm-9">
     <select class="form-control text-sm custom-select" id="nm_pemda" name="nm_pemda">
         <option selected>Pilih</option>
-        @foreach ($pemda as $data)
-        <option value="{{ $data->nm_pemda }}">{{ $data->nm_pemda }}</option>
+        @foreach ($pemda as $data2)
+        <option value="{{ $data2->nm_pemda }}" {{ $data2->nm_pemda == $pengguna->nm_pemda ? 'selected' : '' }}>{{ $data2->nm_pemda }}</option>
         @endforeach    
     </select>
 </div>
+@else
+<div class="form-group col-sm-9">
+    <input class="form-control text-sm" type="text" id="nm_pemda" name="nm_pemda" value="{{ Auth::user()->nm_pemda }}" readonly>
+</div>
+@endif

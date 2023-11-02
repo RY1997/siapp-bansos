@@ -8,7 +8,7 @@
                     <h1>Daftar Pengguna</h1>
                 </div>
                 <div class="col-sm-6">
-                    @if (Auth::user()->role != 3)
+                    @if (Auth::user()->role == 'Admin')
                     <a class="btn btn-primary float-right"
                        href="{{ route('penggunas.create') }}">
                         + User

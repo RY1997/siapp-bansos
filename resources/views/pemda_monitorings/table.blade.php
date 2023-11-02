@@ -5,7 +5,7 @@
             <th rowspan="2">Pemerintah Daerah</th>
             <th colspan="2">Perda APBD</th>
             <th colspan="5">Anggaran Bansos dalam SIPD</th>
-            <th colspan="3" style="min-width:120px;" rowspan="2">Aksi</th>
+            <th colspan="3" style="min-width:80px;" rowspan="2">Aksi</th>
         </tr>
         <tr>
             <th>Nomor</th>
@@ -28,22 +28,19 @@
             <td>@rupiah($pemdaMonitoring->{'5_1_02_02_02'})</td>
             <td>@rupiah($pemdaMonitoring->{'5_1_06'})</td>
             <td>@rupiah($pemdaMonitoring->{'5_3'})</td>
-                <td width="120">
-                    <!-- {!! Form::open(['route' => ['pemdaMonitorings.destroy', $pemdaMonitoring->id], 'method' => 'delete']) !!} -->
-                    <div class='btn-group'>
-                        <!-- <a href="{{ route('pemdaMonitorings.show', [$pemdaMonitoring->id]) }}"
-                           class='btn btn-default btn-xs'>
-                            <i class="far fa-eye"></i>
-                        </a> -->
-                        <a href="{{ route('pemdaMonitorings.show', [$pemdaMonitoring->id]) }}"
-                           class='btn btn-success btn-sm'>
-                            <i class="fa fa-paper-plane"></i>  Isi
-                        </a>
-                        <!-- {!! Form::button('<i class="far fa-trash-alt"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-xs', 'onclick' => "return confirm('Are you sure?')"]) !!} -->
-                    </div>
-                    <!-- {!! Form::close() !!} -->
-                </td>
-            </tr>
+            <td width="80">
+                @if ($pemdaMonitoring->status == 'Draft')
+                <div class='btn-group'>
+                    <a href="{{ route('pemdaMonitorings.show', [$pemdaMonitoring->id]) }}"
+                        class='btn btn-success btn-sm'>
+                        <i class="fa fa-paper-plane"></i>  Isi
+                    </a>
+                </div>
+                @else
+                <span class="badge bg-primary text-sm">Final</span>
+                @endif
+            </td>
+        </tr>
         @endforeach
         </tbody>
     </table>
