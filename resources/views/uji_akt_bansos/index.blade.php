@@ -59,12 +59,6 @@
         <div class="card">
             <div class="card-body p-3">
                 @include('uji_akt_bansos.table')
-
-                <div class="card-footer clearfix">
-                    <div class="float-right">
-                        
-                    </div>
-                </div>
             </div>
 
         </div>
