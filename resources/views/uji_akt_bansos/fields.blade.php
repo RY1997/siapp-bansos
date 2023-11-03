@@ -138,7 +138,7 @@
     <p>Basis Data Penyaluran</p>
 </div>
 <div class="form-group col-sm-3">
-    {!! Form::select('uji_basis_salur', ['' => 'Pilih', 'DTKS' => 'DTKS', 'Pemadanan DTKS' => 'Pemadanan DTKS', 'Basis Data Daerah' => 'Basis Data Daerah', 'Hasil Pendataan Mandiri' => 'Hasil Pendataan Mandiri', 'Basis Data Lainnya' => 'Basis Data Lainnya'], null, ['class' => 'form-control text-sm custom-select']) !!}
+    {!! Form::select('uji_basis_salur', ['' => 'Pilih', 'DTKS' => 'DTKS', 'Data Pensasaran Percepatan Penghapusan Kemiskinan Ekstrem (P3KE)' => 'Data Pensasaran Percepatan Penghapusan Kemiskinan Ekstrem (P3KE)', 'Basis Data Daerah' => 'Basis Data Daerah', 'Hasil Pendataan Mandiri' => 'Hasil Pendataan Mandiri', 'Basis Data Lainnya' => 'Basis Data Lainnya'], null, ['class' => 'form-control text-sm custom-select']) !!}
 </div>
 <div class="form-group col-sm-2">
     <p>Keterangan Basis Salur</p>
