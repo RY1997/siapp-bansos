@@ -29,7 +29,7 @@
             <td>@rupiah($pemdaMonitoring->{'5_1_06'})</td>
             <td>@rupiah($pemdaMonitoring->{'5_3'})</td>
             <td width="120">
-                @if ($pemdaMonitoring->status == 'Draft')
+                @if ($pemdaMonitoring->status != 'Final')
                 <div class='btn-group'>
                     <a href="{{ route('pemdaMonitorings.show', [$pemdaMonitoring->id]) }}"
                         class='btn btn-success btn-sm'>
