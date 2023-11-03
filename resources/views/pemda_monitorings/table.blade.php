@@ -36,7 +36,7 @@
                         <i class="fa fa-paper-plane"></i>  Isi
                     </a>
                 </div>
-                @elseif (Auth::user()->role != 'Pemerintah Daerah')
+                @elseif (Auth::user()->role == 'Admin')
                 <div class='btn-group'>
                     <a href="{{ route('pemdaMonitorings.show', [$pemdaMonitoring->id]) }}"
                         class='btn btn-primary btn-sm'>
