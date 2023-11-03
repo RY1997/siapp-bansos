@@ -33,7 +33,7 @@
 </div>
 @else
 <div class="form-group col-sm-9">
-    <input class="form-control text-sm" type="text" id="role" name="role" value="{{ Auth::user()->role }}" readonly>
+    <input class="form-control text-sm" type="text" id="role" name="role" value="{{ $pengguna->role }}" readonly>
 </div>
 @endif
 
