@@ -59,11 +59,13 @@
                 @endif
             </div>
             @endif
+            @if ($pemdaMonitoring->status == 'Draft' || Auth::user()->role != 'Pemerintah Daerah')
             <div class="card-footer">
                 <div class="float-right">
                     <a href="{{ route('pemdaMonitorings.edit', [$pemdaMonitoring->id]) }}" class="btn btn-success"><i class="fa fa-pen"></i>  Ubah Profil Pemda</a>
                 </div>
             </div>
+            @endif
         </div>
 
         <div class="card p-3">
