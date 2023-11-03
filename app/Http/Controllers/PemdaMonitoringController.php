@@ -94,7 +94,7 @@ class PemdaMonitoringController extends AppBaseController
             return redirect(route('pemdaMonitorings.index'));
         }
 
-        if ($pemdaMonitoring->status == 'Draft' || Auth::user()->role != 'Pemerintah Daerah') {
+        if ($pemdaMonitoring->status == 'Draft' || Auth::user()->role == 'Admin') {
             return view('pemda_monitorings.show')->with(['pemdaMonitoring' => $pemdaMonitoring, 'daftarOpd' => $daftarOpd, 'ujiAktBansos' => $ujiAktBansos]);
         } else {
             Flash::error('Data Sudah Difinalkan');

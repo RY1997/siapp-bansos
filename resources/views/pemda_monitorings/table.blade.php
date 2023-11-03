@@ -36,13 +36,6 @@
                         <i class="fa fa-paper-plane"></i>  Isi
                     </a>
                 </div>
-                @elseif (Auth::user()->role == 'Admin')
-                <div class='btn-group'>
-                    <a href="{{ route('pemdaMonitorings.show', [$pemdaMonitoring->id]) }}"
-                        class='btn btn-primary btn-sm'>
-                        <i class="fa fa-paper-plane"></i>  Final
-                    </a>
-                </div>
                 @else
                 <div class="btn-group">
                     <button class="btn btn-primary btn-sm" disabled>Final</button>
