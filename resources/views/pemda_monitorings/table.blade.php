@@ -45,7 +45,7 @@
                 </div>
                 @else
                 <div class="btn-group">
-                    <a href="" class="btn btn-primary btn-sm" disabled>Final</a>
+                    <button class="btn btn-primary btn-sm" disabled>Final</button>
                 </div>
                 @endif
             </td>
