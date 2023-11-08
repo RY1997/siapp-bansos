@@ -392,7 +392,7 @@
                     <tr class="bg-primary">
                         <th>Jenis Belanja</th>
                         <th>DTKS</th>
-                        <th>Pemadanan DTKS</th>
+                        <th>Basis Data P3KE</th>
                         <th>Basis Data Daerah</th>
                         <th>Hasil Pendataan Mandiri</th>
                         <th>Basis Data Lainnya</th>
