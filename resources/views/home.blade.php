@@ -407,7 +407,7 @@
 
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 15)->where('uji_basis_salur' , 'DTKS')->sum('uji_anggaran') + $ujiMonitoring->where('kd_rek' , 17)->where('uji_basis_salur' , 'DTKS')->sum('uji_anggaran'))</td>
 
-                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 15)->where('uji_basis_salur' , 'Pemadanan DTKS')->sum('uji_anggaran') + $ujiMonitoring->where('kd_rek' , 17)->where('uji_basis_salur' , 'Pemadanan DTKS')->sum('uji_anggaran'))</td>
+                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 15)->where('uji_basis_salur' , 'Data Pensasaran Percepatan Penghapusan Kemiskinan Ekstrem (P3KE)')->sum('uji_anggaran') + $ujiMonitoring->where('kd_rek' , 17)->where('uji_basis_salur' , 'Data Pensasaran Percepatan Penghapusan Kemiskinan Ekstrem (P3KE)')->sum('uji_anggaran'))</td>
 
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 15)->where('uji_basis_salur' , 'Basis Data Daerah')->sum('uji_anggaran') + $ujiMonitoring->where('kd_rek' , 17)->where('uji_basis_salur' , 'Basis Data Daerah')->sum('uji_anggaran'))</td>
 
@@ -420,7 +420,7 @@
 
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 20)->where('uji_basis_salur' , 'DTKS')->sum('uji_anggaran') + $ujiMonitoring->where('kd_rek' , 22)->where('uji_basis_salur' , 'DTKS')->sum('uji_anggaran'))</td>
 
-                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 20)->where('uji_basis_salur' , 'Pemadanan DTKS')->sum('uji_anggaran') + $ujiMonitoring->where('kd_rek' , 22)->where('uji_basis_salur' , 'Pemadanan DTKS')->sum('uji_anggaran'))</td>
+                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 20)->where('uji_basis_salur' , 'Data Pensasaran Percepatan Penghapusan Kemiskinan Ekstrem (P3KE)')->sum('uji_anggaran') + $ujiMonitoring->where('kd_rek' , 22)->where('uji_basis_salur' , 'Data Pensasaran Percepatan Penghapusan Kemiskinan Ekstrem (P3KE)')->sum('uji_anggaran'))</td>
 
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 20)->where('uji_basis_salur' , 'Basis Data Daerah')->sum('uji_anggaran') + $ujiMonitoring->where('kd_rek' , 22)->where('uji_basis_salur' , 'Basis Data Daerah')->sum('uji_anggaran'))</td>
 
@@ -433,7 +433,7 @@
 
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 25)->where('uji_basis_salur' , 'DTKS')->sum('uji_anggaran') + $ujiMonitoring->where('kd_rek' , 27)->where('uji_basis_salur' , 'DTKS')->sum('uji_anggaran'))</td>
 
-                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 25)->where('uji_basis_salur' , 'Pemadanan DTKS')->sum('uji_anggaran') + $ujiMonitoring->where('kd_rek' , 27)->where('uji_basis_salur' , 'Pemadanan DTKS')->sum('uji_anggaran'))</td>
+                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 25)->where('uji_basis_salur' , 'Data Pensasaran Percepatan Penghapusan Kemiskinan Ekstrem (P3KE)')->sum('uji_anggaran') + $ujiMonitoring->where('kd_rek' , 27)->where('uji_basis_salur' , 'Data Pensasaran Percepatan Penghapusan Kemiskinan Ekstrem (P3KE)')->sum('uji_anggaran'))</td>
 
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 25)->where('uji_basis_salur' , 'Basis Data Daerah')->sum('uji_anggaran') + $ujiMonitoring->where('kd_rek' , 27)->where('uji_basis_salur' , 'Basis Data Daerah')->sum('uji_anggaran'))</td>
 
@@ -446,7 +446,7 @@
 
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 30)->where('uji_basis_salur' , 'DTKS')->sum('uji_anggaran') + $ujiMonitoring->where('kd_rek' , 32)->where('uji_basis_salur' , 'DTKS')->sum('uji_anggaran'))</td>
 
-                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 30)->where('uji_basis_salur' , 'Pemadanan DTKS')->sum('uji_anggaran') + $ujiMonitoring->where('kd_rek' , 32)->where('uji_basis_salur' , 'Pemadanan DTKS')->sum('uji_anggaran'))</td>
+                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 30)->where('uji_basis_salur' , 'Data Pensasaran Percepatan Penghapusan Kemiskinan Ekstrem (P3KE)')->sum('uji_anggaran') + $ujiMonitoring->where('kd_rek' , 32)->where('uji_basis_salur' , 'Data Pensasaran Percepatan Penghapusan Kemiskinan Ekstrem (P3KE)')->sum('uji_anggaran'))</td>
 
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 30)->where('uji_basis_salur' , 'Basis Data Daerah')->sum('uji_anggaran') + $ujiMonitoring->where('kd_rek' , 32)->where('uji_basis_salur' , 'Basis Data Daerah')->sum('uji_anggaran'))</td>
 
@@ -462,7 +462,7 @@
 
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Orang')->where('uji_basis_salur' , 'DTKS')->sum('uji_anggaran'))</td>
 
-                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Orang')->where('uji_basis_salur' , 'Pemadanan DTKS')->sum('uji_anggaran'))</td>
+                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Orang')->where('uji_basis_salur' , 'Data Pensasaran Percepatan Penghapusan Kemiskinan Ekstrem (P3KE)')->sum('uji_anggaran'))</td>
 
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Orang')->where('uji_basis_salur' , 'Basis Data Daerah')->sum('uji_anggaran'))</td>
 
@@ -475,7 +475,7 @@
 
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Keluarga')->where('uji_basis_salur' , 'DTKS')->sum('uji_anggaran'))</td>
 
-                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Keluarga')->where('uji_basis_salur' , 'Pemadanan DTKS')->sum('uji_anggaran'))</td>
+                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Keluarga')->where('uji_basis_salur' , 'Data Pensasaran Percepatan Penghapusan Kemiskinan Ekstrem (P3KE)')->sum('uji_anggaran'))</td>
 
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Keluarga')->where('uji_basis_salur' , 'Basis Data Daerah')->sum('uji_anggaran'))</td>
 
@@ -488,7 +488,7 @@
 
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Kelompok Masyarakat')->where('uji_basis_salur' , 'DTKS')->sum('uji_anggaran'))</td>
 
-                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Kelompok Masyarakat')->where('uji_basis_salur' , 'Pemadanan DTKS')->sum('uji_anggaran'))</td>
+                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Kelompok Masyarakat')->where('uji_basis_salur' , 'Data Pensasaran Percepatan Penghapusan Kemiskinan Ekstrem (P3KE)')->sum('uji_anggaran'))</td>
 
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Kelompok Masyarakat')->where('uji_basis_salur' , 'Basis Data Daerah')->sum('uji_anggaran'))</td>
 
@@ -501,7 +501,7 @@
 
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Lembaga Non Pemerintahan')->where('uji_basis_salur' , 'DTKS')->sum('uji_anggaran'))</td>
 
-                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Lembaga Non Pemerintahan')->where('uji_basis_salur' , 'Pemadanan DTKS')->sum('uji_anggaran'))</td>
+                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Lembaga Non Pemerintahan')->where('uji_basis_salur' , 'Data Pensasaran Percepatan Penghapusan Kemiskinan Ekstrem (P3KE)')->sum('uji_anggaran'))</td>
 
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Lembaga Non Pemerintahan')->where('uji_basis_salur' , 'Basis Data Daerah')->sum('uji_anggaran'))</td>
 
