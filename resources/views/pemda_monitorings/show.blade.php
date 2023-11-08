@@ -68,12 +68,14 @@
             @endif
         </div>
 
+        @if ($pemdaMonitoring->a_belanja_daerah > 1)
         <div class="card p-3">
             <h6>Daftar Urusan/OPD</h6>
             <div class="card-body p-0 mt-2">
                 @include('daftar_opds.table')
             </div>
         </div>
+        @endif
     </div>
     </div>
 @endsection
