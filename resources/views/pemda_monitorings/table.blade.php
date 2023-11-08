@@ -1,3 +1,10 @@
+<form class="input-group col-sm-4 float-right mb-2">
+    <input class="form-control" type="text" name="pemda" value="{{ $search != NULL ? $search : '' }}" placeholder="Ketik Nama Pemda..." />
+    <div class="input-group-append">
+        <button class="btn btn-success">Cari</button>
+    </div>
+</form>
+
 <div class="table-responsive">
     <table class="table table-bordered text-center" id="pemdaMonitorings-table">
     <thead class="bg-primary">
@@ -34,6 +41,12 @@
                     <a href="{{ route('pemdaMonitorings.show', [$pemdaMonitoring->id]) }}"
                         class='btn btn-success btn-sm'>
                         <i class="fa fa-paper-plane"></i>  Isi
+                    </a>
+                </div>
+                @elseif (Auth()->user()->role == 'Admin')
+                <div class="btn-group">
+                    <a href="{{ route('pemdaMonitorings.show', [$pemdaMonitoring->id]) }}"
+                        class='btn btn-primary btn-sm'>Ubah Final
                     </a>
                 </div>
                 @else

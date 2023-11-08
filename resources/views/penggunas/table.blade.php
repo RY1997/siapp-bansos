@@ -1,8 +1,15 @@
+<form class="input-group col-sm-4 float-right mb-2">
+    <input class="form-control" type="text" name="pengguna" value="{{ $search != NULL ? $search : '' }}" placeholder="Ketik Nama Pengguna..." />
+    <div class="input-group-append">
+        <button class="btn btn-success">Cari</button>
+    </div>
+</form>
+
 <div class="table-responsive">
     <table class="table table-bordered" id="penggunas-table">
         <thead class="bg-primary">
         <tr>
-        <th>Name</th>
+        <th>Nama Pengguna</th>
         <th>Username</th>
         <th>Peran</th>
         <th>Grup</th>

@@ -37,15 +37,17 @@ class PenggunaController extends AppBaseController
         // $penggunas = $this->penggunaRepository;
 
         if (Auth()->user()->role == 'Admin') {
-            $penggunas = Pengguna::paginate(10);
+            $penggunas = Pengguna::where('name', 'like', '%' . $request->query('pengguna') . '%')->paginate(10);
         } elseif (Auth()->user()->role == 'Perwakilan BPKP') {
-            $penggunas = Pengguna::where(['kd_pwk' => Auth()->user()->kd_pwk])->paginate(10);
+            $penggunas = Pengguna::where('name', 'like', '%' . $request->query('pengguna') . '%')->where(['kd_pwk' => Auth()->user()->kd_pwk])->paginate(10);
         } else {
-            $penggunas = Pengguna::where(['id' => Auth()->user()->id])->paginate(10);
+            $penggunas = Pengguna::where('name', 'like', '%' . $request->query('pengguna') . '%')->where(['id' => Auth()->user()->id])->paginate(10);
         }
 
+        $search = $request->query('pengguna');
+
         return view('penggunas.index')
-            ->with('penggunas', $penggunas);
+            ->with(['penggunas' => $penggunas , 'search'=> $search]);
     }
 
     /**

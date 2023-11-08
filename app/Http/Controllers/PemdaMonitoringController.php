@@ -34,15 +34,17 @@ class PemdaMonitoringController extends AppBaseController
     public function index(Request $request)
     {
         if (Auth::user()->role == 'Admin') {
-            $pemdaMonitorings = DaftarPemdaBaseline::paginate(10);
+            $pemdaMonitorings = DaftarPemdaBaseline::where('nm_pemda', 'like', '%' . $request->query('pemda') . '%')->paginate(10);
         } elseif (Auth::user()->role == 'Perwakilan BPKP') {
-            $pemdaMonitorings = DaftarPemdaBaseline::where(['kd_pwk' => Auth::user()->kd_pwk])->paginate(10);
+            $pemdaMonitorings = DaftarPemdaBaseline::where('nm_pemda', 'like', '%' . $request->query('pemda') . '%')->where(['kd_pwk' => Auth::user()->kd_pwk])->paginate(10);
         } elseif (Auth::user()->role == 'Pemerintah Daerah') {
-            $pemdaMonitorings = DaftarPemdaBaseline::where(['nm_pemda' => Auth::user()->nm_pemda])->paginate(10);
+            $pemdaMonitorings = DaftarPemdaBaseline::where('nm_pemda', 'like', '%' . $request->query('pemda') . '%')->where(['nm_pemda' => Auth::user()->nm_pemda])->paginate(10);
         }
         
+        $search = $request->query('pemda');
+
         return view('pemda_monitorings.index')
-            ->with('pemdaMonitorings', $pemdaMonitorings);
+            ->with(['pemdaMonitorings' => $pemdaMonitorings , 'search' => $search]);
     }
 
     /**
