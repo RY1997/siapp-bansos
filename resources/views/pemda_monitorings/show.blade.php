@@ -62,7 +62,7 @@
             @if ($pemdaMonitoring->status != 'Final' || Auth::user()->role == 'Admin')
             <div class="card-footer">
                 <div class="float-right">
-                    <a href="{{ route('pemdaMonitorings.edit', [$pemdaMonitoring->id]) }}" class="btn btn-success"><i class="fa fa-pen"></i>  Ubah Profil Pemda</a>
+                    <a href="{{ route('pemdaMonitorings.edit', [$pemdaMonitoring->id]) }}" class="btn btn-success"><i class="fa fa-pen"></i>  Isi Profil Pemda</a>
                 </div>
             </div>
             @endif
