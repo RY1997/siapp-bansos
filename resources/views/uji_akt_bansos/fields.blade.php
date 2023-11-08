@@ -127,7 +127,7 @@
     {!! Form::select('uji_juknis', ['' => 'Pilih', 'Tidak Ada Juknis' => 'Tidak Ada Juknis', 'Peraturan Kepala Daerah' => 'Peraturan Kepala Daerah', 'Peraturan Kepala OPD' => 'Peraturan Kepala OPD', 'Lainnya' => 'Lainnya'], null, ['class' => 'form-control text-sm custom-select']) !!}
 </div>
 <div class="form-group col-sm-2">
-    <p>Keterangan Juknis</p>
+    <p>Nomor/Nama Juknis</p>
 </div>
 <div class="form-group col-sm-4">
     {!! Form::text('nm_juknis', null, ['class' => 'form-control text-sm']) !!}
@@ -141,7 +141,7 @@
     {!! Form::select('uji_basis_salur', ['' => 'Pilih', 'DTKS' => 'DTKS', 'Data Pensasaran Percepatan Penghapusan Kemiskinan Ekstrem (P3KE)' => 'Data Pensasaran Percepatan Penghapusan Kemiskinan Ekstrem (P3KE)', 'Basis Data Daerah' => 'Basis Data Daerah', 'Hasil Pendataan Mandiri' => 'Hasil Pendataan Mandiri', 'Basis Data Lainnya' => 'Basis Data Lainnya'], null, ['class' => 'form-control text-sm custom-select']) !!}
 </div>
 <div class="form-group col-sm-2">
-    <p>Keterangan Basis Salur</p>
+    <p>Nama Basis Salur</p>
 </div>
 <div class="form-group col-sm-4">
     {!! Form::text('nm_basis_salur', null, ['class' => 'form-control text-sm']) !!}
