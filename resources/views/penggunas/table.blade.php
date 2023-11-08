@@ -1,5 +1,5 @@
 <form class="input-group col-sm-4 float-right mb-2">
-    <input class="form-control" type="text" name="pengguna" value="{{ $search != NULL ? $search : '' }}" placeholder="Ketik Nama Pengguna..." />
+    <input class="form-control text-sm" type="text" name="pengguna" value="{{ $search != NULL ? $search : '' }}" placeholder="Ketik Nama Pengguna..." />
     <div class="input-group-append">
         <button class="btn btn-success">Cari</button>
     </div>
