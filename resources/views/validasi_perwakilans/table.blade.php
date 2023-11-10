@@ -4,7 +4,7 @@
             <tr>
                 <th rowspan="2">Kode</th>
                 <th rowspan="2">Perwakilan BPKP</th>
-                <th colspan="2">Jumlah Obyek</th>
+                <th colspan="2">Jumlah Pemda</th>
                 <th colspan="2">Profil Pemerintah Daerah</th>
                 <th colspan="2">Rincian Bantuan Sosial</th>
                 <th rowspan="2">Progres Pengisian</th>
