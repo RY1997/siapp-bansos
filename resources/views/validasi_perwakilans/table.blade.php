@@ -23,9 +23,9 @@
                 <td class="text-left">{{ $validasiPerwakilan->nm_pwk }}</td>
             <td>@rupiah($validasiPerwakilan->sum_a_5_1_06)</td>
             <td>@rupiah($validasiPerwakilan->sum_r_5_1_06)</td>
-            <td>@rupiah($rincianBansos->where('kd_pwk' , $validasiPerwakilan->kd_pwk)->pluck('sum_uji_anggaran')->first())</td>
-            <td>@rupiah($rincianBansos->where('kd_pwk' , $validasiPerwakilan->kd_pwk)->pluck('sum_uji_realisasi')->first())</td>
-            <td><span class="badge text-xs {{ $validasiPerwakilan->sum_a_5_1_06 != $rincianBansos->where('kd_pwk' , $validasiPerwakilan->kd_pwk)->pluck('sum_uji_anggaran')->first() ? 'bg-danger' : 'bg-primary' }}">@persen($validasiPerwakilan->sum_a_5_1_06 > 0 ? $rincianBansos->where('kd_pwk' , $validasiPerwakilan->kd_pwk)->pluck('sum_uji_anggaran')->first() / $validasiPerwakilan->sum_a_5_1_06 * 100 : 0)%</span></td>
+            <td>@rupiah($rincianBansos->where('kd_pwk' , $validasiPerwakilan->kd_pwk)->count() > 0 ? $rincianBansos->where('kd_pwk' , $validasiPerwakilan->kd_pwk)->sum('uji_anggaran') : 0)</td>
+            <td>@rupiah($rincianBansos->where('kd_pwk' , $validasiPerwakilan->kd_pwk)->count() > 0 ? $rincianBansos->where('kd_pwk' , $validasiPerwakilan->kd_pwk)->sum('uji_realisasi') : 0)</td>
+            <td><span class="badge text-xs {{ $validasiPerwakilan->sum_a_5_1_06 != $rincianBansos->where('kd_pwk' , $validasiPerwakilan->kd_pwk)->sum('uji_anggaran') || $rincianBansos->where('kd_pwk' , $validasiPerwakilan->kd_pwk)->count() == 0 ? 'bg-danger' : 'bg-primary' }}">@persen($validasiPerwakilan->sum_a_5_1_06 > 0 ? $rincianBansos->where('kd_pwk' , $validasiPerwakilan->kd_pwk)->sum('uji_anggaran') / $validasiPerwakilan->sum_a_5_1_06 * 100 : 0)%</span></td>
                 <td width="250">
                     <div class='btn-group'>
                         <a href="{{ route('validasiPerwakilans.show', [$validasiPerwakilan->kd_pwk]) }}"

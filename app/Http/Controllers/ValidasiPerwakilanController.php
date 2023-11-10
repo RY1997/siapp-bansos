@@ -35,7 +35,7 @@ class ValidasiPerwakilanController extends AppBaseController
     {
         $validasiPerwakilans = DataPemda::join('data_baseline' , 'data_pemda.id' , '=' , 'data_baseline.id')->groupBy('data_pemda.kd_pwk')->selectRaw('*, sum(a_5_1_06) as sum_a_5_1_06, sum(r_5_1_06) as sum_r_5_1_06');
 
-        $rincianBansos = UjiAktBansos::whereBetween('kd_rek', [15, 32])->join('data_baseline' , 'mon_bansos.kd_pemda' , '=' , 'data_baseline.id')->groupBy('kd_pwk')->selectRaw('*, sum(uji_anggaran) as sum_uji_anggaran, sum(uji_realisasi) as sum_uji_realisasi');
+        $rincianBansos = UjiAktBansos::whereBetween('kd_rek', [15, 32])->join('data_baseline' , 'mon_bansos.kd_pemda' , '=' , 'data_baseline.id')->get();
 
         if (Auth::user()->role == 'Admin') {
             $validasiPerwakilans = $validasiPerwakilans->get();
@@ -90,7 +90,7 @@ class ValidasiPerwakilanController extends AppBaseController
             $validasiPemdas = DataPemda::where('data_baseline.kd_pwk', $id)->where('data_baseline.nm_pemda', Auth::user()->nm_pemda)->join('data_baseline' , 'data_pemda.id' , '=' , 'data_baseline.id')->groupBy('data_pemda.nm_pemda')->selectRaw('*, sum(a_5_1_06) as sum_a_5_1_06, sum(r_5_1_06) as sum_r_5_1_06')->orderBy('data_baseline.id')->get();
         }
 
-        $rincianBansos = UjiAktBansos::where('data_baseline.kd_pwk', $id)->where('kd_rek' , '>=' , 15)->where('kd_rek' , '<=' , 32)->join('data_baseline' , 'mon_bansos.kd_pemda' , '=' , 'data_baseline.id')->groupBy('nm_pemda')->selectRaw('*, sum(uji_anggaran) as sum_uji_anggaran, sum(uji_realisasi) as sum_uji_realisasi')->get();
+        $rincianBansos = UjiAktBansos::where('data_baseline.kd_pwk', $id)->whereBetween('kd_rek', [15, 32])->join('data_baseline' , 'mon_bansos.kd_pemda' , '=' , 'data_baseline.id')->groupBy('nm_pemda')->selectRaw('*, sum(uji_anggaran) as sum_uji_anggaran, sum(uji_realisasi) as sum_uji_realisasi')->get();
 
         if (empty($validasiPemdas)) {
             Flash::error('Validasi Perwakilan not found');
