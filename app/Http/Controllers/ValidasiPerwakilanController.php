@@ -33,7 +33,7 @@ class ValidasiPerwakilanController extends AppBaseController
      */
     public function index(Request $request)
     {
-        $validasiPerwakilans = DataPemda::join('data_baseline' , 'data_pemda.id' , '=' , 'data_baseline.id')->groupBy('data_pemda.kd_pwk')->selectRaw('*, sum(a_5_1_06) as sum_a_5_1_06, sum(r_5_1_06) as sum_r_5_1_06');
+        $validasiPerwakilans = DataPemda::join('data_baseline' , 'data_pemda.id' , '=' , 'data_baseline.id')->groupBy('data_pemda.kd_pwk')->selectRaw('*, sum(a_5_1_06) as sum_a_5_1_06, sum(r_5_1_06) as sum_r_5_1_06')->orderBy('data_baseline.kd_pwk' , 'ASC');
 
         $rincianBansos = UjiAktBansos::whereBetween('kd_rek', [15, 32])->join('data_baseline' , 'mon_bansos.kd_pemda' , '=' , 'data_baseline.id')->get();
 
