@@ -36,7 +36,11 @@ class PemdaMonitoringController extends AppBaseController
         if (Auth::user()->role == 'Admin') {
             $pemdaMonitorings = DaftarPemdaBaseline::where('nm_pemda', 'like', '%' . $request->query('pemda') . '%')->paginate(10);
         } elseif (Auth::user()->role == 'Perwakilan BPKP') {
-            $pemdaMonitorings = DaftarPemdaBaseline::where('nm_pemda', 'like', '%' . $request->query('pemda') . '%')->where(['kd_pwk' => Auth::user()->kd_pwk])->paginate(10);
+            if (Auth::user()->kd_pwk == 'PW12') {
+                $pemdaMonitorings = DaftarPemdaBaseline::where('nm_pemda', 'like', '%' . $request->query('pemda') . '%')->where(['kd_pwk' => Auth::user()->kd_pwk])->orWhere('nm_pemda', 'Kab. Cilacap')->orWhere('nm_pemda', 'Kab. Kebumen')->orWhere('nm_pemda', 'Kab. Magelang')->orWhere('nm_pemda', 'Kota Magelang')->orWhere('nm_pemda', 'Kab. Purworejo')->orWhere('nm_pemda', 'Kab. Klaten')->paginate(10);
+            } else {
+                $pemdaMonitorings = DaftarPemdaBaseline::where('nm_pemda', 'like', '%' . $request->query('pemda') . '%')->where(['kd_pwk' => Auth::user()->kd_pwk])->paginate(10);
+            }
         } elseif (Auth::user()->role == 'Pemerintah Daerah') {
             $pemdaMonitorings = DaftarPemdaBaseline::where('nm_pemda', 'like', '%' . $request->query('pemda') . '%')->where(['nm_pemda' => Auth::user()->nm_pemda])->paginate(10);
         }
