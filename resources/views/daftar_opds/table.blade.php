@@ -38,7 +38,7 @@
                 $ujiAktBansos->where('nm_opd', $daftarOpd->opd)->where('kd_rek', 5)->sum('uji_anggaran') + 
                 $ujiAktBansos->where('nm_opd', $daftarOpd->opd)->where('kd_rek', 6)->sum('uji_anggaran'))</td>
             <td class="text-center">
-                @if ($ujiAktBansos->where('nm_opd', $daftarOpd->opd)->sum('uji_anggaran') > 0)
+                @if ($ujiAktBansos->where('nm_opd', $daftarOpd->opd)->count() > 0)
                 <span class="badge bg-primary text-xs">Sudah Diisi</span>
                 @else ($pemdaMonitoring->{$daftarOpd->kd_column} > 0)
                 {{ $pemdaMonitoring->{$daftarOpd->kd_column} > 0 ? "OPD Wajib" : "Opsional" }}
