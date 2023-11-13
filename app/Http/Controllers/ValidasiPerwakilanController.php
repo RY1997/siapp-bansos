@@ -85,7 +85,7 @@ class ValidasiPerwakilanController extends AppBaseController
     public function show($id)
     {
         if (Auth::user()->role != 'Pemerintah Daerah') {
-            if (Auth::user()->kd_pwk == 'PW12') {
+            if ($id == 'PW12') {
                 $validasiPemdas = DataPemda::where('data_baseline.kd_pwk', $id)->orWhere('data_baseline.nm_pemda', 'Kab. Cilacap')->orWhere('data_baseline.nm_pemda', 'Kab. Kebumen')->orWhere('data_baseline.nm_pemda', 'Kab. Magelang')->orWhere('data_baseline.nm_pemda', 'Kota Magelang')->orWhere('data_baseline.nm_pemda', 'Kab. Purworejo')->orWhere('data_baseline.nm_pemda', 'Kab. Klaten')->join('data_baseline' , 'data_pemda.id' , '=' , 'data_baseline.id')->groupBy('data_pemda.nm_pemda')->selectRaw('*, sum(a_5_1_06) as sum_a_5_1_06, sum(r_5_1_06) as sum_r_5_1_06')->orderBy('data_baseline.id')->get();
             } else {
                 $validasiPemdas = DataPemda::where('data_baseline.kd_pwk', $id)->join('data_baseline' , 'data_pemda.id' , '=' , 'data_baseline.id')->groupBy('data_pemda.nm_pemda')->selectRaw('*, sum(a_5_1_06) as sum_a_5_1_06, sum(r_5_1_06) as sum_r_5_1_06')->orderBy('data_baseline.id')->get();
