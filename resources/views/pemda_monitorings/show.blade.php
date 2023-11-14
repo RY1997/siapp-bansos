@@ -68,7 +68,7 @@
             @endif
         </div>
 
-        @if ($pemdaMonitoring->a_belanja_daerah > 1)
+        @if ($pemdaMonitoring->a_belanja_daerah > 0)
         <div class="card p-3">
             <h6>Daftar Urusan/OPD</h6>
             <div class="card-body p-0 mt-2">
