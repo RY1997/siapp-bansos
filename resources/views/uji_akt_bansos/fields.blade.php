@@ -95,9 +95,10 @@
 </div>
 @else
 <div class="form-group col-sm-3">
-    <select class="form-control text-sm custom-select" id="uji_bansos_sejenis" name="uji_bansos_sejenis" disabled>
+    <select class="form-control text-sm custom-select" id="uji_bansos_sejenis" name="uji_bansos_sejenis" readonly>
         <option value="Jaminan Kesehatan Nasional" selected>Jaminan Kesehatan Nasional</option>
     </select>
+    <input class="form-control text-sm" id="nm_bansos_sejenis" name="nm_bansos_sejenis" type="text" value="-" hidden>
 </div>
 <div class="form-group col-sm-6">
 </div>
