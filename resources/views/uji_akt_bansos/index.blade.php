@@ -59,8 +59,16 @@
         <div class="card">
             <div class="card-body p-3">
                 @include('uji_akt_bansos.table')
+                
+                <div class="card-footer clearfix">
+                    <div class="float-right">
+                        <a class="btn btn-default float-right"
+                        href="{{ route('pemdaMonitorings.show', [$pemdaMonitoring->id]) }}">
+                            Kembali
+                        </a>
+                    </div>
+                </div>
             </div>
-
         </div>
     </div>
 

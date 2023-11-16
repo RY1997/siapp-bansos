@@ -68,10 +68,13 @@
 
                 <div class="card-footer clearfix">
                     <div class="float-right">
-                        
+                        <a class="btn btn-default float-right"
+                        href="{{ route('validasiPerwakilans.show', [$validasiPemda->kd_pwk]) }}">
+                            Kembali
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     </div>
 @endsection

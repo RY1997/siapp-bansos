@@ -73,6 +73,15 @@
             <h6>Daftar Urusan/OPD</h6>
             <div class="card-body p-0 mt-2">
                 @include('daftar_opds.table')
+
+                <div class="card-footer clearfix">
+                    <div class="float-right">
+                        <a class="btn btn-default float-right"
+                        href="{{ route('pemdaMonitorings.index') }}">
+                            Kembali
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
         @endif
