@@ -21,10 +21,10 @@
             <tr>
                 <td>{{ $validasiPemda->kd_pwk }}</td>
                 <td class="text-left">{{ $validasiPemda->nm_pemda }}</td>
-            <td>@rupiah($validasiPemda->sum_a_5_1_06)</td>
-            <td>@rupiah($validasiPemda->sum_r_5_1_06)</td>
-            <td>@rupiah($rincianBansos->where('nm_pemda' , $validasiPemda->nm_pemda)->count() > 0 ? $rincianBansos->where('nm_pemda' , $validasiPemda->nm_pemda)->pluck('sum_uji_anggaran')->first() : 0)</td>
-            <td>@rupiah($rincianBansos->where('nm_pemda' , $validasiPemda->nm_pemda)->count() > 0 ? $rincianBansos->where('nm_pemda' , $validasiPemda->nm_pemda)->pluck('sum_uji_realisasi')->first() : 0)</td>
+            <td>@rupiah($validasiPemda->a_5_1_06)</td>
+            <td>@rupiah($validasiPemda->r_5_1_06)</td>
+            <td>@rupiah($rincianBansos->where('nm_pemda' , $validasiPemda->nm_pemda)->count() > 0 ? $rincianBansos->where('nm_pemda' , $validasiPemda->nm_pemda)->sum('uji_anggaran') : 0)</td>
+            <td>@rupiah($rincianBansos->where('nm_pemda' , $validasiPemda->nm_pemda)->count() > 0 ? $rincianBansos->where('nm_pemda' , $validasiPemda->nm_pemda)->sum('uji_realisasi') : 0)</td>
             <td>
             @if ($rincianBansos->where('nm_pemda' , $validasiPemda->nm_pemda)->count() == 0)
                 <span class="badge text-xs bg-danger">0,00%</span>
