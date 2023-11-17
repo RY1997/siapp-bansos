@@ -25,15 +25,7 @@
             <td>@rupiah($validasiPemda->r_5_1_06)</td>
             <td>@rupiah($rincianBansos->where('nm_pemda' , $validasiPemda->nm_pemda)->count() > 0 ? $rincianBansos->where('nm_pemda' , $validasiPemda->nm_pemda)->sum('uji_anggaran') : 0)</td>
             <td>@rupiah($rincianBansos->where('nm_pemda' , $validasiPemda->nm_pemda)->count() > 0 ? $rincianBansos->where('nm_pemda' , $validasiPemda->nm_pemda)->sum('uji_realisasi') : 0)</td>
-            <td>
-            @if ($rincianBansos->where('nm_pemda' , $validasiPemda->nm_pemda)->count() == 0)
-                <span class="badge text-xs bg-danger">0,00%</span>
-            @elseif ($validasiPemda->a_5_1_06 == $rincianBansos->where('nm_pemda' , $validasiPemda->nm_pemda)->sum('uji_anggaran'))
-                <span class="badge text-xs bg-primary">100,00%</span>
-            @else
-                <span class="badge text-xs bg-danger">@persen($validasiPemda->a_5_1_06 > 0 ? $rincianBansos->where('nm_pemda' , $validasiPemda->nm_pemda)->sum('uji_anggaran') / $validasiPemda->a_5_1_06 * 100 : 0)%</span>
-            @endif
-            </td>
+            <td><span class="badge text-xs {{ $validasiPemda->a_5_1_06 != $rincianBansos->where('nm_pemda' , $validasiPemda->nm_pemda)->sum('uji_anggaran') || $rincianBansos->where('nm_pemda' , $validasiPemda->nm_pemda)->sum('uji_anggaran') > 0 || $rincianBansos->where('nm_pemda' , $validasiPemda->nm_pemda)->count() == 0 ? 'bg-danger' : 'bg-primary'}}">@persen($validasiPemda->a_5_1_06 > 0 ? $rincianBansos->where('nm_pemda' , $validasiPemda->nm_pemda)->sum('uji_anggaran') / $validasiPemda->a_5_1_06 * 100 : 0)%</span></td>
                 <td width="250">
                     <div class='btn-group'>
                         <a href="{{ route('validasiPemdas.show', [$validasiPemda->id]) }}"
