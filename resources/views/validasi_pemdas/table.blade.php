@@ -7,6 +7,7 @@
                 <th colspan="2">Profil Pemerintah Daerah</th>
                 <th colspan="2">Rincian Bantuan Sosial</th>
                 <th rowspan="2">Progres Pengisian</th>
+                <th rowspan="2">Status</th>
                 <th rowspan="2" colspan="3">Aksi</th>
             </tr>
             <tr>
@@ -26,6 +27,7 @@
             <td>@rupiah($rincianBansos->where('nm_pemda' , $validasiPemda->nm_pemda)->count() > 0 ? $rincianBansos->where('nm_pemda' , $validasiPemda->nm_pemda)->sum('uji_anggaran') : 0)</td>
             <td>@rupiah($rincianBansos->where('nm_pemda' , $validasiPemda->nm_pemda)->count() > 0 ? $rincianBansos->where('nm_pemda' , $validasiPemda->nm_pemda)->sum('uji_realisasi') : 0)</td>
             <td><span class="badge text-xs {{ $validasiPemda->r_5_1_06 != $rincianBansos->where('nm_pemda' , $validasiPemda->nm_pemda)->sum('uji_realisasi') || $rincianBansos->where('nm_pemda' , $validasiPemda->nm_pemda)->sum('uji_realisasi') == 0 || $rincianBansos->where('nm_pemda' , $validasiPemda->nm_pemda)->count() == 0 ? 'bg-danger' : 'bg-primary'}}">@persen($validasiPemda->r_5_1_06 > 0 ? $rincianBansos->where('nm_pemda' , $validasiPemda->nm_pemda)->sum('uji_realisasi') / $validasiPemda->r_5_1_06 * 100 : 0)%</span></td>
+            <td>{{ $validasiPemda->status == 'Final' ? 'Final' : 'Draft' }}</td>
                 <td width="250">
                     <div class='btn-group'>
                         <a href="{{ route('validasiPemdas.show', [$validasiPemda->id]) }}"
