@@ -6,7 +6,7 @@
                 <th rowspan="2">Pemerintah Daerah</th>
                 <th colspan="2">Profil Pemerintah Daerah</th>
                 <th colspan="2">Rincian Bantuan Sosial</th>
-                <th rowspan="2">Progres Pengisian</th>
+                <th rowspan="2">Progres</th>
                 <th rowspan="2">Status</th>
                 <th rowspan="2" colspan="3">Aksi</th>
             </tr>
