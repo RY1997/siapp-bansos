@@ -42,21 +42,21 @@
             <td>@rupiah($validasiPemda->belanja_daerah)</td>
             <td>@rupiah($validasiPemda->a_belanja_daerah)</td>
             <td>@rupiah($validasiPemda->r_belanja_daerah)</td>
-            <td>@if ($validasiPemda->a_belanja_daerah > 0) @persen($validasiPemda->r_belanja_daerah/$validasiPemda->a_belanja_daerah) @else 0,00 @endif</td>
+            <td>@if ($validasiPemda->a_belanja_daerah > 0) @persen($validasiPemda->r_belanja_daerah/$validasiPemda->a_belanja_daerah*100) @else 0,00 @endif</td>
         </tr>
         <tr>
             <td class="text-left">Anggaran Belanja Bansos 2023</td>
             <td>@rupiah($validasiPemda->{'5_1_06'})</td>
             <td>@rupiah($validasiPemda->a_5_1_06)</td>
             <td>@rupiah($validasiPemda->r_5_1_06)</td>
-            <td>@if ($validasiPemda->a_5_1_06 > 0) @persen($validasiPemda->r_5_1_06/$validasiPemda->a_5_1_06) @else 0,00 @endif</td>
+            <td>@if ($validasiPemda->a_5_1_06 > 0) @persen($validasiPemda->r_5_1_06/$validasiPemda->a_5_1_06*100) @else 0,00 @endif</td>
         </tr>
         <tr>
             <td class="text-left">Belanja Tidak Terduga (BTT)</td>
             <td>@rupiah($validasiPemda->{'5_3'})</td>
             <td>@rupiah($validasiPemda->a_5_3)</td>
             <td>@rupiah($validasiPemda->r_5_3)</td>
-            <td>@if ($validasiPemda->a_5_3 > 0) @persen($validasiPemda->r_5_3/$validasiPemda->a_5_3) @else 0,00 @endif</td>
+            <td>@if ($validasiPemda->a_5_3 > 0) @persen($validasiPemda->r_5_3/$validasiPemda->a_5_3*100) @else 0,00 @endif</td>
         </tr>
     </tbody>
 </table>
