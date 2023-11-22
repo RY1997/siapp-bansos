@@ -30,8 +30,8 @@
     <thead class="bg-secondary">
         <tr>
             <th>Uraian</th>
-            <th>Baseline</th>
-            <th>Anggaran</th>
+            <th>APBD Induk</th>
+            <th>APBD-P</th>
             <th>Realisasi</th>
             <th>%</th>
         </tr>

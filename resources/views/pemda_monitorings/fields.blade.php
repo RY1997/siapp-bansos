@@ -40,8 +40,8 @@
     <thead class="bg-secondary">
         <tr>
             <th>Uraian</th>
-            <th>Baseline</th>
-            <th>Anggaran</th>
+            <th>APBD Induk</th>
+            <th>APBD-P</th>
             <th>Realisasi</th>
         </tr>
     </thead>
@@ -105,7 +105,7 @@
     {!! Form::text('link', null, ['class' => 'form-control text-sm']) !!}
 </div>
 
-<!-- Status Final Field -->
+@if (Auth()->user()->role != 'Pemerintah Daerah')
 <div class="form-group col-sm-3">
     <p>Finalkan Hasil Pengawasan?</p>
 </div>
@@ -115,3 +115,10 @@
 <div class="form-group col-sm-5">
     <p class="text-danger">Perhatian!<br>Setelah Hasil Pengawasan difinalkan, data tidak dapat diubah kembali.</p>
 </div>
+<div class="form-group col-sm-3">
+    <p>Status Uji Petik</p>
+</div>
+<div class="form-group col-sm-4">
+    {!! Form::select('uji_petik', ['Tidak' => 'Tidak', 'Ya' => 'Ya'], null, ['class' => 'form-control text-sm custom-select']) !!}
+</div>
+@endif
