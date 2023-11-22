@@ -143,7 +143,7 @@ class UjiAktBansosController extends AppBaseController
             return redirect(route('ujiAktBansos.index'));
         }
 
-        return view('uji_akt_bansos.edit')->with(['ujiAktBansos' => $ujiAktBansos , 'pemdaMonitoring' => $pemdaMonitoring, 'daftarOpd' => $daftarOpd, 'dataRekening' => $dataRekening]);
+        return view('uji_akt_bansos.edit')->with(['ujiAktBansos' => $ujiAktBansos , 'pemdaMonitoring' => $pemdaMonitoring, 'daftarOpd' => $daftarOpd, 'dataRekening' => $dataRekening, 'pagename' => $pagename]);
     }
 
     /**
