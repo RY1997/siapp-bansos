@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>SiAPP BANSOS</title>
+    <title>{{ $pagename }} - SiAPP BANSOSDA</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
@@ -104,7 +104,7 @@
             <b>Versi</b> 1.2.b
         </div>
         <a>
-           SiAPP BANSOS &copy; 2023 | Direktorat Pengawasan Akuntabilitas Program Lintas Sektoral Pembangunan Daerah
+           SiAPP BANSOSDA &copy; 2023 | Direktorat Pengawasan Akuntabilitas Program Lintas Sektoral Pembangunan Daerah
         </a>
     </footer>
 </div>

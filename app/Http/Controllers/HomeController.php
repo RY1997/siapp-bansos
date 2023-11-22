@@ -25,6 +25,8 @@ class HomeController extends Controller
      */
     public function index()
     {
+        $pagename = 'Dashboard';
+        
         //filter PemdaMonitoring
         if (Auth::user()->role == 'Admin') {
             $pemdaMonitoring = PemdaMonitoring::all();
@@ -53,6 +55,6 @@ class HomeController extends Controller
         // $a_lainnya = $ujiMonitoring->where('mon_bansos.uji_bansos_sejenis' , 'Bantuan Lainnya')->sum('uji_anggaran');
         // $r_lainnya = $ujiMonitoring->where('mon_bansos.uji_bansos_sejenis' , 'Bantuan Lainnya')->sum('uji_realisasi');
         
-        return view('home')->with(['pemdaMonitoring' => $pemdaMonitoring , 'ujiMonitoring' => $ujiMonitoring]);
+        return view('home')->with(['pemdaMonitoring' => $pemdaMonitoring , 'ujiMonitoring' => $ujiMonitoring, 'pagename' => $pagename]);
     }
 }
