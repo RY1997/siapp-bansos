@@ -23,6 +23,7 @@ class CreateDataBaseline extends Migration
             $table->date('tgl_perkada_bansos')->nullable();
             $table->text('link')->nullable();
             $table->string('status')->nullable();
+            $table->string('uji_petik')->default('Tidak');
             $table->decimal('belanja_daerah', 22, 2);
             $table->decimal('a_belanja_daerah', 22, 2)->default(0);
             $table->decimal('r_belanja_daerah', 22, 2)->default(0);

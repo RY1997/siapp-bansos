@@ -25,6 +25,7 @@ class PemdaMonitoringRepository extends BaseRepository
         'tgl_perkada_bansos',
         'link',
         'status',
+        'uji_petik',
         'belanja_daerah',
         'a_belanja_daerah',
         'r_belanja_daerah',
