@@ -3,7 +3,7 @@
         <img src="https://upload.wikimedia.org/wikipedia/commons/1/11/BPKP_Logo.png"
              alt="Logo"
              class="brand-image img-circle elevation-3">
-        <span class="brand-text font-weight-light">SiAPP BANSOS</span>
+        <span class="brand-text font-weight-light">SiAPP BANSOSDA</span>
     </a>
     <div class="sidebar">
         <nav class="mt-2">

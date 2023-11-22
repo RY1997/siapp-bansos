@@ -35,7 +35,7 @@
 <div class="login-box">
     <div class="login-logo">
         <img class="my-1" src="https://upload.wikimedia.org/wikipedia/commons/1/11/BPKP_Logo.png" width="100">
-        <a class="my-3"><b>SiAPP BANSOS</b></a>
+        <a class="my-3"><b>SiAPP BANSOSDA</b></a>
     </div>
 
     <!-- /.login-logo -->
