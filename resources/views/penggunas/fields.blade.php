@@ -29,7 +29,7 @@
 </div>
 @if (Auth::user()->role == 'Admin')
 <div class="form-group col-sm-9">
-    {!! Form::select('role', ['' => 'Pilih', 'Admin' => 'Admin', 'Perwakilan BPKP' => 'Perwakilan BPKP'], null, ['class' => 'form-control text-sm custom-select']) !!}
+    {!! Form::select('role', ['' => 'Pilih', 'Admin' => 'Admin', 'Perwakilan BPKP' => 'Perwakilan BPKP', 'Pemerintah Daerah' => 'Pemerintah Daerah'], null, ['class' => 'form-control text-sm custom-select']) !!}
 </div>
 @else
 <div class="form-group col-sm-9">
