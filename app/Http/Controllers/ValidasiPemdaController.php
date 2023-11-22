@@ -77,6 +77,8 @@ class ValidasiPemdaController extends AppBaseController
     {
         // $validasiPemda = $this->validasiPemdaRepository->find($id);
 
+        $pagename = 'Rincian Aktivitas';
+
         $ujiAktBansos = UjiAktBansos::where('kd_pemda', $id)->orderBy('nm_opd')->get();
 
         $jenisBansos = $ujiAktBansos->groupBy('jenis');
@@ -86,15 +88,17 @@ class ValidasiPemdaController extends AppBaseController
         $dataRekening = DataRekening::where(['level' => 6])->get();
 
         return view('validasi_pemdas.show')
-            ->with(['ujiAktBansos' => $ujiAktBansos, 'jenisBansos' => $jenisBansos, 'validasiPemda' => $validasiPemda, 'dataRekening' => $dataRekening]);
+            ->with(['ujiAktBansos' => $ujiAktBansos, 'jenisBansos' => $jenisBansos, 'validasiPemda' => $validasiPemda, 'dataRekening' => $dataRekening, 'pagename' => $pagename]);
     }
 
     public function show_ringkasan($id_pemda)
     {
+        $pagename = 'Ringkasan Pemda';
+
         $pemdaMonitoring = PemdaMonitoring::where('id' , $id_pemda)->get();
         $ujiMonitoring = PemdaMonitoring::where('data_baseline.id' , $id_pemda)->join('mon_bansos', 'data_baseline.id', '=', 'mon_bansos.kd_pemda')->get();
 
-        return view('validasi_pemdas.ringkasan')->with(['pemdaMonitoring' => $pemdaMonitoring , 'ujiMonitoring'=> $ujiMonitoring]);
+        return view('validasi_pemdas.ringkasan')->with(['pemdaMonitoring' => $pemdaMonitoring , 'ujiMonitoring'=> $ujiMonitoring, 'pagename' => $pagename]);
     }
 
     /**

@@ -33,6 +33,8 @@ class ValidasiPerwakilanController extends AppBaseController
      */
     public function index(Request $request)
     {
+        $pagename = 'Validasi Perwakilan BPKP';
+        
         $validasiPerwakilans = DataPemda::join('data_baseline' , 'data_pemda.id' , '=' , 'data_baseline.id')->groupBy('data_pemda.kd_pwk')->selectRaw('*, sum(a_5_1_06) as sum_a_5_1_06, sum(r_5_1_06) as sum_r_5_1_06')->orderBy('data_baseline.kd_pwk' , 'ASC');
 
         $rincianBansos = UjiAktBansos::whereBetween('kd_rek', [15, 32])->join('data_baseline' , 'mon_bansos.kd_pemda' , '=' , 'data_baseline.id')->get();
@@ -44,7 +46,7 @@ class ValidasiPerwakilanController extends AppBaseController
         }
 
         return view('validasi_perwakilans.index')
-            ->with(['validasiPerwakilans' => $validasiPerwakilans , 'rincianBansos'=> $rincianBansos]);
+            ->with(['validasiPerwakilans' => $validasiPerwakilans , 'rincianBansos'=> $rincianBansos, 'pagename' => $pagename]);
     }
 
     /**
@@ -84,6 +86,8 @@ class ValidasiPerwakilanController extends AppBaseController
      */
     public function show($id)
     {
+        $pagename = 'Validasi Pemda';
+
         if (Auth::user()->role != 'Pemerintah Daerah') {
             if (Auth::user()->kd_pwk == 'PW12') {
                 $validasiPemdas = DataPemda::where('data_baseline.kd_pwk', $id)->orWhere('data_baseline.nm_pemda', 'Kab. Cilacap')->orWhere('data_baseline.nm_pemda', 'Kab. Kebumen')->orWhere('data_baseline.nm_pemda', 'Kab. Magelang')->orWhere('data_baseline.nm_pemda', 'Kota Magelang')->orWhere('data_baseline.nm_pemda', 'Kab. Purworejo')->orWhere('data_baseline.nm_pemda', 'Kab. Klaten')->join('data_baseline' , 'data_pemda.id' , '=' , 'data_baseline.id')->orderBy('data_baseline.id')->get();
@@ -102,12 +106,14 @@ class ValidasiPerwakilanController extends AppBaseController
             return redirect(route('validasiPerwakilans.index'));
         }
 
-        return view('validasi_perwakilans.show')->with(['validasiPemdas' => $validasiPemdas , 'rincianBansos'=> $rincianBansos]);
+        return view('validasi_perwakilans.show')->with(['validasiPemdas' => $validasiPemdas , 'rincianBansos'=> $rincianBansos, 'pagename' => $pagename]);
     }
 
     public function show_ringkasan($kd_pwk)
     {
         // $validasiPerwakilan = $this->validasiPerwakilanRepository->find($id);
+
+        $pagename = 'Ringkasan Pengawasan';
 
         $pemdaMonitoring = PemdaMonitoring::where('kd_pwk' , $kd_pwk)->get();
         $ujiMonitoring = PemdaMonitoring::where('kd_pwk' , $kd_pwk)->join('mon_bansos', 'data_baseline.id', '=', 'mon_bansos.kd_pemda')->get();

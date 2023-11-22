@@ -36,6 +36,8 @@ class PenggunaController extends AppBaseController
     {
         // $penggunas = $this->penggunaRepository;
 
+        $pagename = 'Pengguna';
+
         if (Auth()->user()->role == 'Admin') {
             $penggunas = Pengguna::where('name', 'like', '%' . $request->query('pengguna') . '%')->paginate(10);
         } elseif (Auth()->user()->role == 'Perwakilan BPKP') {
@@ -47,7 +49,7 @@ class PenggunaController extends AppBaseController
         $search = $request->query('pengguna');
 
         return view('penggunas.index')
-            ->with(['penggunas' => $penggunas , 'search'=> $search]);
+            ->with(['penggunas' => $penggunas , 'search'=> $search, 'pagename' => $pagename]);
     }
 
     /**
@@ -57,6 +59,8 @@ class PenggunaController extends AppBaseController
      */
     public function create()
     {
+        $pagename = 'Tambah Pengguna';
+
         if (Auth::user()->role == 'Admin') {
             $pemda = DataPemda::all('nm_pemda');
             $kd_pwk = User::get('kd_pwk');
@@ -65,7 +69,7 @@ class PenggunaController extends AppBaseController
             $kd_pwk = User::get('kd_pwk');
         }
         
-        return view('penggunas.create')->with(['pemda' => $pemda , 'kd_pwk' => $kd_pwk]);
+        return view('penggunas.create')->with(['pemda' => $pemda , 'kd_pwk' => $kd_pwk, 'pagename' => $pagename]);
     }
 
     /**
@@ -122,6 +126,8 @@ class PenggunaController extends AppBaseController
     {
         $pengguna = $this->penggunaRepository->find($id);
 
+        $pagename = 'Ubah Pengguna';
+
         if (empty($pengguna)) {
             Flash::error('Pengguna not found');
 
@@ -136,7 +142,7 @@ class PenggunaController extends AppBaseController
             $kd_pwk = User::groupBy('kd_pwk')->get('kd_pwk');
         }
 
-        return view('penggunas.edit')->with(['pengguna' => $pengguna, 'pemda' => $pemda, 'kd_pwk' => $kd_pwk]);
+        return view('penggunas.edit')->with(['pengguna' => $pengguna, 'pemda' => $pemda, 'kd_pwk' => $kd_pwk, 'pagename' => $pagename]);
     }
 
     /**

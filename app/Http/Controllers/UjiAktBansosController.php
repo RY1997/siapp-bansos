@@ -41,6 +41,8 @@ class UjiAktBansosController extends AppBaseController
 
     public function indexaktbansos($pemda_id, $opd_id)
     {
+        $pagename = 'Rincian Aktivitas';
+        
         $ujiAktBansos = UjiAktBansos::where(['kd_pemda' => $pemda_id, 'kd_opd' => $opd_id])->get();
         $jenisBansos = $ujiAktBansos->groupBy('jenis');
 
@@ -51,7 +53,7 @@ class UjiAktBansosController extends AppBaseController
         $dataRekening = DataRekening::where(['level' => 6])->get();
 
         return view('uji_akt_bansos.index')
-            ->with(['ujiAktBansos' => $ujiAktBansos, 'jenisBansos' => $jenisBansos, 'pemdaMonitoring' => $pemdaMonitoring, 'daftarOpd' => $daftarOpd, 'dataRekening' => $dataRekening]);
+            ->with(['ujiAktBansos' => $ujiAktBansos, 'jenisBansos' => $jenisBansos, 'pemdaMonitoring' => $pemdaMonitoring, 'daftarOpd' => $daftarOpd, 'dataRekening' => $dataRekening, 'pagename' => $pagename]);
     }
 
     /**
@@ -66,6 +68,8 @@ class UjiAktBansosController extends AppBaseController
 
     public function createaktbansos($pemda_id, $opd_id, $rek_id)
     {
+        $pagename = 'Tambah Rincian';
+
         $pemdaMonitoring = PemdaMonitoring::where(['id' => $pemda_id])->first();
 
         $daftarOpd = DaftarOpd::where(['id' => $opd_id])->first();
@@ -73,7 +77,7 @@ class UjiAktBansosController extends AppBaseController
         $dataRekening = DataRekening::where(['id' => $rek_id])->first();
         
         return view('uji_akt_bansos.create')
-            ->with(['pemdaMonitoring' => $pemdaMonitoring, 'daftarOpd' => $daftarOpd, 'dataRekening' => $dataRekening]);
+            ->with(['pemdaMonitoring' => $pemdaMonitoring, 'daftarOpd' => $daftarOpd, 'dataRekening' => $dataRekening, 'pagename' => $pagename]);
     }
 
     /**
@@ -123,6 +127,8 @@ class UjiAktBansosController extends AppBaseController
      */
     public function edit($id)
     {
+        $pagename = 'Ubah Rincian';
+        
         $ujiAktBansos = $this->ujiAktBansosRepository->find($id);
 
         $pemdaMonitoring = PemdaMonitoring::where(['id' => $ujiAktBansos->kd_pemda])->first();

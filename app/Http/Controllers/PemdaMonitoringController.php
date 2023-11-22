@@ -33,6 +33,8 @@ class PemdaMonitoringController extends AppBaseController
      */
     public function index(Request $request)
     {
+        $pagename = 'Daftar Pemda';
+        
         if (Auth::user()->role == 'Admin') {
             $pemdaMonitorings = DaftarPemdaBaseline::where('nm_pemda', 'like', '%' . $request->query('pemda') . '%')->paginate(10);
         } elseif (Auth::user()->role == 'Perwakilan BPKP') {
@@ -48,7 +50,7 @@ class PemdaMonitoringController extends AppBaseController
         $search = $request->query('pemda');
 
         return view('pemda_monitorings.index')
-            ->with(['pemdaMonitorings' => $pemdaMonitorings , 'search' => $search]);
+            ->with(['pemdaMonitorings' => $pemdaMonitorings , 'search' => $search, 'pagename' => $pagename]);
     }
 
     /**
@@ -88,6 +90,8 @@ class PemdaMonitoringController extends AppBaseController
      */
     public function show($id)
     {
+        $pagename = 'Isian Pemda';
+        
         $pemdaMonitoring = $this->pemdaMonitoringRepository->find($id);
 
         $daftarOpd = DaftarOpd::where('level', '2')->get();
@@ -101,7 +105,7 @@ class PemdaMonitoringController extends AppBaseController
         }
 
         if ($pemdaMonitoring->status != 'Final' || Auth::user()->role == 'Admin') {
-            return view('pemda_monitorings.show')->with(['pemdaMonitoring' => $pemdaMonitoring, 'daftarOpd' => $daftarOpd, 'ujiAktBansos' => $ujiAktBansos]);
+            return view('pemda_monitorings.show')->with(['pemdaMonitoring' => $pemdaMonitoring, 'daftarOpd' => $daftarOpd, 'ujiAktBansos' => $ujiAktBansos, 'pagename' => $pagename]);
         } else {
             Flash::error('Data Sudah Difinalkan');
             return redirect(route('pemdaMonitorings.index'));
@@ -119,13 +123,15 @@ class PemdaMonitoringController extends AppBaseController
     {
         $pemdaMonitoring = $this->pemdaMonitoringRepository->find($id);
 
+        $pagename = 'Ubah Profil Pemda';
+
         if (empty($pemdaMonitoring)) {
             Flash::error('Pemda Monitoring not found');
 
             return redirect(route('pemdaMonitorings.index'));
         }
 
-        return view('pemda_monitorings.edit')->with('pemdaMonitoring', $pemdaMonitoring);
+        return view('pemda_monitorings.edit')->with(['pemdaMonitoring' => $pemdaMonitoring, 'pagename' => $pagename]);
     }
 
     /**
