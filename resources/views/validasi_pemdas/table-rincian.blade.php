@@ -271,6 +271,33 @@
 
         <tr class="text-bold bg-secondary">
             <td>C.</td>
+            <td colspan="7">Belanja Barang untuk Dijual/Diserahkan kepada Masyarakat</td>
+            <td>@rupiah($ujiAktBansos->where('kd_rek', 1)->sum('uji_anggaran'))</td>
+            <td>@rupiah($ujiAktBansos->where('kd_rek', 1)->sum('uji_realisasi'))</td>
+        </tr>
+        <tr>
+            <td>5.1.02.01.01.0039</td>
+            <td colspan="7">Belanja Barang untuk Dijual/Diserahkan kepada Masyarakat</td>
+            <td>@rupiah($ujiAktBansos->where('kd_rek', 1)->sum('uji_anggaran'))</td>
+            <td>@rupiah($ujiAktBansos->where('kd_rek', 1)->sum('uji_realisasi'))</td>
+        </tr>
+        @foreach($ujiAktBansos->where('kd_rek', 1) as $data)
+        <tr>
+            <td>Rincian Aktivitas</td>
+            <td>{{ $data->nm_opd }}</td>
+            <td>{{ $data->uji_nm_aktivitas }}</td>
+            <td>{{ $data->uji_bansos_sejenis }}</td>
+            <td>{{ $data->uji_kpm }} {{ $data->satuan_kpm }}</td>
+            <td>{{ $data->uji_juknis }}</td>
+            <td>{{ $data->uji_basis_salur }}</td>
+            <td>{{ $data->uji_monev }}</td>
+            <td>@rupiah($data->uji_anggaran)</td>
+            <td>@rupiah($data->uji_realisasi)</td>
+        </tr>
+        @endforeach
+        
+        <tr class="text-bold bg-secondary">
+            <td>D.</td>
             <td colspan="7">Belanja iuran/jaminan</td>
             <td>@rupiah($ujiAktBansos->where('kd_rek', 4)->sum('uji_anggaran') + $ujiAktBansos->where('kd_rek', 5)->sum('uji_anggaran') + $ujiAktBansos->where('kd_rek', 6)->sum('uji_anggaran'))</td>
             <td>@rupiah($ujiAktBansos->where('kd_rek', 4)->sum('uji_realisasi') + $ujiAktBansos->where('kd_rek', 5)->sum('uji_realisasi') + $ujiAktBansos->where('kd_rek', 6)->sum('uji_realisasi'))</td>
