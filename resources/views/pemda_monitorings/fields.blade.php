@@ -113,7 +113,7 @@
     {!! Form::select('status', ['Draft' => 'Draft', 'Final' => 'Final'], null, ['class' => 'form-control text-sm custom-select']) !!}
 </div>
 <div class="form-group col-sm-5">
-    <p class="text-danger">Perhatian!<br>Setelah Hasil Pengawasan difinalkan, data tidak dapat diubah kembali.</p>
+    <p class="text-danger">Perhatian! Setelah Hasil Pengawasan difinalkan, data tidak dapat diubah kembali.</p>
 </div>
 <div class="form-group col-sm-3">
     <p>Status Uji Petik</p>
