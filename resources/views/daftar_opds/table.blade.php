@@ -6,7 +6,7 @@
             <th rowspan="2">Nama Urusan</th>
             <th rowspan="2">Nama Instansi</th>
             <th rowspan="2">Belanja Bansos Baseline</th>
-            <th colspan="4">Monitoring</th>
+            <th colspan="3">Monitoring</th>
             <th rowspan="2">Status</th>
             <th colspan="3" rowspan="2" style="min-width:120px;">Aksi</th>
         </tr>
