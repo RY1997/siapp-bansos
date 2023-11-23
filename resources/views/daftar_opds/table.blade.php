@@ -13,7 +13,7 @@
         <tr>
             <th>Belanja Bansos</th>
             <th>Belanja Tidak Terduga</th>
-            <th>Belanja Barang untuk Dijual/Diserahkan kepada Masyarakat</th>
+            <!-- <th>Belanja Barang untuk Dijual/Diserahkan kepada Masyarakat</th> -->
             <th>Belanja Iuran/Jaminan</th>
         </tr>
         </thead>
@@ -33,7 +33,7 @@
                 $ujiAktBansos->where('nm_opd', $daftarOpd->opd)->where('kd_rek', 30)->sum('uji_anggaran') + 
                 $ujiAktBansos->where('nm_opd', $daftarOpd->opd)->where('kd_rek', 32)->sum('uji_anggaran'))</td>
             <td>@rupiah($ujiAktBansos->where('nm_opd', $daftarOpd->opd)->where('kd_rek', 33)->sum('uji_anggaran'))</td>
-            <td>@rupiah($ujiAktBansos->where('nm_opd', $daftarOpd->opd)->where('kd_rek', 1)->sum('uji_anggaran'))</td>
+            <!-- <td>@rupiah($ujiAktBansos->where('nm_opd', $daftarOpd->opd)->where('kd_rek', 1)->sum('uji_anggaran'))</td> -->
             <td>@rupiah($ujiAktBansos->where('nm_opd', $daftarOpd->opd)->where('kd_rek', 4)->sum('uji_anggaran') + 
                 $ujiAktBansos->where('nm_opd', $daftarOpd->opd)->where('kd_rek', 5)->sum('uji_anggaran') + 
                 $ujiAktBansos->where('nm_opd', $daftarOpd->opd)->where('kd_rek', 6)->sum('uji_anggaran'))</td>
