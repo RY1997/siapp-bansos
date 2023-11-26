@@ -22,8 +22,8 @@
     <input class="form-control text-sm" type="text" value="@if ($pemdaMonitoring->tgl_perda != NULL) @tanggal($pemdaMonitoring->tgl_perda) @else NA @endif" disabled>
 </div>
 
-<div class="form-group col-sm-12">
-    <h6>Postur APBD</h6>
+<div class="form-group col-sm-12 mb">
+    <h6>A. Postur APBD</h6>
 </div>
 
 <table class="table table-bordered text-center" id="pemdaMonitorings-table">
@@ -69,7 +69,7 @@
 </table>
 
 <div class="form-group col-sm-12">
-    <h6>Kebijakan Pelaksanaan Bansos</h6>
+    <h6>B. Kebijakan Pelaksanaan Bansos</h6>
 </div>
 
 <!-- No Perkada Bansos Field -->
