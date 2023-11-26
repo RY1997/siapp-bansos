@@ -23,7 +23,7 @@
 </div>
 
 <div class="form-group col-sm-12">
-    <h6>Informasi Belanja Daerah</h6>
+    <h6>Postur APBD</h6>
 </div>
 
 <table class="table table-bordered text-center" id="pemdaMonitorings-table">
