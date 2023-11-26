@@ -64,6 +64,12 @@
             <td>{!! Form::number('a_5_3', null, ['class' => 'form-control text-sm']) !!}</td>
             <td>{!! Form::number('r_5_3', null, ['class' => 'form-control text-sm']) !!}</td>
         </tr>
+        <tr>
+            <td class="text-left">Belanja Barang untuk Dijual/Diserahkan kepada Masyarakat</td>
+            <td>@rupiah($pemdaMonitoring->{'5_1_02_01_01_0039'})</td>
+            <td>{!! Form::number('a_5_1_02_01_01_0039', null, ['class' => 'form-control text-sm']) !!}</td>
+            <td>{!! Form::number('r_5_1_02_01_01_0039', null, ['class' => 'form-control text-sm']) !!}</td>
+        </tr>
     </tbody>
 </table>
 

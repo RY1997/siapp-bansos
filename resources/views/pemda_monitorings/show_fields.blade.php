@@ -58,6 +58,13 @@
             <td>@rupiah($pemdaMonitoring->r_5_3)</td>
             <td>@if ($pemdaMonitoring->a_5_3 > 0) @persen($pemdaMonitoring->r_5_3/$pemdaMonitoring->a_5_3 * 100) @else 0,00 @endif</td>
         </tr>
+        <tr>
+            <td class="text-left">Belanja Barang untuk Dijual/Diserahkan kepada Masyarakat</td>
+            <td>@rupiah($pemdaMonitoring->{'5_1_02_01_01_0039'})</td>
+            <td>@rupiah($pemdaMonitoring->a_5_1_02_01_01_0039)</td>
+            <td>@rupiah($pemdaMonitoring->r_5_1_02_01_01_0039)</td>
+            <td>@if ($pemdaMonitoring->a_5_1_02_01_01_0039 > 0) @persen($pemdaMonitoring->r_5_1_02_01_01_0039/$pemdaMonitoring->a_5_1_02_01_01_0039 * 100) @else 0,00 @endif</td>
+        </tr>
     </tbody>
 </table>
 

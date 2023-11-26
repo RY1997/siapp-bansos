@@ -30,6 +30,8 @@ class PemdaMonitoringRepository extends BaseRepository
         'a_belanja_daerah',
         'r_belanja_daerah',
         '5_1_02_01_01_0039',
+        'a_5_1_02_01_01_0039',
+        'r_5_1_02_01_01_0039',
         '5_1_02_02_02',
         '5_1_02_02_02_0001',
         '5_1_02_02_02_0002',

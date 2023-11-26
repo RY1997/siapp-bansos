@@ -77,7 +77,9 @@ class PemdaMonitoring extends Model
         'a_5_3' => 'decimal:2',
         'r_5_3' => 'decimal:2',
         'a_5_1_06' => 'decimal:2',
-        'r_5_1_06' => 'decimal:2'
+        'r_5_1_06' => 'decimal:2',
+        'a_5_1_02_01_01_0039' => 'decimal:2',
+        'r_5_1_02_01_01_0039' => 'decimal:2'
     ];
 
     /**
@@ -98,6 +100,8 @@ class PemdaMonitoring extends Model
         'r_5_3' => 'required|numeric',
         'a_5_1_06' => 'required|numeric',
         'r_5_1_06' => 'required|numeric',
+        'a_5_1_02_01_01_0039' => 'required|numeric',
+        'r_5_1_02_01_01_0039' => 'required|numeric',
         'created_at' => 'nullable',
         'updated_at' => 'nullable'
     ];

@@ -28,6 +28,8 @@ class CreateDataBaseline extends Migration
             $table->decimal('a_belanja_daerah', 22, 2)->default(0);
             $table->decimal('r_belanja_daerah', 22, 2)->default(0);
             $table->decimal('5_1_02_01_01_0039', 22, 2);
+            $table->decimal('a_5_1_02_01_01_0039', 22, 2)->default(0);
+            $table->decimal('r_5_1_02_01_01_0039', 22, 2)->default(0);
             $table->decimal('5_1_02_02_02', 22, 2);
             $table->decimal('5_1_02_02_02_0001', 22, 2);
             $table->decimal('5_1_02_02_02_0002', 22, 2);
