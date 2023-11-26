@@ -51,7 +51,7 @@
                 @endif
 
                 @if ($pemdaMonitoring->a_5_1_02_01_01_0039 < 1 || $pemdaMonitoring->r_5_1_02_01_01_0039 < 1)
-                <p class="mb-1">Belanja Barang untuk Dijual/Diserahkan kepada Masyarakat</p>
+                <p class="mb-1">Anggaran dan/atau Realisasi Belanja Barang untuk Dijual/Diserahkan kepada Masyarakat belum diisi.</p>
                 @endif
 
                 @if ($pemdaMonitoring->no_perkada_bansos == NULL || $pemdaMonitoring->tgl_perkada_bansos == NULL)
