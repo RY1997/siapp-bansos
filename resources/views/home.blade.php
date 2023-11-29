@@ -120,10 +120,27 @@
         <div class="card">
             <div class="card-body p-3 text-center text-xs">
                 <h5>Burden Sharing Bantuan Sosial Daerah</h5>
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Total</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Bansos Tunai</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Bansos Barang</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">a</div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">b</div>
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">c</div>
+                </div>
                 <table class="table table-responsive table-bordered">
                     <thead>
                         <tr class="bg-primary">
                             <th rowspan="2">Jenis Belanja</th>
+                            <th colspan="2">Jumlah</th>
                             <th colspan="2">Program Keluarga Harapan</th>
                             <th colspan="2">Bantuan Pangan Non Tunai Sembako</th>
                             <th colspan="2">Program Indonesia Pintar</th>
@@ -131,7 +148,6 @@
                             <th colspan="2">Jaminan Kesehatan Nasional</th>
                             <th colspan="2">Bantuan Langsung Tunai UMKM</th>
                             <th colspan="2">Bansos Lainnya</th>
-                            <th colspan="2">Jumlah</th>
                         </tr>
                         <tr class="bg-primary">
                             <th>Anggaran</th>
@@ -159,6 +175,9 @@
                         <tr>
                             <td>Belanja Bantuan Sosial kepada Individu</td>
 
+                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 15)->sum('uji_anggaran') + $ujiMonitoring->where('kd_rek' , 17)->sum('uji_anggaran'))</td>
+                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 15)->sum('uji_realisasi') + $ujiMonitoring->where('kd_rek' , 17)->sum('uji_realisasi'))</td>
+
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 15)->where('uji_bansos_sejenis' , 'Program Keluarga Harapan')->sum('uji_anggaran') + $ujiMonitoring->where('kd_rek' , 17)->where('uji_bansos_sejenis' , 'Program Keluarga Harapan')->sum('uji_anggaran'))</td>
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 15)->where('uji_bansos_sejenis' , 'Program Keluarga Harapan')->sum('uji_realisasi') + $ujiMonitoring->where('kd_rek' , 17)->where('uji_bansos_sejenis' , 'Program Keluarga Harapan')->sum('uji_realisasi'))</td>
 
@@ -180,12 +199,12 @@
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 15)->where('uji_bansos_sejenis' , 'Bansos Lainnya')->sum('uji_anggaran') + $ujiMonitoring->where('kd_rek' , 17)->where('uji_bansos_sejenis' , 'Bansos Lainnya')->sum('uji_anggaran'))</td>
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 15)->where('uji_bansos_sejenis' , 'Bansos Lainnya')->sum('uji_realisasi') + $ujiMonitoring->where('kd_rek' , 17)->where('uji_bansos_sejenis' , 'Bansos Lainnya')->sum('uji_realisasi'))</td>
 
-                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 15)->sum('uji_anggaran') + $ujiMonitoring->where('kd_rek' , 17)->sum('uji_anggaran'))</td>
-                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 15)->sum('uji_realisasi') + $ujiMonitoring->where('kd_rek' , 17)->sum('uji_realisasi'))</td>
-
                         </tr>
                         <tr>
                             <td>Belanja Bantuan Sosial kepada Keluarga</td>
+
+                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 20)->sum('uji_anggaran') + $ujiMonitoring->where('kd_rek' , 22)->sum('uji_anggaran'))</td>
+                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 20)->sum('uji_realisasi') + $ujiMonitoring->where('kd_rek' , 22)->sum('uji_realisasi'))</td>
 
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 20)->where('uji_bansos_sejenis' , 'Program Keluarga Harapan')->sum('uji_anggaran') + $ujiMonitoring->where('kd_rek' , 22)->where('uji_bansos_sejenis' , 'Program Keluarga Harapan')->sum('uji_anggaran'))</td>
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 20)->where('uji_bansos_sejenis' , 'Program Keluarga Harapan')->sum('uji_realisasi') + $ujiMonitoring->where('kd_rek' , 22)->where('uji_bansos_sejenis' , 'Program Keluarga Harapan')->sum('uji_realisasi'))</td>
@@ -208,11 +227,12 @@
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 20)->where('uji_bansos_sejenis' , 'Bansos Lainnya')->sum('uji_anggaran') + $ujiMonitoring->where('kd_rek' , 22)->where('uji_bansos_sejenis' , 'Bansos Lainnya')->sum('uji_anggaran'))</td>
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 20)->where('uji_bansos_sejenis' , 'Bansos Lainnya')->sum('uji_realisasi') + $ujiMonitoring->where('kd_rek' , 22)->where('uji_bansos_sejenis' , 'Bansos Lainnya')->sum('uji_realisasi'))</td>
 
-                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 20)->sum('uji_anggaran') + $ujiMonitoring->where('kd_rek' , 22)->sum('uji_anggaran'))</td>
-                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 20)->sum('uji_realisasi') + $ujiMonitoring->where('kd_rek' , 22)->sum('uji_realisasi'))</td>
                         </tr>
                         <tr>
                             <td>Belanja Bantuan Sosial kepada Kelompok Masyarakat</td>
+
+                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 25)->sum('uji_anggaran') + $ujiMonitoring->where('kd_rek' , 27)->sum('uji_anggaran'))</td>
+                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 25)->sum('uji_realisasi') + $ujiMonitoring->where('kd_rek' , 27)->sum('uji_realisasi'))</td>
 
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 25)->where('uji_bansos_sejenis' , 'Program Keluarga Harapan')->sum('uji_anggaran') + $ujiMonitoring->where('kd_rek' , 27)->where('uji_bansos_sejenis' , 'Program Keluarga Harapan')->sum('uji_anggaran'))</td>
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 25)->where('uji_bansos_sejenis' , 'Program Keluarga Harapan')->sum('uji_realisasi') + $ujiMonitoring->where('kd_rek' , 27)->where('uji_bansos_sejenis' , 'Program Keluarga Harapan')->sum('uji_realisasi'))</td>
@@ -235,11 +255,12 @@
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 25)->where('uji_bansos_sejenis' , 'Bansos Lainnya')->sum('uji_anggaran') + $ujiMonitoring->where('kd_rek' , 27)->where('uji_bansos_sejenis' , 'Bansos Lainnya')->sum('uji_anggaran'))</td>
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 25)->where('uji_bansos_sejenis' , 'Bansos Lainnya')->sum('uji_realisasi') + $ujiMonitoring->where('kd_rek' , 27)->where('uji_bansos_sejenis' , 'Bansos Lainnya')->sum('uji_realisasi'))</td>
 
-                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 25)->sum('uji_anggaran') + $ujiMonitoring->where('kd_rek' , 27)->sum('uji_anggaran'))</td>
-                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 25)->sum('uji_realisasi') + $ujiMonitoring->where('kd_rek' , 27)->sum('uji_realisasi'))</td>
                         </tr>
                         <tr>
                             <td>Belanja Bantuan Sosial kepada Lembaga Non Pemerintahan</td>
+
+                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 30)->sum('uji_anggaran') + $ujiMonitoring->where('kd_rek' , 32)->sum('uji_anggaran'))</td>
+                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 30)->sum('uji_realisasi') + $ujiMonitoring->where('kd_rek' , 32)->sum('uji_realisasi'))</td>
 
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 30)->where('uji_bansos_sejenis' , 'Program Keluarga Harapan')->sum('uji_anggaran') + $ujiMonitoring->where('kd_rek' , 32)->where('uji_bansos_sejenis' , 'Program Keluarga Harapan')->sum('uji_anggaran'))</td>
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 30)->where('uji_bansos_sejenis' , 'Program Keluarga Harapan')->sum('uji_realisasi') + $ujiMonitoring->where('kd_rek' , 32)->where('uji_bansos_sejenis' , 'Program Keluarga Harapan')->sum('uji_realisasi'))</td>
@@ -262,8 +283,6 @@
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 30)->where('uji_bansos_sejenis' , 'Bansos Lainnya')->sum('uji_anggaran') + $ujiMonitoring->where('kd_rek' , 32)->where('uji_bansos_sejenis' , 'Bansos Lainnya')->sum('uji_anggaran'))</td>
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 30)->where('uji_bansos_sejenis' , 'Bansos Lainnya')->sum('uji_realisasi') + $ujiMonitoring->where('kd_rek' , 32)->where('uji_bansos_sejenis' , 'Bansos Lainnya')->sum('uji_realisasi'))</td>
 
-                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 30)->sum('uji_anggaran') + $ujiMonitoring->where('kd_rek' , 32)->sum('uji_anggaran'))</td>
-                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 30)->sum('uji_realisasi') + $ujiMonitoring->where('kd_rek' , 32)->sum('uji_realisasi'))</td>
                         </tr>
 
                         <tr class="bg-secondary">
@@ -271,6 +290,9 @@
                         </tr>
                         <tr>
                             <td>Belanja Bantuan Sosial kepada Individu</td>
+
+                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Orang')->sum('uji_anggaran'))</td>
+                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Orang')->sum('uji_realisasi'))</td>
 
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Orang')->where('uji_bansos_sejenis' , 'Program Keluarga Harapan')->sum('uji_anggaran'))</td>
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Orang')->where('uji_bansos_sejenis' , 'Program Keluarga Harapan')->sum('uji_realisasi'))</td>
@@ -293,11 +315,12 @@
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Orang')->where('uji_bansos_sejenis' , 'Bansos Lainnya')->sum('uji_anggaran'))</td>
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Orang')->where('uji_bansos_sejenis' , 'Bansos Lainnya')->sum('uji_realisasi'))</td>
 
-                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Orang')->sum('uji_anggaran'))</td>
-                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Orang')->sum('uji_realisasi'))</td>
                         </tr>
                         <tr>
                             <td>Belanja Bantuan Sosial kepada Keluarga</td>
+
+                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Keluarga')->sum('uji_anggaran'))</td>
+                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Keluarga')->sum('uji_realisasi'))</td>
 
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Keluarga')->where('uji_bansos_sejenis' , 'Program Keluarga Harapan')->sum('uji_anggaran'))</td>
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Keluarga')->where('uji_bansos_sejenis' , 'Program Keluarga Harapan')->sum('uji_realisasi'))</td>
@@ -320,11 +343,12 @@
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Keluarga')->where('uji_bansos_sejenis' , 'Bansos Lainnya')->sum('uji_anggaran'))</td>
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Keluarga')->where('uji_bansos_sejenis' , 'Bansos Lainnya')->sum('uji_realisasi'))</td>
 
-                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Keluarga')->sum('uji_anggaran'))</td>
-                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Keluarga')->sum('uji_realisasi'))</td>
                         </tr>
                         <tr>
                             <td>Belanja Bantuan Sosial kepada Kelompok Masyarakat</td>
+
+                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Kelompok Masyarakat')->sum('uji_anggaran'))</td>
+                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Kelompok Masyarakat')->sum('uji_realisasi'))</td>
 
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Kelompok Masyarakat')->where('uji_bansos_sejenis' , 'Program Keluarga Harapan')->sum('uji_anggaran'))</td>
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Kelompok Masyarakat')->where('uji_bansos_sejenis' , 'Program Keluarga Harapan')->sum('uji_realisasi'))</td>
@@ -347,11 +371,12 @@
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Kelompok Masyarakat')->where('uji_bansos_sejenis' , 'Bansos Lainnya')->sum('uji_anggaran'))</td>
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Kelompok Masyarakat')->where('uji_bansos_sejenis' , 'Bansos Lainnya')->sum('uji_realisasi'))</td>
 
-                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Kelompok Masyarakat')->sum('uji_anggaran'))</td>
-                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Kelompok Masyarakat')->sum('uji_realisasi'))</td>
                         </tr>
                         <tr>
                             <td>Belanja Bantuan Sosial kepada Lembaga Non Pemerintahan</td>
+
+                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Lembaga Non Pemerintahan')->sum('uji_anggaran'))</td>
+                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Lembaga Non Pemerintahan')->sum('uji_realisasi'))</td>
 
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Lembaga Non Pemerintahan')->where('uji_bansos_sejenis' , 'Program Keluarga Harapan')->sum('uji_anggaran'))</td>
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Lembaga Non Pemerintahan')->where('uji_bansos_sejenis' , 'Program Keluarga Harapan')->sum('uji_realisasi'))</td>
@@ -374,8 +399,6 @@
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Lembaga Non Pemerintahan')->where('uji_bansos_sejenis' , 'Bansos Lainnya')->sum('uji_anggaran'))</td>
                             <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Lembaga Non Pemerintahan')->where('uji_bansos_sejenis' , 'Bansos Lainnya')->sum('uji_realisasi'))</td>
 
-                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Lembaga Non Pemerintahan')->sum('uji_anggaran'))</td>
-                            <td>@rupiah($ujiMonitoring->where('kd_rek' , 33)->where('satuan_kpm' , 'Lembaga Non Pemerintahan')->sum('uji_realisasi'))</td>
                         </tr>
                     </tbody>
                 </table>
