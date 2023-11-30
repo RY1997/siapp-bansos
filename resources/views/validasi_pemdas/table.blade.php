@@ -19,7 +19,7 @@
         </thead>
         <tbody>
         @foreach($validasiPemdas as $validasiPemda)
-            <tr class="{{ $validasiPemda->nm_pemda == 'Kab. Cilacap' || $validasiPemda->nm_pemda == 'Kab. Kebumen' || $validasiPemda->nm_pemda == 'Kab. Magelang' || $validasiPemda->nm_pemda == 'Kota Magelang' || $validasiPemda->nm_pemda == 'Kab. Klaten' || $validasiPemda->nm_pemda == 'Kab. Purworejo' ? 'bg-warning' : '' }}">
+            <tr class="{{ $validasiPemda->nm_pemda == 'Kab. Cilacap' || $validasiPemda->nm_pemda == 'Kab. Kebumen' || $validasiPemda->nm_pemda == 'Kab. Magelang' || $validasiPemda->nm_pemda == 'Kota Magelang' || $validasiPemda->nm_pemda == 'Kab. Klaten' || $validasiPemda->nm_pemda == 'Kab. Purworejo' ? 'bg-secondary' : '' }}">
                 <td>{{ $validasiPemda->kd_pwk }}</td>
                 <td class="text-left">{{ $validasiPemda->nm_pemda }}</td>
             <td>@rupiah($validasiPemda->a_5_1_06)</td>
