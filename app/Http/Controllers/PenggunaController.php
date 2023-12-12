@@ -163,14 +163,20 @@ class PenggunaController extends AppBaseController
             return redirect(route('penggunas.index'));
         }
 
-        $pengguna = $this->penggunaRepository->update([
-            'name' => $request['name'],
-            'email' => $request['email'],
-            'password' => Hash::make($request['password']),
-            'role' => $request['role'],
-            'kd_pwk' => $request['kd_pwk'] ?? Auth::user()->kd_pwk,
-            'nm_pemda' => $request['nm_pemda'],
-        ], $id);
+        if (Auth::user()->role == 'Admin') {
+            $pengguna = $this->penggunaRepository->update([
+                'name' => $request['name'],
+                'email' => $request['email'],
+                'password' => Hash::make($request['password']),
+                'role' => $request['role'],
+                'kd_pwk' => $request['kd_pwk'] ?? Auth::user()->kd_pwk,
+                'nm_pemda' => $request['nm_pemda'],
+            ], $id);
+        } else {
+            $pengguna = $this->penggunaRepository->update([
+                'password' => Hash::make($request['password']),
+            ], $id);
+        }
 
         Flash::success('Pengguna updated successfully.');
 
